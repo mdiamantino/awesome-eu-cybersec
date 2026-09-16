@@ -73,6 +73,13 @@ def subcategory_order(category: Category, entries: list[dict]) -> list[str]:
 
 
 def anchor(text: str) -> str:
-    """GitHub-flavoured markdown heading anchor."""
+    """Reproduce GitHub's heading-anchor algorithm.
+
+    Lowercase, drop everything that is not a letter, digit, space, hyphen or
+    underscore, then turn spaces into hyphens. Crucially it does NOT trim: an
+    emoji-prefixed heading such as "# 🧭 Governance" loses the emoji and keeps
+    the space, so GitHub's anchor starts with a hyphen. Trimming here produced
+    a table of contents where every category link was silently dead.
+    """
     keep = "".join(ch for ch in text.lower() if ch.isalnum() or ch in " -_")
-    return keep.strip().replace(" ", "-")
+    return keep.replace(" ", "-")
