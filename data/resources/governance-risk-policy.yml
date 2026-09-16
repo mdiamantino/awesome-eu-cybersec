@@ -17,17 +17,19 @@ entries:
   last_verified: '2026-09-16'
 - name: capAI
   url: https://www.oii.ox.ac.uk/a-report-from-the-universities-of-oxford-and-bologna-will-help-protect-society-from-unethical-ai-with-a-world-first-approach-to-support-organisations-to-meet-future-eu-regulations/
-  description: Conformity assessment procedure for the EU AI Act from the University of Oxford and the
-    University of Bologna, structured as an auditable compliance scorecard.
+  description: University of Oxford announcement of capAI, a conformity assessment procedure for the EU
+    AI Act developed with the University of Bologna.
   subcategory: EU AI Act
   tags:
   - ai-act
   - conformity-assessment
   - academic
-  entry_type: Framework
+  entry_type: Report
   country_or_body: Italy/University of Bologna
   confidence: medium
   last_verified: '2026-09-16'
+  notes: The page is the announcement; the procedure itself is published as an SSRN working paper, which
+    sits behind bot protection and cannot be link-checked.
 - name: COMPL-AI
   url: https://github.com/compl-ai/compl-ai
   description: Open-source evaluation framework mapping generative AI model benchmarks to EU AI Act requirements,
@@ -57,19 +59,7 @@ entries:
   confidence: medium
   last_verified: '2026-09-16'
   hosting_note: '[Open Source]'
-- name: MCP EU AI Act Compliance Scanner
-  url: https://github.com/ark-forge/mcp-eu-ai-act
-  description: This open-source scanner maps software evidence to EU AI Act compliance checks.
-  subcategory: EU AI Act
-  tags:
-  - ai-act
-  - scanner
-  - mcp
-  entry_type: Tool
-  country_or_body: EU/Community
-  confidence: medium
-  last_verified: '2026-09-16'
-  hosting_note: '[Open Source]'
+  license: MIT
 - name: Esquema Nacional de Seguridad
   url: https://ens.ccn.cni.es/es/
   description: Spain's national security governance and certification scheme for public and private information
@@ -197,22 +187,6 @@ entries:
     remains the published implementation.
   confidence: medium
   last_verified: '2026-09-16'
-- name: EBIOS RM Pro
-  url: https://github.com/Cyber-Autopsie/ebios-rm-pro
-  description: Client-side web application implementing ANSSI's EBIOS Risk Manager method, the risk-assessment
-    approach referenced in French NIS2 compliance guidance.
-  subcategory: NIS2
-  tags:
-  - ebios
-  - risk-management
-  - anssi
-  entry_type: Tool
-  country_or_body: France/Community
-  hosting_note: '[Open Source]'
-  license: MIT
-  notes: Community implementation of an ANSSI method, not an ANSSI-maintained product.
-  confidence: medium
-  last_verified: '2026-09-16'
 - name: NIS2 Scope and Awareness Resources
   url: https://www.enisa.europa.eu/topics/awareness-and-cyber-hygiene/raising-awareness-campaigns/network-and-information-systems-directive-2-nis2
   description: ENISA provides implementation-oriented NIS2 scope, obligations, and awareness resources
@@ -251,3 +225,4 @@ entries:
   confidence: medium
   last_verified: '2026-09-16'
   hosting_note: '[Open Source]'
+  license: AGPL-3.0

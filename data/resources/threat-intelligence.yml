@@ -93,6 +93,7 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  license: GPL-3.0
 - name: AIL Framework
   url: https://github.com/CIRCL/AIL-Framework
   description: CIRCL's open-source AIL framework supports analysis of information leaks and threat-intelligence
@@ -107,6 +108,7 @@ entries:
   confidence: high
   last_verified: '2026-09-16'
   hosting_note: '[Open Source]'
+  license: AGPL-3.0
 - name: CIRCL hashlookup
   url: https://www.circl.lu/services/hashlookup/
   description: Public API from Luxembourg's national CSIRT for checking file hashes against known-file
@@ -163,6 +165,7 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  license: GPL-3.0
 - name: DRAKVUF Sandbox
   url: https://github.com/CERT-Polska/drakvuf-sandbox
   description: Agentless black-box malware analysis sandbox from CERT Polska built on the DRAKVUF hypervisor-based
@@ -191,6 +194,7 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  license: BSD-3-Clause
 - name: Lookyloo
   url: https://github.com/Lookyloo/lookyloo
   description: Web capture tool from CIRCL Luxembourg that records and visually maps the domains and redirects
@@ -219,6 +223,7 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  license: GPL-3.0
 - name: MWDB Core
   url: https://github.com/CERT-Polska/mwdb-core
   description: Malware sample and configuration repository from CERT Polska with a REST API for storing,
@@ -247,6 +252,7 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  license: AGPL-3.0
 - name: CERT-EU Cyber Threat Intelligence Framework
   url: https://www.cert.europa.eu/publications/threat-intelligence/cyber-threat-intelligence-framework/
   description: CERT-EU defines a structured threat-intelligence process for EU institutions and peer CSIRTs.
@@ -344,6 +350,7 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  license: AGPL-3.0
 - name: Artemis
   url: https://github.com/CERT-Polska/Artemis
   description: Modular vulnerability scanner from CERT Polska used to assess and report weaknesses across
@@ -358,6 +365,7 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  license: BSD-3-Clause
 - name: CIRCL Vulnerability-Lookup Instance
   url: https://vulnerability.circl.lu/
   description: Public instance run by CIRCL Luxembourg for searching and correlating vulnerability advisories
@@ -398,3 +406,4 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  license: AGPL-3.0

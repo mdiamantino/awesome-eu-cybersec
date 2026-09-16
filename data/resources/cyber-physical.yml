@@ -110,6 +110,7 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  license: Apache-2.0
 - name: OpenSatRange
   url: https://ceur-ws.org/Vol-3978/regular-s3-04.pdf
   description: OpenSatRange is a European academic open-source cyber-range design for satellite-system
@@ -119,11 +120,11 @@ entries:
   - space
   - cyber-range
   - satellite
-  entry_type: Tool
+  entry_type: Report
   country_or_body: Europe/Academia
   confidence: medium
   last_verified: '2026-09-16'
-  hosting_note: '[Open Source]'
+  notes: Published as a research paper; no public source repository was located.
 - name: ACER Cybersecurity for Electricity
   url: https://www.acer.europa.eu/electricity/cybersecurity
   description: ACER's page on its oversight role under the EU Network Code on Cybersecurity for electricity,
@@ -244,6 +245,7 @@ entries:
   confidence: high
   last_verified: '2026-09-16'
   hosting_note: '[Open Source]'
+  license: GPL-3.0
 - name: FISSC
   url: https://lazart.gricad-pages.univ-grenoble-alpes.fr/fissc/
   description: Collection of hardened secure-application implementations from Verimag at Université Grenoble
@@ -272,6 +274,7 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  license: LGPL-3.0
 - name: pyecsca
   url: https://github.com/J08nY/pyecsca
   description: Masaryk University-supported pyecsca is an open-source toolkit for side-channel analysis
@@ -286,6 +289,7 @@ entries:
   confidence: high
   last_verified: '2026-09-16'
   hosting_note: '[Open Source]'
+  license: MIT
 - name: rainbow
   url: https://github.com/Ledger-Donjon/rainbow
   description: Unicorn-based simulator from Ledger's Donjon lab in Paris that traces embedded binary execution
@@ -300,6 +304,7 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  license: LGPL-3.0
 - name: SCALib
   url: https://github.com/simple-crypto/scalib
   description: UCLouvain's open-source SCALib provides algorithms for side-channel security evaluation.
@@ -313,6 +318,7 @@ entries:
   confidence: high
   last_verified: '2026-09-16'
   hosting_note: '[Open Source]'
+  license: AGPL-3.0
 - name: scared
   url: https://github.com/eshard/scared
   description: Python framework from French company eShard for differential and correlation power-analysis
@@ -327,6 +333,7 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  license: AGPL-3.0
 - name: ShowTime
   url: https://github.com/KULeuven-COSIC/ShowTime
   description: Research toolkit from KU Leuven's COSIC group for amplifying and exploiting CPU microarchitectural
@@ -354,6 +361,7 @@ entries:
   confidence: medium
   last_verified: '2026-09-16'
   hosting_note: '[Open Source]'
+  license: Apache-2.0
 - name: BIMCO Cyber Risk Management Position
   url: https://www.bimco.org/regulatory-affairs/policy-positions/cyber-risk-management/
   description: Policy position from the Copenhagen-based shipping association BIMCO endorsing the Guidelines

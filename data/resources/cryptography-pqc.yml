@@ -166,6 +166,7 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  license: Apache-2.0
 - name: pqm4
   url: https://github.com/mupq/pqm4
   description: Benchmarking and testing suite from Radboud University, descended from the EU Horizon 2020

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 283,
+  "count": 281,
   "entries": [
     {
       "category": "Governance, Risk & Policy Mapping",
@@ -22,17 +22,18 @@
       "category": "Governance, Risk & Policy Mapping",
       "name": "capAI",
       "url": "https://www.oii.ox.ac.uk/a-report-from-the-universities-of-oxford-and-bologna-will-help-protect-society-from-unethical-ai-with-a-world-first-approach-to-support-organisations-to-meet-future-eu-regulations/",
-      "description": "Conformity assessment procedure for the EU AI Act from the University of Oxford and the University of Bologna, structured as an auditable compliance scorecard.",
+      "description": "University of Oxford announcement of capAI, a conformity assessment procedure for the EU AI Act developed with the University of Bologna.",
       "subcategory": "EU AI Act",
       "tags": [
         "ai-act",
         "conformity-assessment",
         "academic"
       ],
-      "entry_type": "Framework",
+      "entry_type": "Report",
       "country_or_body": "Italy/University of Bologna",
       "confidence": "medium",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "notes": "The page is the announcement; the procedure itself is published as an SSRN working paper, which sits behind bot protection and cannot be link-checked."
     },
     {
       "category": "Governance, Risk & Policy Mapping",
@@ -67,24 +68,8 @@
       "country_or_body": "EU/Community",
       "confidence": "medium",
       "last_verified": "2026-09-16",
-      "hosting_note": "[Open Source]"
-    },
-    {
-      "category": "Governance, Risk & Policy Mapping",
-      "name": "MCP EU AI Act Compliance Scanner",
-      "url": "https://github.com/ark-forge/mcp-eu-ai-act",
-      "description": "This open-source scanner maps software evidence to EU AI Act compliance checks.",
-      "subcategory": "EU AI Act",
-      "tags": [
-        "ai-act",
-        "scanner",
-        "mcp"
-      ],
-      "entry_type": "Tool",
-      "country_or_body": "EU/Community",
-      "confidence": "medium",
-      "last_verified": "2026-09-16",
-      "hosting_note": "[Open Source]"
+      "hosting_note": "[Open Source]",
+      "license": "MIT"
     },
     {
       "category": "Governance, Risk & Policy Mapping",
@@ -241,25 +226,6 @@
     },
     {
       "category": "Governance, Risk & Policy Mapping",
-      "name": "EBIOS RM Pro",
-      "url": "https://github.com/Cyber-Autopsie/ebios-rm-pro",
-      "description": "Client-side web application implementing ANSSI's EBIOS Risk Manager method, the risk-assessment approach referenced in French NIS2 compliance guidance.",
-      "subcategory": "NIS2",
-      "tags": [
-        "ebios",
-        "risk-management",
-        "anssi"
-      ],
-      "entry_type": "Tool",
-      "country_or_body": "France/Community",
-      "hosting_note": "[Open Source]",
-      "license": "MIT",
-      "notes": "Community implementation of an ANSSI method, not an ANSSI-maintained product.",
-      "confidence": "medium",
-      "last_verified": "2026-09-16"
-    },
-    {
-      "category": "Governance, Risk & Policy Mapping",
       "name": "NIS2 Scope and Awareness Resources",
       "url": "https://www.enisa.europa.eu/topics/awareness-and-cyber-hygiene/raising-awareness-campaigns/network-and-information-systems-directive-2-nis2",
       "description": "ENISA provides implementation-oriented NIS2 scope, obligations, and awareness resources for covered entities.",
@@ -304,7 +270,8 @@
       "country_or_body": "Italy/Community",
       "confidence": "medium",
       "last_verified": "2026-09-16",
-      "hosting_note": "[Open Source]"
+      "hosting_note": "[Open Source]",
+      "license": "AGPL-3.0"
     },
     {
       "category": "Financial Sector Resilience (DORA)",
@@ -973,22 +940,6 @@
       "entry_type": "Guideline",
       "country_or_body": "France/ANSSI",
       "confidence": "high",
-      "last_verified": "2026-09-16"
-    },
-    {
-      "category": "Software Supply Chain & Product Security (CRA)",
-      "name": "Sovereign Tech Resilience",
-      "url": "https://www.sovereign.tech/programs/resilience",
-      "description": "German government-backed Sovereign Tech Agency programme funding security audits and bug bounties for critical open-source components carrying CRA supply-chain risk.",
-      "subcategory": "SBOM and Vulnerability Handling",
-      "tags": [
-        "funding",
-        "audits",
-        "open-source"
-      ],
-      "entry_type": "Framework",
-      "country_or_body": "Germany/Sovereign Tech Agency",
-      "confidence": "medium",
       "last_verified": "2026-09-16"
     },
     {
@@ -1802,7 +1753,7 @@
         "policy",
         "infrastructure"
       ],
-      "entry_type": "Framework",
+      "entry_type": "Organisation",
       "country_or_body": "EU/EuroStack Coalition",
       "confidence": "medium",
       "last_verified": "2026-09-16"
@@ -1838,6 +1789,22 @@
       "entry_type": "Tool",
       "country_or_body": "Germany/ZenDiS",
       "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "Sovereign Tech Agency",
+      "url": "https://www.sovereign.tech/",
+      "description": "German government-backed agency funding maintenance, security audits and bug bounties for the open-source components European digital infrastructure runs on.",
+      "subcategory": "Sovereign Infrastructure and Public Code",
+      "tags": [
+        "funding",
+        "open-source",
+        "maintenance"
+      ],
+      "entry_type": "Organisation",
+      "country_or_body": "Germany/Sovereign Tech Agency",
       "confidence": "high",
       "last_verified": "2026-09-16"
     },
@@ -1971,7 +1938,8 @@
       "country_or_body": "Spain/Community",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "license": "Apache-2.0"
     },
     {
       "category": "Cyber-Physical Security",
@@ -1984,11 +1952,11 @@
         "cyber-range",
         "satellite"
       ],
-      "entry_type": "Tool",
+      "entry_type": "Report",
       "country_or_body": "Europe/Academia",
       "confidence": "medium",
       "last_verified": "2026-09-16",
-      "hosting_note": "[Open Source]"
+      "notes": "Published as a research paper; no public source repository was located."
     },
     {
       "category": "Cyber-Physical Security",
@@ -2136,7 +2104,8 @@
       "country_or_body": "Germany/TU Dortmund",
       "confidence": "high",
       "last_verified": "2026-09-16",
-      "hosting_note": "[Open Source]"
+      "hosting_note": "[Open Source]",
+      "license": "GPL-3.0"
     },
     {
       "category": "Cyber-Physical Security",
@@ -2170,7 +2139,8 @@
       "country_or_body": "France/Ledger Donjon",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "license": "LGPL-3.0"
     },
     {
       "category": "Cyber-Physical Security",
@@ -2187,7 +2157,8 @@
       "country_or_body": "Czechia/Masaryk University",
       "confidence": "high",
       "last_verified": "2026-09-16",
-      "hosting_note": "[Open Source]"
+      "hosting_note": "[Open Source]",
+      "license": "MIT"
     },
     {
       "category": "Cyber-Physical Security",
@@ -2204,7 +2175,8 @@
       "country_or_body": "France/Ledger Donjon",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "license": "LGPL-3.0"
     },
     {
       "category": "Cyber-Physical Security",
@@ -2221,7 +2193,8 @@
       "country_or_body": "Belgium/UCLouvain",
       "confidence": "high",
       "last_verified": "2026-09-16",
-      "hosting_note": "[Open Source]"
+      "hosting_note": "[Open Source]",
+      "license": "AGPL-3.0"
     },
     {
       "category": "Cyber-Physical Security",
@@ -2238,7 +2211,8 @@
       "country_or_body": "France/eShard",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "license": "AGPL-3.0"
     },
     {
       "category": "Cyber-Physical Security",
@@ -2272,7 +2246,8 @@
       "country_or_body": "Germany/TU Munich",
       "confidence": "medium",
       "last_verified": "2026-09-16",
-      "hosting_note": "[Open Source]"
+      "hosting_note": "[Open Source]",
+      "license": "Apache-2.0"
     },
     {
       "category": "Cyber-Physical Security",
@@ -3086,7 +3061,8 @@
       "country_or_body": "France/Inria",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "license": "Apache-2.0"
     },
     {
       "category": "Cryptography, Certification & Post-Quantum Readiness",
@@ -3313,7 +3289,8 @@
       "country_or_body": "France/ANSSI",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "license": "GPL-3.0"
     },
     {
       "category": "Threat Intelligence",
@@ -3330,7 +3307,8 @@
       "country_or_body": "Luxembourg/CIRCL",
       "confidence": "high",
       "last_verified": "2026-09-16",
-      "hosting_note": "[Open Source]"
+      "hosting_note": "[Open Source]",
+      "license": "AGPL-3.0"
     },
     {
       "category": "Threat Intelligence",
@@ -3398,7 +3376,8 @@
       "country_or_body": "France/ANSSI",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "license": "GPL-3.0"
     },
     {
       "category": "Threat Intelligence",
@@ -3432,7 +3411,8 @@
       "country_or_body": "Poland/CERT Polska",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "license": "BSD-3-Clause"
     },
     {
       "category": "Threat Intelligence",
@@ -3466,7 +3446,8 @@
       "country_or_body": "Poland/CERT Polska",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "license": "GPL-3.0"
     },
     {
       "category": "Threat Intelligence",
@@ -3500,7 +3481,8 @@
       "country_or_body": "Luxembourg/CIRCL",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "license": "AGPL-3.0"
     },
     {
       "category": "Threat Intelligence",
@@ -3619,7 +3601,8 @@
       "country_or_body": "Poland/CERT Polska",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "license": "AGPL-3.0"
     },
     {
       "category": "Threat Intelligence",
@@ -3636,7 +3619,8 @@
       "country_or_body": "Poland/CERT Polska",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "license": "BSD-3-Clause"
     },
     {
       "category": "Threat Intelligence",
@@ -3686,7 +3670,8 @@
       "country_or_body": "Luxembourg/CIRCL",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "license": "AGPL-3.0"
     },
     {
       "category": "Training & Cyber Ranges",

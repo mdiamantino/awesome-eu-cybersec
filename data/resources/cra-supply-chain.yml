@@ -262,16 +262,3 @@ entries:
   country_or_body: France/ANSSI
   confidence: high
   last_verified: '2026-09-16'
-- name: Sovereign Tech Resilience
-  url: https://www.sovereign.tech/programs/resilience
-  description: German government-backed Sovereign Tech Agency programme funding security audits and bug
-    bounties for critical open-source components carrying CRA supply-chain risk.
-  subcategory: SBOM and Vulnerability Handling
-  tags:
-  - funding
-  - audits
-  - open-source
-  entry_type: Framework
-  country_or_body: Germany/Sovereign Tech Agency
-  confidence: medium
-  last_verified: '2026-09-16'

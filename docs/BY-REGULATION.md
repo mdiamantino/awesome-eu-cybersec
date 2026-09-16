@@ -9,10 +9,9 @@ maintainer rather than through a specific regulation.
 
 ## NIS2
 
-*Directive (EU) 2022/2555* - 11 entries
+*Directive (EU) 2022/2555* - 10 entries
 
 - [anssi-nis2](https://github.com/betagouv/anssi-nis2) - Source code behind ANSSI's public platform guiding French entities through NIS2 Directive applicability and their resulting obligations. 🇫🇷 `France/ANSSI` <sub>Governance, Risk & Policy Mapping</sub>
-- [EBIOS RM Pro](https://github.com/Cyber-Autopsie/ebios-rm-pro) - Client-side web application implementing ANSSI's EBIOS Risk Manager method, the risk-assessment approach referenced in French NIS2 compliance guidance. 🇫🇷 `France/Community` <sub>Governance, Risk & Policy Mapping</sub>
 - [ENISA Coordinated Vulnerability Disclosure Policies in the EU](https://www.enisa.europa.eu/publications/coordinated-vulnerability-disclosure-policies-in-the-eu) - ENISA study mapping national coordinated vulnerability disclosure policies across Member States, with recommendations later reflected in NIS2 and CRA disclosure duties. 🇪🇺 `EU/ENISA` <sub>Software Supply Chain & Product Security (CRA)</sub>
 - [ENISA NIS360](https://www.enisa.europa.eu/enisa-nis360-2026) - Annual ENISA report assessing the cybersecurity maturity and criticality of the sectors of high criticality listed in Annex I of the NIS2 Directive. 🇪🇺 `EU/ENISA` <sub>Threat Intelligence</sub>
 - [EU-CyCLONe](https://www.enisa.europa.eu/topics/eu-incident-response-and-cyber-crisis-management/eu-cyclone) - The EU Cyber Crisis Liaison Organisation Network formalised by NIS2 Article 16, through which ENISA supports Member State crisis authorities with shared situational awareness. 🇪🇺 `EU/ENISA` <sub>Threat Intelligence</sub>
@@ -52,7 +51,7 @@ maintainer rather than through a specific regulation.
 
 ## Cyber Resilience Act
 
-*Regulation (EU) 2024/2847* - 21 entries
+*Regulation (EU) 2024/2847* - 20 entries
 
 - [BSI Cyber Resilience Act Guidance](https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Cyber_Resilience_Act/cyber_resilience_act.html) - BSI guidance explains operational product-security obligations under the EU Cyber Resilience Act. 🇩🇪 `Germany/BSI` <sub>Software Supply Chain & Product Security (CRA)</sub>
 - [BSI TR-03183 Cyber Resilience Requirements](https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/tr-03183.html) - BSI technical guideline specifying the SBOM, vulnerability-reporting and conformity requirements that operationalise the EU Cyber Resilience Act for manufacturers. 🇩🇪 `Germany/BSI` <sub>Software Supply Chain & Product Security (CRA)</sub>
@@ -73,7 +72,6 @@ maintainer rather than through a specific regulation.
 - [REUSE](https://reuse.software/) - Tool and specification from the Free Software Foundation Europe for machine-readable SPDX licensing metadata, feeding the bill-of-materials data CRA technical documentation requires. 🇪🇺 `EU/FSFE` <sub>Software Supply Chain & Product Security (CRA)</sub>
 - [SBOM for Artificial Intelligence](https://cyber.gouv.fr/nous-connaitre/publications/publications-internationales/software-bill-of-materials-sbom-for-artificial-intelligence/) - ANSSI-published guidance, co-signed with Germany's BSI, defining minimum SBOM elements for AI systems as part of a supply-chain transparency recommendation. 🇫🇷 `France/ANSSI` <sub>Software Supply Chain & Product Security (CRA)</sub>
 - [Secvisogram](https://github.com/BSI-Bund/secvisogram) - BSI-maintained web editor for creating and validating CSAF 2.0 and 2.1 security advisories used for coordinated vulnerability disclosure in the EU. 🇩🇪 `Germany/BSI` <sub>Software Supply Chain & Product Security (CRA)</sub>
-- [Sovereign Tech Resilience](https://www.sovereign.tech/programs/resilience) - German government-backed Sovereign Tech Agency programme funding security audits and bug bounties for critical open-source components carrying CRA supply-chain risk. 🇩🇪 `Germany/Sovereign Tech Agency` <sub>Software Supply Chain & Product Security (CRA)</sub>
 - [STAN4CRA Standardisation Portal](https://www.stan4cra.eu/) - EU and EFTA-funded portal where CEN, CENELEC and ETSI publish progress on the harmonised standards required for Cyber Resilience Act conformity assessment under mandate M/606. 🇪🇺 `EU/CEN-CENELEC-ETSI` <sub>Software Supply Chain & Product Security (CRA)</sub>
 
 ## GDPR
@@ -89,13 +87,12 @@ maintainer rather than through a specific regulation.
 
 ## EU AI Act
 
-*Regulation (EU) 2024/1689* - 5 entries
+*Regulation (EU) 2024/1689* - 4 entries
 
 - [AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en) - European Commission platform offering an AI Act Explorer and interactive Compliance Checker for determining obligations under the EU AI Act. 🇪🇺 `EU/European Commission` <sub>Governance, Risk & Policy Mapping</sub>
-- [capAI](https://www.oii.ox.ac.uk/a-report-from-the-universities-of-oxford-and-bologna-will-help-protect-society-from-unethical-ai-with-a-world-first-approach-to-support-organisations-to-meet-future-eu-regulations/) - Conformity assessment procedure for the EU AI Act from the University of Oxford and the University of Bologna, structured as an auditable compliance scorecard. 🇮🇹 `Italy/University of Bologna` <sub>Governance, Risk & Policy Mapping</sub>
+- [capAI](https://www.oii.ox.ac.uk/a-report-from-the-universities-of-oxford-and-bologna-will-help-protect-society-from-unethical-ai-with-a-world-first-approach-to-support-organisations-to-meet-future-eu-regulations/) - University of Oxford announcement of capAI, a conformity assessment procedure for the EU AI Act developed with the University of Bologna. 🇮🇹 `Italy/University of Bologna` <sub>Governance, Risk & Policy Mapping</sub>
 - [COMPL-AI](https://github.com/compl-ai/compl-ai) - Open-source evaluation framework mapping generative AI model benchmarks to EU AI Act requirements, built by ETH Zurich, INSAIT and LatticeFlow AI. 🇨🇭 `Switzerland/ETH Zurich` <sub>Governance, Risk & Policy Mapping</sub>
 - [EuConform](https://github.com/Hiepler/EuConform) - EuConform is an open-source tool for documenting and mapping conformity obligations under the EU AI Act. 🇪🇺 `EU/Community` <sub>Governance, Risk & Policy Mapping</sub>
-- [MCP EU AI Act Compliance Scanner](https://github.com/ark-forge/mcp-eu-ai-act) - This open-source scanner maps software evidence to EU AI Act compliance checks. 🇪🇺 `EU/Community` <sub>Governance, Risk & Policy Mapping</sub>
 
 ## eIDAS
 

@@ -305,7 +305,7 @@ entries:
   - sovereignty
   - policy
   - infrastructure
-  entry_type: Framework
+  entry_type: Organisation
   country_or_body: EU/EuroStack Coalition
   confidence: medium
   last_verified: '2026-09-16'
@@ -335,5 +335,18 @@ entries:
   entry_type: Tool
   country_or_body: Germany/ZenDiS
   hosting_note: '[Open Source]'
+  confidence: high
+  last_verified: '2026-09-16'
+- name: Sovereign Tech Agency
+  url: https://www.sovereign.tech/
+  description: German government-backed agency funding maintenance, security audits and bug bounties for
+    the open-source components European digital infrastructure runs on.
+  subcategory: Sovereign Infrastructure and Public Code
+  tags:
+  - funding
+  - open-source
+  - maintenance
+  entry_type: Organisation
+  country_or_body: Germany/Sovereign Tech Agency
   confidence: high
   last_verified: '2026-09-16'
