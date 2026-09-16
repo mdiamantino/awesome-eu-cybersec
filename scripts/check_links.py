@@ -36,6 +36,12 @@ UA = (
 # Not breakage: the resource is there, the crawler is being turned away.
 SOFT_STATUSES = {401, 403, 405, 406, 429}
 
+# Some national agencies serve certificates from their own state CA - Spain's
+# FNMT-RCM, for instance - whose root is absent from the default trust bundle
+# even though the chain is valid for anyone who trusts that CA. Worth reporting,
+# not worth failing a build over.
+TLS_MARKERS = ("certificate", "ssl", "tls")
+
 
 @dataclass
 class Result:
@@ -61,6 +67,8 @@ class Result:
             return "ok"
         if self.status in SOFT_STATUSES:
             return "blocked"
+        if any(marker in self.note.lower() for marker in TLS_MARKERS):
+            return "untrusted-tls"
         return "broken"
 
 
@@ -73,7 +81,8 @@ async def check(client: httpx.AsyncClient, entry: dict, category: str, sem: asyn
                 response = await client.request(method, url, headers=headers)
             except httpx.HTTPError as exc:
                 if method == "GET":
-                    return Result(entry["name"], url, category, None, type(exc).__name__)
+                    detail = f"{type(exc).__name__}: {exc}"[:200]
+                    return Result(entry["name"], url, category, None, detail)
                 continue
             if method == "HEAD" and not (200 <= response.status_code < 400):
                 continue  # retry over GET before believing a HEAD failure
@@ -112,12 +121,15 @@ def main() -> int:
     results = asyncio.run(run(args.only, args.concurrency))
     broken = [r for r in results if r.state == "broken"]
     blocked = [r for r in results if r.state == "blocked"]
+    untrusted = [r for r in results if r.state == "untrusted-tls"]
 
     redirected = [r for r in results if r.state == "ok" and r.redirected]
     for r in sorted(redirected, key=lambda r: r.url):
         print(f"redirect      {r.name}\n              {r.url}\n           -> {r.final_url}")
     for r in sorted(blocked, key=lambda r: r.url):
         print(f"blocked  {r.status or r.note:>12}  {r.name} - {r.url}")
+    for r in sorted(untrusted, key=lambda r: r.url):
+        print(f"tls      {r.name} - {r.url}\n         {r.note}")
     for r in sorted(broken, key=lambda r: r.url):
         print(f"BROKEN   {r.status or r.note:>12}  {r.name} - {r.url}")
 

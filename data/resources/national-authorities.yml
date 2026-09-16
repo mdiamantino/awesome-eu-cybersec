@@ -119,6 +119,8 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: Organisation page; each repository carries its own licence. Chosen over a cyber.gouv.fr homepage
+    entry because ANSSI is already represented here by its published documents.
 - name: ANSSI Guideline for a Healthy Information System
   url: https://messervices.cyber.gouv.fr/documents-guides/guideline-for-a-healthy-information-system-in-42-measures_v2.pdf
   description: ANSSI specifies 42 baseline measures for securing information systems in French organisations.

@@ -10,11 +10,10 @@ entries:
   - awareness
   - training
   - toolkit
-  entry_type: Tool
+  entry_type: Training
   country_or_body: EU/ENISA
   confidence: high
   last_verified: '2026-09-16'
-  hosting_note: '[Open Source]'
 - name: CIRCL Training Initiatives
   url: https://www.circl.lu/services/training-initiative/
   description: Luxembourg's CIRCL publishes practical threat-intelligence and incident-response training

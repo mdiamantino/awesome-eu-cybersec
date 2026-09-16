@@ -191,7 +191,7 @@ entries:
   - submarine-cables
   - risk-assessment
   - resilience
-  entry_type: Guideline
+  entry_type: Report
   country_or_body: EU/European Commission
   confidence: high
   last_verified: '2026-09-16'
@@ -217,7 +217,7 @@ entries:
   - submarine-cables
   - nato
   - critical-infrastructure
-  entry_type: Report
+  entry_type: Organisation
   country_or_body: EU/European Commission
   confidence: medium
   last_verified: '2026-09-16'
@@ -230,7 +230,7 @@ entries:
   - open-ran
   - 5g
   - risk
-  entry_type: Guideline
+  entry_type: Report
   country_or_body: EU/NIS Cooperation Group
   confidence: high
   last_verified: '2026-09-16'
@@ -256,10 +256,10 @@ entries:
   - open-ran
   - wg11
   - zero-trust
-  entry_type: Standard
+  entry_type: Guideline
   country_or_body: Germany/O-RAN ALLIANCE
-  notes: The alliance is globally scoped but incorporated as a German e.V.; the specifications themselves
-    are members-only.
+  notes: The alliance is globally scoped but incorporated as a German association; this page summarises
+    the WG11 work, and the specifications themselves are published on the O-RAN website.
   confidence: medium
   last_verified: '2026-09-16'
 - name: OpenAirInterface

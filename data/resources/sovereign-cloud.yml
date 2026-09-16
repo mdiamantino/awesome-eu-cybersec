@@ -253,7 +253,8 @@ entries:
   country_or_body: Spain/CCN-CERT
   hosting_note: '[Commercial]'
   notes: Free of charge for Spanish public administrations under a CCN licence, but the source code is
-    not published.
+    not published. The site serves a certificate from the Spanish state CA FNMT-RCM, which many trust
+    stores do not carry, so browsers may warn.
   confidence: high
   last_verified: '2026-09-16'
 - name: SecNumCloud

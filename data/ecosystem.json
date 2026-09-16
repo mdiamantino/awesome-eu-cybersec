@@ -1690,7 +1690,7 @@
       "entry_type": "Tool",
       "country_or_body": "Spain/CCN-CERT",
       "hosting_note": "[Commercial]",
-      "notes": "Free of charge for Spanish public administrations under a CCN licence, but the source code is not published.",
+      "notes": "Free of charge for Spanish public administrations under a CCN licence, but the source code is not published. The site serves a certificate from the Spanish state CA FNMT-RCM, which many trust stores do not carry, so browsers may warn.",
       "confidence": "high",
       "last_verified": "2026-09-16"
     },
@@ -2651,7 +2651,7 @@
         "risk-assessment",
         "resilience"
       ],
-      "entry_type": "Guideline",
+      "entry_type": "Report",
       "country_or_body": "EU/European Commission",
       "confidence": "high",
       "last_verified": "2026-09-16"
@@ -2683,7 +2683,7 @@
         "nato",
         "critical-infrastructure"
       ],
-      "entry_type": "Report",
+      "entry_type": "Organisation",
       "country_or_body": "EU/European Commission",
       "confidence": "medium",
       "last_verified": "2026-09-16"
@@ -2699,7 +2699,7 @@
         "5g",
         "risk"
       ],
-      "entry_type": "Guideline",
+      "entry_type": "Report",
       "country_or_body": "EU/NIS Cooperation Group",
       "confidence": "high",
       "last_verified": "2026-09-16"
@@ -2731,9 +2731,9 @@
         "wg11",
         "zero-trust"
       ],
-      "entry_type": "Standard",
+      "entry_type": "Guideline",
       "country_or_body": "Germany/O-RAN ALLIANCE",
-      "notes": "The alliance is globally scoped but incorporated as a German e.V.; the specifications themselves are members-only.",
+      "notes": "The alliance is globally scoped but incorporated as a German association; this page summarises the WG11 work, and the specifications themselves are published on the O-RAN website.",
       "confidence": "medium",
       "last_verified": "2026-09-16"
     },
@@ -3693,11 +3693,10 @@
         "training",
         "toolkit"
       ],
-      "entry_type": "Tool",
+      "entry_type": "Training",
       "country_or_body": "EU/ENISA",
       "confidence": "high",
-      "last_verified": "2026-09-16",
-      "hosting_note": "[Open Source]"
+      "last_verified": "2026-09-16"
     },
     {
       "category": "Training & Cyber Ranges",
@@ -4295,7 +4294,8 @@
       "country_or_body": "France/ANSSI",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "notes": "Organisation page; each repository carries its own licence. Chosen over a cyber.gouv.fr homepage entry because ANSSI is already represented here by its published documents."
     },
     {
       "category": "National Cybersecurity Authorities & Standards",

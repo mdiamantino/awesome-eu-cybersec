@@ -1484,7 +1484,8 @@
   country_or_body: Spain/CCN-CERT
   hosting_note: '[Commercial]'
   notes: Free of charge for Spanish public administrations under a CCN licence, but the source code is
-    not published.
+    not published. The site serves a certificate from the Spanish state CA FNMT-RCM, which many trust
+    stores do not carry, so browsers may warn.
   confidence: high
   last_verified: '2026-09-16'
 - category: Sovereign Cloud & DevSecOps
@@ -2323,7 +2324,7 @@
   - submarine-cables
   - risk-assessment
   - resilience
-  entry_type: Guideline
+  entry_type: Report
   country_or_body: EU/European Commission
   confidence: high
   last_verified: '2026-09-16'
@@ -2351,7 +2352,7 @@
   - submarine-cables
   - nato
   - critical-infrastructure
-  entry_type: Report
+  entry_type: Organisation
   country_or_body: EU/European Commission
   confidence: medium
   last_verified: '2026-09-16'
@@ -2365,7 +2366,7 @@
   - open-ran
   - 5g
   - risk
-  entry_type: Guideline
+  entry_type: Report
   country_or_body: EU/NIS Cooperation Group
   confidence: high
   last_verified: '2026-09-16'
@@ -2393,10 +2394,10 @@
   - open-ran
   - wg11
   - zero-trust
-  entry_type: Standard
+  entry_type: Guideline
   country_or_body: Germany/O-RAN ALLIANCE
-  notes: The alliance is globally scoped but incorporated as a German e.V.; the specifications themselves
-    are members-only.
+  notes: The alliance is globally scoped but incorporated as a German association; this page summarises
+    the WG11 work, and the specifications themselves are published on the O-RAN website.
   confidence: medium
   last_verified: '2026-09-16'
 - category: Telecom, 5G & Network Infrastructure Security
@@ -3246,11 +3247,10 @@
   - awareness
   - training
   - toolkit
-  entry_type: Tool
+  entry_type: Training
   country_or_body: EU/ENISA
   confidence: high
   last_verified: '2026-09-16'
-  hosting_note: '[Open Source]'
 - category: Training & Cyber Ranges
   name: CIRCL Training Initiatives
   url: https://www.circl.lu/services/training-initiative/
@@ -3772,6 +3772,8 @@
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: Organisation page; each repository carries its own licence. Chosen over a cyber.gouv.fr homepage
+    entry because ANSSI is already represented here by its published documents.
 - category: National Cybersecurity Authorities & Standards
   name: ANSSI Guideline for a Healthy Information System
   url: https://messervices.cyber.gouv.fr/documents-guides/guideline-for-a-healthy-information-system-in-42-measures_v2.pdf
