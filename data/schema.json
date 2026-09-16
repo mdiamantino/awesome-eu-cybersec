@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/awesome-eu-cybersec/awesome-eu-cybersec/data/schema.json",
+  "title": "awesome-eu-cybersec resource file",
+  "type": "object",
+  "required": ["category", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "category": {
+      "type": "string",
+      "description": "Must match a category name in data/categories.yml."
+    },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "url",
+        "description",
+        "subcategory",
+        "tags",
+        "entry_type",
+        "country_or_body",
+        "confidence",
+        "last_verified"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 90,
+          "description": "The resource's own name. Not a sales line."
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://",
+          "description": "Direct canonical URL. HTTPS only."
+        },
+        "repo": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://",
+          "description": "Optional source-code URL when `url` points at docs or an agency landing page."
+        },
+        "description": {
+          "type": "string",
+          "minLength": 25,
+          "maxLength": 240,
+          "pattern": "\\.$",
+          "description": "One objective sentence ending in a full stop. EU relevance must be explicit."
+        },
+        "subcategory": {
+          "type": "string",
+          "minLength": 2,
+          "description": "Must match a subcategory declared for this category in data/categories.yml, unless the category sets subcategories_are_dynamic."
+        },
+        "tags": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" }
+        },
+        "entry_type": {
+          "enum": ["Tool", "Standard", "Certification Scheme", "Framework", "Guideline", "Report", "Feed", "Dataset", "Training", "Organisation"]
+        },
+        "country_or_body": {
+          "type": "string",
+          "minLength": 2,
+          "description": "Country/Agency or EU/Body, e.g. 'France/ANSSI', 'EU/ENISA', 'Luxembourg/CIRCL'."
+        },
+        "hosting_note": {
+          "enum": ["[Open Source]", "[EU-Hosted]", "[Commercial]", "[Open Source] [EU-Hosted]", "[Commercial] [EU-Hosted]"],
+          "description": "Required for entry_type Tool. Omit for standards and guidelines, where hosting has no meaning."
+        },
+        "license": {
+          "type": "string",
+          "description": "SPDX identifier where the resource is software, e.g. 'AGPL-3.0-or-later'."
+        },
+        "confidence": {
+          "enum": ["high", "medium"],
+          "description": "high = URL fetched and content matched, or returned independently by two or more sources."
+        },
+        "last_verified": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+          "description": "ISO date the URL was last fetched and content-matched."
+        },
+        "notes": {
+          "type": "string",
+          "maxLength": 300,
+          "description": "Optional reviewer note: scope caveat, successor document, language of the resource."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "entry_type": { "const": "Tool" } }, "required": ["entry_type"] },
+          "then": { "required": ["hosting_note"] }
+        }
+      ]
+    }
+  }
+}

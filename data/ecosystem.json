@@ -1,0 +1,4468 @@
+{
+  "version": 1,
+  "count": 269,
+  "entries": [
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "AI Act Service Desk",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en",
+      "description": "European Commission platform offering an AI Act Explorer and interactive Compliance Checker for determining obligations under the EU AI Act.",
+      "subcategory": "EU AI Act",
+      "tags": [
+        "ai-act",
+        "compliance-checker"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/European Commission",
+      "hosting_note": "[EU-Hosted]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "capAI",
+      "url": "https://www.oii.ox.ac.uk/news-events/a-report-from-the-universities-of-oxford-and-bologna-will-help-protect-society-from-unethical-ai-with-a-world-first-approach-to-support-organisations-to-meet-future-eu-regulations/",
+      "description": "Conformity assessment procedure for the EU AI Act from the University of Oxford and the University of Bologna, structured as an auditable compliance scorecard.",
+      "subcategory": "EU AI Act",
+      "tags": [
+        "ai-act",
+        "conformity-assessment",
+        "academic"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Italy/University of Bologna",
+      "confidence": "medium",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "COMPL-AI",
+      "url": "https://github.com/compl-ai/compl-ai",
+      "description": "Open-source evaluation framework mapping generative AI model benchmarks to EU AI Act requirements, built by ETH Zurich, INSAIT and LatticeFlow AI.",
+      "subcategory": "EU AI Act",
+      "tags": [
+        "ai-act",
+        "llm-evaluation",
+        "benchmarking"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Switzerland/ETH Zurich",
+      "hosting_note": "[Open Source]",
+      "license": "Apache-2.0",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "EuConform",
+      "url": "https://github.com/Hiepler/EuConform",
+      "description": "EuConform is an open-source tool for documenting and mapping conformity obligations under the EU AI Act.",
+      "subcategory": "EU AI Act",
+      "tags": [
+        "ai-act",
+        "conformity",
+        "documentation"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/Community",
+      "confidence": "medium",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "MCP EU AI Act Compliance Scanner",
+      "url": "https://github.com/ark-forge/mcp-eu-ai-act",
+      "description": "This open-source scanner maps software evidence to EU AI Act compliance checks.",
+      "subcategory": "EU AI Act",
+      "tags": [
+        "ai-act",
+        "scanner",
+        "mcp"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/Community",
+      "confidence": "medium",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "Esquema Nacional de Seguridad",
+      "url": "https://ens.ccn.cni.es/es/",
+      "description": "Spain's national security governance and certification scheme for public and private information systems, administered by the Centro Criptológico Nacional.",
+      "subcategory": "EU Certification and Governance Schemes",
+      "tags": [
+        "ens",
+        "certification",
+        "spanish-language"
+      ],
+      "entry_type": "Certification Scheme",
+      "country_or_body": "Spain/CCN",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "EUCC Certification Scheme",
+      "url": "https://certification.enisa.europa.eu/certification-library/eucc-certification-scheme_en",
+      "description": "EU-wide Common Criteria-based cybersecurity certification scheme for ICT products, established under the Cybersecurity Act by Implementing Regulation (EU) 2024/482.",
+      "subcategory": "EU Certification and Governance Schemes",
+      "tags": [
+        "certification",
+        "common-criteria",
+        "cybersecurity-act"
+      ],
+      "entry_type": "Certification Scheme",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "EUCS Cloud Services Scheme",
+      "url": "https://www.enisa.europa.eu/publications/eucs-cloud-services-scheme",
+      "description": "Candidate European Cybersecurity Certification Scheme for Cloud Services drafted by ENISA under Article 48 of the Cybersecurity Act to harmonise cloud assurance levels.",
+      "subcategory": "EU Certification and Governance Schemes",
+      "tags": [
+        "cloud",
+        "certification",
+        "cybersecurity-act"
+      ],
+      "entry_type": "Certification Scheme",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "verinice",
+      "url": "https://github.com/SerNet/verinice",
+      "description": "Open-source ISMS and GRC platform implementing BSI IT-Grundschutz and ISO 27001, with modules covering NIS2 and GDPR compliance.",
+      "subcategory": "EU Certification and Governance Schemes",
+      "tags": [
+        "isms",
+        "it-grundschutz",
+        "grc"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/SerNet",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "ARX Data Anonymization Tool",
+      "url": "https://arx.deidentifier.org/",
+      "description": "Open-source anonymisation tool from the Berlin Institute of Health implementing statistical disclosure control methods used for GDPR anonymisation and pseudonymisation.",
+      "subcategory": "GDPR and PETs",
+      "tags": [
+        "anonymization",
+        "pseudonymization",
+        "pet"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/Berlin Institute of Health",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "LINDDUN",
+      "url": "https://linddun.org/",
+      "description": "Privacy threat modelling framework from KU Leuven that operationalises GDPR privacy-by-design through structured threat categories and mitigation tooling.",
+      "subcategory": "GDPR and PETs",
+      "tags": [
+        "privacy-by-design",
+        "threat-modeling",
+        "gdpr"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Belgium/KU Leuven",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "PDP4E Privacy Engineering Toolkit",
+      "url": "https://cordis.europa.eu/project/id/787034/results",
+      "description": "The EU-funded PDP4E project publishes privacy-engineering methods and tools for implementing GDPR requirements.",
+      "subcategory": "GDPR and PETs",
+      "tags": [
+        "gdpr",
+        "privacy-engineering",
+        "h2020"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "PIA",
+      "url": "https://github.com/LINCnil/pia",
+      "description": "Open-source software from the French data protection authority CNIL for conducting GDPR Data Protection Impact Assessments.",
+      "subcategory": "GDPR and PETs",
+      "tags": [
+        "dpia",
+        "gdpr",
+        "cnil"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "France/CNIL",
+      "hosting_note": "[Open Source]",
+      "license": "GPL-3.0-only",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "Website Evidence Collector",
+      "url": "https://code.europa.eu/EDPS/website-evidence-collector",
+      "description": "Tool from the European Data Protection Supervisor that automates evidence collection on website storage and transfer of personal data for GDPR inspections.",
+      "subcategory": "GDPR and PETs",
+      "tags": [
+        "gdpr",
+        "web-privacy",
+        "edps"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/EDPS",
+      "hosting_note": "[Open Source]",
+      "license": "EUPL-1.2",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "anssi-nis2",
+      "url": "https://github.com/betagouv/anssi-nis2",
+      "description": "Source code behind ANSSI's public platform guiding French entities through NIS2 Directive applicability and their resulting obligations.",
+      "subcategory": "NIS2",
+      "tags": [
+        "nis2",
+        "anssi",
+        "self-assessment"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "France/ANSSI",
+      "hosting_note": "[Open Source]",
+      "license": "Apache-2.0",
+      "notes": "The public service has since been consolidated into the MesServicesCyber platform; the repository remains the published implementation.",
+      "confidence": "medium",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "EBIOS RM Pro",
+      "url": "https://github.com/Cyber-Autopsie/ebios-rm-pro",
+      "description": "Client-side web application implementing ANSSI's EBIOS Risk Manager method, the risk-assessment approach referenced in French NIS2 compliance guidance.",
+      "subcategory": "NIS2",
+      "tags": [
+        "ebios",
+        "risk-management",
+        "anssi"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "France/Community",
+      "hosting_note": "[Open Source]",
+      "license": "MIT",
+      "notes": "Community implementation of an ANSSI method, not an ANSSI-maintained product.",
+      "confidence": "medium",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "NIS2 Scope and Awareness Resources",
+      "url": "https://www.enisa.europa.eu/topics/awareness-and-cyber-hygiene/raising-awareness-campaigns/network-and-information-systems-directive-2-nis2",
+      "description": "ENISA provides implementation-oriented NIS2 scope, obligations, and awareness resources for covered entities.",
+      "subcategory": "NIS2",
+      "tags": [
+        "nis2",
+        "awareness"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "NIS2 Technical Implementation Guidance",
+      "url": "https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance",
+      "description": "ENISA guidance translates the NIS2 implementing act into technical cybersecurity risk-management measures.",
+      "subcategory": "NIS2",
+      "tags": [
+        "nis2",
+        "risk-management",
+        "controls"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Governance, Risk & Policy Mapping",
+      "name": "nis2-public",
+      "url": "https://github.com/fabriziosalmi/nis2-public",
+      "description": "This open-source repository provides NIS2-oriented posture-management controls and reporting.",
+      "subcategory": "NIS2",
+      "tags": [
+        "nis2",
+        "controls",
+        "automation"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Italy/Community",
+      "confidence": "medium",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "DNB Good Practice Information Security",
+      "url": "https://www.dnb.nl/media/13jpibjp/good-practice-ib-2023-eng.pdf",
+      "description": "De Nederlandsche Bank supervisory good-practice document setting information-security control expectations aligned with the DORA ICT risk-management requirements.",
+      "subcategory": "DORA Implementation Guidance",
+      "tags": [
+        "dora",
+        "ict-risk",
+        "good-practice"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Netherlands/DNB",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "ECB Cyber Resilience Oversight Expectations",
+      "url": "https://www.ecb.europa.eu/paym/pdf/cons/cyberresilience/Cyber_resilience_oversight_expectations_for_financial_market_infrastructures.pdf",
+      "description": "ECB oversight framework translating CPMI-IOSCO cyber-resilience guidance into expectations for European financial market infrastructures.",
+      "subcategory": "DORA Implementation Guidance",
+      "tags": [
+        "ecb",
+        "oversight",
+        "fmi"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ECB",
+      "notes": "Published in 2018, before DORA; still the ECB's live oversight document for financial market infrastructures.",
+      "confidence": "medium",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "EIOPA DORA Hub",
+      "url": "https://www.eiopa.europa.eu/digital-operational-resilience-act-dora_en",
+      "description": "EIOPA landing page consolidating DORA implementation material, technical standards and oversight information for the insurance and pensions sector.",
+      "subcategory": "DORA Implementation Guidance",
+      "tags": [
+        "dora",
+        "eiopa",
+        "insurance"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/EIOPA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "ESMA DORA Oversight",
+      "url": "https://www.esma.europa.eu/dora-oversight",
+      "description": "ESMA's page describing the joint ESAs oversight regime for critical ICT third-party providers designated under DORA.",
+      "subcategory": "DORA Implementation Guidance",
+      "tags": [
+        "dora",
+        "oversight",
+        "ctpp"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ESMA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "DORA Register of Information ITS",
+      "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/implementing-technical-standards-establish-templates-register-information",
+      "description": "The EBA page publishes implementing technical standards for DORA registers of contractual ICT arrangements.",
+      "subcategory": "ICT Third-Party Risk Registers",
+      "tags": [
+        "dora",
+        "its",
+        "register"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/EBA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "DORA Registers of Information Templates",
+      "url": "https://www.eba.europa.eu/activities/direct-supervision-and-oversight/digital-operational-resilience-act/preparation-dora-application",
+      "description": "The European Supervisory Authorities provide templates for DORA ICT third-party registers of information.",
+      "subcategory": "ICT Third-Party Risk Registers",
+      "tags": [
+        "dora",
+        "third-party-risk",
+        "register"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/ESAs",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "EBA Reporting Framework 3.5",
+      "url": "https://www.eba.europa.eu/risk-and-data-analysis/reporting-frameworks/reporting-framework-35",
+      "description": "EBA technical package of data point model, XBRL taxonomy and validation rules implementing the cross-sectoral DORA register-of-information reporting requirements.",
+      "subcategory": "ICT Third-Party Risk Registers",
+      "tags": [
+        "dora",
+        "dpm",
+        "xbrl",
+        "reporting"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/EBA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "ESAs Designation of Critical ICT Third-Party Providers",
+      "url": "https://www.eiopa.europa.eu/european-supervisory-authorities-designate-critical-ict-third-party-providers-under-digital-2025-11-18_en",
+      "description": "Joint announcement by the European Supervisory Authorities naming the first ICT providers designated as critical under the DORA oversight framework.",
+      "subcategory": "ICT Third-Party Risk Registers",
+      "tags": [
+        "dora",
+        "ctpp",
+        "oversight"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ESAs",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "ESAs FAQ on Registers of Information",
+      "url": "https://www.eba.europa.eu/sites/default/files/2025-03/31bb6e60-7d10-4405-a8c5-9f04934630ac/20250328%20-%20DORA%20RoI%20reporting%20FAQ%20(updated).pdf",
+      "description": "ESAs FAQ answering practical questions on preparing and submitting DORA registers of information under Implementing Regulation (EU) 2024/2956.",
+      "subcategory": "ICT Third-Party Risk Registers",
+      "tags": [
+        "dora",
+        "faq",
+        "register-of-information"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ESAs",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "Central Bank of Ireland DORA Incident Reporting",
+      "url": "https://www.centralbank.ie/regulation/digital-operational-resilience-act-dora/reporting-major-ict-related-incidents-and-significant-cyber-threats",
+      "description": "National guidance and templates for DORA major ICT-incident and significant-cyber-threat reporting by financial entities supervised in Ireland.",
+      "subcategory": "Incident Classification and Reporting",
+      "tags": [
+        "dora",
+        "incident-reporting"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Ireland/Central Bank of Ireland",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "DORA Incident Classification RTS",
+      "url": "https://www.esma.europa.eu/sites/default/files/2024-01/JC_2023_83_-_Final_Report_on_draft_RTS_on_classification_of_major_incidents_and_significant_cyber_threats.pdf",
+      "description": "The joint ESA standard defines criteria for classifying major ICT incidents and significant cyber threats under DORA.",
+      "subcategory": "Incident Classification and Reporting",
+      "tags": [
+        "dora",
+        "incidents",
+        "classification"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/ESAs",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "DORA Major Incident Reporting RTS and ITS",
+      "url": "https://www.eba.europa.eu/sites/default/files/2023-12/ecc72f1c-c68a-4e64-97dd-47470117c3ae/JC%202023%2070%20-%20%20CP%20on%20draft%20RTS%20and%20ITS%20on%20major%20incident%20reporting%20under%20DORA.pdf",
+      "description": "The joint ESA package specifies DORA major-incident reporting content, timelines, and templates.",
+      "subcategory": "Incident Classification and Reporting",
+      "tags": [
+        "dora",
+        "reporting",
+        "incidents"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/ESAs",
+      "confidence": "medium",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "ESAs Guidelines on Aggregated Costs and Losses",
+      "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-guidelines-estimation-aggregated-annual-costs-and-losses-caused-major-ict-related-incidents",
+      "description": "ESAs joint guidelines harmonising how DORA-covered financial entities estimate and report aggregated annual costs and losses from major ICT incidents.",
+      "subcategory": "Incident Classification and Reporting",
+      "tags": [
+        "dora",
+        "incident-reporting",
+        "costs-losses"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ESAs",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "EU Systemic Cyber Incident Coordination Framework",
+      "url": "https://www.eiopa.europa.eu/esas-establish-framework-strengthen-coordination-case-systemic-cyber-incidents-2024-07-17_en",
+      "description": "ESAs framework establishing a pan-European coordination mechanism for major cyber incidents with systemic potential in the financial sector under DORA.",
+      "subcategory": "Incident Classification and Reporting",
+      "tags": [
+        "dora",
+        "incident-coordination",
+        "systemic-risk"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/ESAs",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "DORA TLPT Regulatory Technical Standards",
+      "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-regulatory-technical-standards-specifying-elements-related-threat-led-penetration-tests",
+      "description": "The joint ESA standard specifies DORA requirements for threat-led penetration testing.",
+      "subcategory": "Threat-Led Penetration Testing",
+      "tags": [
+        "dora",
+        "tlpt",
+        "red-team"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/ESAs",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "TIBER-BE",
+      "url": "https://www.nbb.be/en/financial-supervision-and-resolution/digital-resilience-and-cyber-risk/tiber-be-team",
+      "description": "National Bank of Belgium's TIBER-EU implementation, coordinating controlled threat-led red-team tests for Belgian financial institutions under DORA.",
+      "subcategory": "Threat-Led Penetration Testing",
+      "tags": [
+        "tlpt",
+        "tiber",
+        "red-team"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Belgium/NBB",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "TIBER-DE",
+      "url": "https://www.bundesbank.de/en/tasks/payment-systems/tiber-de/tiber-de-817014",
+      "description": "Deutsche Bundesbank's national TIBER-EU implementation, run with BaFin, used by German financial entities for DORA-mandated threat-led penetration tests.",
+      "subcategory": "Threat-Led Penetration Testing",
+      "tags": [
+        "tlpt",
+        "tiber",
+        "red-team"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Germany/Bundesbank",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "TIBER-EU Framework 2025",
+      "url": "https://www.ecb.europa.eu/pub/pdf/other/ecb.tiber_eu_framework_2025~b32eff9a10.en.pdf",
+      "description": "The ECB framework defines intelligence-led red-team testing aligned with DORA TLPT requirements.",
+      "subcategory": "Threat-Led Penetration Testing",
+      "tags": [
+        "dora",
+        "tiber-eu",
+        "tlpt"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/ECB",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "TIBER-EU Purple Teaming Guidance",
+      "url": "https://www.ecb.europa.eu/pub/pdf/annex/ecb.tiber_eu_purple_best_practices_2025.en.pdf",
+      "description": "ECB guidance on structuring purple-teaming activity inside TIBER-EU and DORA threat-led penetration tests, replacing the 2022 edition.",
+      "subcategory": "Threat-Led Penetration Testing",
+      "tags": [
+        "tlpt",
+        "tiber",
+        "purple-team"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ECB",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "TIBER-IE",
+      "url": "https://www.centralbank.ie/financial-system/operational-resilience-and-cyber/cyber-resilience/tiber-ie",
+      "description": "Central Bank of Ireland's national TIBER-EU programme coordinating intelligence-led red-team tests that Irish financial entities use to meet DORA TLPT obligations.",
+      "subcategory": "Threat-Led Penetration Testing",
+      "tags": [
+        "tlpt",
+        "tiber",
+        "red-team"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Ireland/Central Bank of Ireland",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "TIBER-IT",
+      "url": "https://www.consob.it/web/consob-and-its-activities/tiber-it-national-guidance",
+      "description": "Joint CONSOB, Banca d'Italia and IVASS guidance hosting the TIBER-IT national guide used by Italian financial entities for DORA threat-led penetration tests.",
+      "subcategory": "Threat-Led Penetration Testing",
+      "tags": [
+        "tlpt",
+        "tiber",
+        "red-team"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Italy/CONSOB",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Financial Sector Resilience (DORA)",
+      "name": "TIBER-NL",
+      "url": "https://www.dnb.nl/en/sector-information/cash-and-payment-systems/dnb-oversees-cyber-resilience-tests/threat-intelligence-based-ethical-red-teaming-tiber/",
+      "description": "De Nederlandsche Bank's national implementation of TIBER-EU, used by Dutch financial entities to satisfy the DORA threat-led penetration testing requirement.",
+      "subcategory": "Threat-Led Penetration Testing",
+      "tags": [
+        "tlpt",
+        "tiber",
+        "red-team"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Netherlands/DNB",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "BSI Cyber Resilience Act Guidance",
+      "url": "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Cyber_Resilience_Act/cyber_resilience_act.html",
+      "description": "BSI guidance explains operational product-security obligations under the EU Cyber Resilience Act.",
+      "subcategory": "CRA Implementation Guidance",
+      "tags": [
+        "cra",
+        "product-security",
+        "bsi"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Germany/BSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "BSI TR-03183 Cyber Resilience Requirements",
+      "url": "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/tr-03183.html",
+      "description": "BSI technical guideline specifying the SBOM, vulnerability-reporting and conformity requirements that operationalise the EU Cyber Resilience Act for manufacturers.",
+      "subcategory": "CRA Implementation Guidance",
+      "tags": [
+        "bsi",
+        "sbom",
+        "tr-03183"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Germany/BSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "CRA Brief Guide for Open Source Developers",
+      "url": "https://best.openssf.org/CRA-Brief-Guide-for-OSS-Developers.html",
+      "description": "OpenSSF guide explaining, against the EU Cyber Resilience Act text, when individual open-source contributors rather than commercial manufacturers fall under the Regulation.",
+      "subcategory": "CRA Implementation Guidance",
+      "tags": [
+        "openssf",
+        "developers",
+        "cra"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "International/OpenSSF",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "European Commission CRA Implementation Portal",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+      "description": "The Commission portal consolidates implementation material for the EU Cyber Resilience Act, including open-source software considerations.",
+      "subcategory": "CRA Implementation Guidance",
+      "tags": [
+        "cra",
+        "implementation",
+        "open-source"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "Open Regulatory Compliance Working Group",
+      "url": "https://orcwg.org/",
+      "description": "Eclipse Foundation working group producing community guidance, FAQs and a resource hub to help open-source maintainers meet EU Cyber Resilience Act obligations.",
+      "subcategory": "CRA Implementation Guidance",
+      "tags": [
+        "eclipse-foundation",
+        "maintainers",
+        "open-source"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/Eclipse Foundation",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "OSS Stewards Obligations Checklist",
+      "url": "https://policy.openssf.org/CRA/checklists/OSS_Stewards_Obligations_Checklist.html",
+      "description": "OpenSSF checklist translating the EU Cyber Resilience Act Article 24 open-source steward duties into concrete verifiable compliance steps.",
+      "subcategory": "CRA Implementation Guidance",
+      "tags": [
+        "openssf",
+        "stewards",
+        "checklist"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "International/OpenSSF",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "CRA Conformity Assessment Guidance",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/cra-conformity-assessment",
+      "description": "The Commission guidance explains CRA conformity-assessment routes for products with digital elements.",
+      "subcategory": "Conformity Assessment",
+      "tags": [
+        "cra",
+        "conformity",
+        "ce-marking"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "ORC WG CRA FAQ",
+      "url": "https://cra.orcwg.org/faq/official/assessment/",
+      "description": "The Open Regulatory Compliance Working Group provides implementation guidance for CRA conformity assessment of open-source software.",
+      "subcategory": "Conformity Assessment",
+      "tags": [
+        "cra",
+        "open-source",
+        "conformity"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/Open Regulatory Compliance Working Group",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "STAN4CRA Standardisation Portal",
+      "url": "https://www.stan4cra.eu/",
+      "description": "EU and EFTA-funded portal where CEN, CENELEC and ETSI publish progress on the harmonised standards required for Cyber Resilience Act conformity assessment under mandate M/606.",
+      "subcategory": "Conformity Assessment",
+      "tags": [
+        "harmonised-standards",
+        "cen-cenelec",
+        "etsi"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/CEN-CENELEC-ETSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "CERT-EU Coordinated Vulnerability Disclosure Policy",
+      "url": "https://cert.europa.eu/coordinated-vulnerability-disclosure-policy",
+      "description": "CERT-EU's published disclosure timeline and process for vulnerabilities found in software used by EU institutions, bodies and agencies.",
+      "subcategory": "Coordinated Vulnerability Disclosure",
+      "tags": [
+        "cert-eu",
+        "disclosure",
+        "policy"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/CERT-EU",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "CSAF Distribution Toolset",
+      "url": "https://github.com/gocsaf/csaf",
+      "description": "Go toolset originally built for Germany's BSI implementing a CSAF trusted provider, downloader, validator and aggregator for publishing vulnerability advisories.",
+      "subcategory": "Coordinated Vulnerability Disclosure",
+      "tags": [
+        "csaf",
+        "advisories",
+        "bsi",
+        "go"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/BSI",
+      "hosting_note": "[Open Source]",
+      "license": "Apache-2.0",
+      "notes": "Moved from the csaf-poc organisation; powers BSI's ISDuBA and the Online CSAF Provider Check.",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "CSAF Validator Service",
+      "url": "https://github.com/secvisogram/csaf-validator-service",
+      "description": "REST validation service built alongside BSI's Secvisogram that checks CSAF 2.0 documents against the schema used for EU vulnerability advisory publication.",
+      "subcategory": "Coordinated Vulnerability Disclosure",
+      "tags": [
+        "csaf",
+        "validator",
+        "api"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/BSI",
+      "hosting_note": "[Open Source]",
+      "license": "MIT",
+      "confidence": "medium",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "ENISA Coordinated Vulnerability Disclosure Policies in the EU",
+      "url": "https://www.enisa.europa.eu/publications/coordinated-vulnerability-disclosure-policies-in-the-eu",
+      "description": "ENISA study mapping national coordinated vulnerability disclosure policies across Member States, with recommendations later reflected in NIS2 and CRA disclosure duties.",
+      "subcategory": "Coordinated Vulnerability Disclosure",
+      "tags": [
+        "enisa",
+        "cvd",
+        "policy"
+      ],
+      "entry_type": "Report",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "ENISA Single Reporting Platform",
+      "url": "https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp",
+      "description": "ENISA-operated platform through which manufacturers and open-source stewards submit the Cyber Resilience Act Article 14 vulnerability and incident notifications to CSIRTs.",
+      "subcategory": "Coordinated Vulnerability Disclosure",
+      "tags": [
+        "enisa",
+        "reporting",
+        "cra"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/ENISA",
+      "hosting_note": "[EU-Hosted]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "Secvisogram",
+      "url": "https://github.com/BSI-Bund/secvisogram",
+      "description": "BSI-maintained web editor for creating and validating CSAF 2.0 and 2.1 security advisories used for coordinated vulnerability disclosure in the EU.",
+      "subcategory": "Coordinated Vulnerability Disclosure",
+      "tags": [
+        "csaf",
+        "disclosure",
+        "editor"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/BSI",
+      "hosting_note": "[Open Source]",
+      "license": "MIT",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "European Commission CRA Open Source Guidance",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/cra-open-source",
+      "description": "The Commission guidance explains how the CRA applies to free and open-source software and software stewards.",
+      "subcategory": "SBOM and Vulnerability Handling",
+      "tags": [
+        "cra",
+        "open-source",
+        "sbom"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "OCCTET",
+      "url": "https://occtet.eu/",
+      "description": "Digital Europe Programme project coordinated by the Eclipse Foundation building free SBOM, dependency-analysis and compliance-documentation tooling for CRA conformity.",
+      "subcategory": "SBOM and Vulnerability Handling",
+      "tags": [
+        "sbom",
+        "eu-funded",
+        "eclipse-foundation"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/European Commission",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "REUSE",
+      "url": "https://reuse.software/",
+      "description": "Tool and specification from the Free Software Foundation Europe for machine-readable SPDX licensing metadata, feeding the bill-of-materials data CRA technical documentation requires.",
+      "subcategory": "SBOM and Vulnerability Handling",
+      "tags": [
+        "fsfe",
+        "spdx",
+        "licensing"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/FSFE",
+      "hosting_note": "[Open Source]",
+      "notes": "Licence and copyright compliance is its primary purpose; the CRA link is indirect, through SPDX-based bill-of-materials generation.",
+      "confidence": "medium",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "SBOM for Artificial Intelligence",
+      "url": "https://cyber.gouv.fr/nous-connaitre/publications/publications-internationales/software-bill-of-materials-sbom-for-artificial-intelligence/",
+      "description": "ANSSI-published guidance, co-signed with Germany's BSI, defining minimum SBOM elements for AI systems as part of a supply-chain transparency recommendation.",
+      "subcategory": "SBOM and Vulnerability Handling",
+      "tags": [
+        "anssi",
+        "sbom",
+        "ai"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "France/ANSSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "Sovereign Tech Resilience",
+      "url": "https://www.sovereign.tech/programs/bug-resilience",
+      "description": "German government-backed Sovereign Tech Agency programme funding security audits and bug bounties for critical open-source components carrying CRA supply-chain risk.",
+      "subcategory": "SBOM and Vulnerability Handling",
+      "tags": [
+        "funding",
+        "audits",
+        "open-source"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Germany/Sovereign Tech Agency",
+      "confidence": "medium",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "EUDI Android Wallet Reference Application",
+      "url": "https://github.com/eu-digital-identity-wallet/eudi-app-android-wallet-ui",
+      "description": "Reference Android wallet from the EU Digital Identity Wallet organisation implementing OpenID4VCI issuance and OpenID4VP and ISO 18013-5 presentation of PID and mDL credentials.",
+      "subcategory": "EUDI Wallet Implementations and Testing",
+      "tags": [
+        "eudi-wallet",
+        "android",
+        "reference-implementation"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/European Commission",
+      "hosting_note": "[Open Source]",
+      "license": "EUPL-1.2",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "EUDI iOS Wallet Reference Application",
+      "url": "https://github.com/eu-digital-identity-wallet/eudi-app-ios-wallet-ui",
+      "description": "Reference iOS wallet from the EU Digital Identity Wallet organisation demonstrating credential issuance, storage and presentation as specified by the ARF.",
+      "subcategory": "EUDI Wallet Implementations and Testing",
+      "tags": [
+        "eudi-wallet",
+        "ios",
+        "reference-implementation"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/European Commission",
+      "hosting_note": "[Open Source]",
+      "license": "EUPL-1.2",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "EUDI Wallet Implementation Portal",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation",
+      "description": "The Commission portal provides architecture, reference implementation, and testing resources for EU Digital Identity Wallets.",
+      "subcategory": "EUDI Wallet Implementations and Testing",
+      "tags": [
+        "eudi",
+        "wallet",
+        "testing"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "EUDI Wallet Reference Implementation",
+      "url": "https://github.com/eu-digital-identity-wallet/.github/blob/main/profile/reference-implementation.md",
+      "description": "The official open-source reference implementation supports development of wallets under the European Digital Identity framework.",
+      "subcategory": "EUDI Wallet Implementations and Testing",
+      "tags": [
+        "eudi",
+        "wallet",
+        "reference-implementation"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "EUDIW Credential Issuer Service",
+      "url": "https://github.com/eu-digital-identity-wallet/eudi-srv-web-issuing-eudiw-py",
+      "description": "Reference OpenID4VCI credential issuer for PID, mDL and qualified electronic attestations used in European Digital Identity Wallet pilots.",
+      "subcategory": "EUDI Wallet Implementations and Testing",
+      "tags": [
+        "eudi-wallet",
+        "issuer",
+        "openid4vci"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/European Commission",
+      "hosting_note": "[Open Source]",
+      "license": "Apache-2.0",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "EUDIW Verifier Endpoint",
+      "url": "https://github.com/eu-digital-identity-wallet/eudi-srv-web-verifier-endpoint-23220-4-kt",
+      "description": "Reference OpenID4VP verifier and relying-party backend for validating European Digital Identity Wallet credential presentations.",
+      "subcategory": "EUDI Wallet Implementations and Testing",
+      "tags": [
+        "eudi-wallet",
+        "verifier",
+        "openid4vp"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/European Commission",
+      "hosting_note": "[Open Source]",
+      "license": "Apache-2.0",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "EWC Consortium",
+      "url": "https://github.com/EWC-consortium",
+      "description": "GitHub organisation of the EU Digital Identity Wallet Consortium Large Scale Pilot, hosting conformance test infrastructure, RFCs, rulebooks and reference wallet implementations.",
+      "subcategory": "EUDI Wallet Implementations and Testing",
+      "tags": [
+        "eudi-wallet",
+        "large-scale-pilot",
+        "conformance"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/EWC Consortium",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "NOBID Consortium",
+      "url": "https://www.nobidconsortium.com/",
+      "description": "Nordic-Baltic eID Large Scale Pilot funded by the Commission, testing European Digital Identity Wallet payment and cross-border eID use cases across eight EU and EEA countries.",
+      "subcategory": "EUDI Wallet Implementations and Testing",
+      "tags": [
+        "large-scale-pilot",
+        "eudi-wallet",
+        "payments"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/NOBID Consortium",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "POTENTIAL Consortium",
+      "url": "https://www.digital-identity-wallet.eu/",
+      "description": "Commission-funded Large Scale Pilot co-led by France and Germany that tested the European Digital Identity Wallet across government, banking, telecom, mDL, signature and health use cases.",
+      "subcategory": "EUDI Wallet Implementations and Testing",
+      "tags": [
+        "large-scale-pilot",
+        "eudi-wallet"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/POTENTIAL Consortium",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "walt.id Identity",
+      "url": "https://github.com/walt-id/waltid-identity",
+      "description": "Austrian open-source issuer, wallet and verifier stack supporting OpenID4VCI, OpenID4VP, SD-JWT VC and mdoc formats used in European Digital Identity Wallet pilots.",
+      "subcategory": "EUDI Wallet Implementations and Testing",
+      "tags": [
+        "ssi",
+        "eudi-wallet",
+        "austria"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Austria/walt.id",
+      "hosting_note": "[Open Source]",
+      "license": "Apache-2.0",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "AusweisApp",
+      "url": "https://github.com/Governikus/AusweisApp2",
+      "description": "Germany's official open-source eID client for authenticating with the national identity card online function, connected to the German eIDAS node.",
+      "subcategory": "Signature and Trust-Service Tooling",
+      "tags": [
+        "eid",
+        "germany",
+        "authentication"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/Governikus",
+      "hosting_note": "[Open Source]",
+      "license": "EUPL-1.2",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "Autenticação.gov Middleware",
+      "url": "https://github.com/amagovpt/autenticacao.gov",
+      "description": "Portugal's official middleware for the Citizen Card and Chave Móvel Digital, supporting national authentication and qualified signature creation under eIDAS.",
+      "subcategory": "Signature and Trust-Service Tooling",
+      "tags": [
+        "portugal",
+        "eid",
+        "middleware"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Portugal/AMA",
+      "hosting_note": "[Open Source]",
+      "license": "EUPL-1.2",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "Belgian eID Middleware",
+      "url": "https://github.com/Fedict/eid-mw",
+      "description": "Belgium's official middleware maintained by the federal BOSA service for authentication and signing with the Belgian electronic identity card.",
+      "subcategory": "Signature and Trust-Service Tooling",
+      "tags": [
+        "belgium",
+        "eid",
+        "middleware"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Belgium/BOSA",
+      "hosting_note": "[Open Source]",
+      "license": "LGPL-3.0-only",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "Digital Signature Services (DSS)",
+      "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467109107/Digital+Signature+Service+-+DSS",
+      "description": "The European Commission's open-source DSS library implements eIDAS-aligned electronic signatures including PAdES.",
+      "subcategory": "Signature and Trust-Service Tooling",
+      "tags": [
+        "eidas",
+        "pades",
+        "signatures"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "DSS Documentation",
+      "url": "https://ec.europa.eu/digital-building-blocks/DSS/webapp-demo/doc/dss-documentation.html",
+      "description": "The DSS documentation specifies implementation and validation of eIDAS signature formats and trust lists.",
+      "subcategory": "Signature and Trust-Service Tooling",
+      "tags": [
+        "eidas",
+        "dss",
+        "validation"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "DSS Source Repository",
+      "url": "https://github.com/esig/dss",
+      "description": "Java framework for creating, extending and validating XAdES, CAdES, PAdES and JAdES advanced electronic signatures against eIDAS trust-service requirements.",
+      "subcategory": "Signature and Trust-Service Tooling",
+      "tags": [
+        "esignature",
+        "validation",
+        "java"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/European Commission",
+      "hosting_note": "[Open Source]",
+      "license": "LGPL-2.1-or-later",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "EUDI SD-JWT VC Library",
+      "url": "https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-sdjwt-kt",
+      "description": "Kotlin and JVM library implementing SD-JWT selectively disclosable verifiable credentials for European Digital Identity Wallet issuance and verification flows.",
+      "subcategory": "Signature and Trust-Service Tooling",
+      "tags": [
+        "sd-jwt",
+        "eudi-wallet",
+        "library"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/European Commission",
+      "hosting_note": "[Open Source]",
+      "license": "Apache-2.0",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "libdigidocpp",
+      "url": "https://github.com/open-eid/libdigidocpp",
+      "description": "Estonian C++ library maintained by RIA for creating and verifying XAdES-based signed documents used in Estonia's national eID and eIDAS trust services.",
+      "subcategory": "Signature and Trust-Service Tooling",
+      "tags": [
+        "estonia",
+        "xades",
+        "digital-signature"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Estonia/RIA",
+      "hosting_note": "[Open Source]",
+      "license": "LGPL-2.1-or-later",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "ETSI EN 319 411-1 Trust Service Provider Policy Requirements",
+      "url": "https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.04.01_60/en_31941101v010401p.pdf",
+      "description": "ETSI European Standard setting policy and security requirements for trust service providers issuing certificates under eIDAS, used in QTSP conformity assessment.",
+      "subcategory": "Trusted Lists and Conformity",
+      "tags": [
+        "qtsp",
+        "etsi",
+        "certificate-policy"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/ETSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "EU Trusted List Browser",
+      "url": "https://eidas.ec.europa.eu/efda/tl-browser/",
+      "description": "European Commission service for browsing EU and EEA national Trusted Lists and the List of Trusted Lists of qualified trust service providers under eIDAS.",
+      "subcategory": "Trusted Lists and Conformity",
+      "tags": [
+        "trusted-list",
+        "qtsp",
+        "conformity"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/European Commission",
+      "hosting_note": "[EU-Hosted]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "eIDAS Standards and Specifications",
+      "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467109093/Standards+and+specifications",
+      "description": "The Commission catalogue lists standards used to implement eIDAS electronic signatures and trust services.",
+      "subcategory": "eIDAS Technical Standards",
+      "tags": [
+        "eidas",
+        "etsi",
+        "trust-services"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "ENISA Overview of Standards Related to eIDAS",
+      "url": "https://www.enisa.europa.eu/sites/default/files/publications/ENISA%20Report%20-%20Overview%20of%20standards%20related%20to%20eIDAS.pdf",
+      "description": "ENISA maps technical standards relevant to implementation of eIDAS services.",
+      "subcategory": "eIDAS Technical Standards",
+      "tags": [
+        "eidas",
+        "standards",
+        "trust-services"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "ETSI EN 319 142-1 PAdES",
+      "url": "https://www.etsi.org/deliver/etsi_en/319100_319199/31914201/01.02.01_60/en_31914201v010201p.pdf",
+      "description": "ETSI European Standard specifying the PAdES baseline PDF signature formats used by eIDAS-compliant qualified signature and seal creation tools.",
+      "subcategory": "eIDAS Technical Standards",
+      "tags": [
+        "pades",
+        "etsi",
+        "pdf"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/ETSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "ETSI TR 119 460",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119400_119499/119460/01.01.01_60/tr_119460v010101p.pdf",
+      "description": "ETSI TR 119 460 provides implementation guidance for eIDAS trust-service validation.",
+      "subcategory": "eIDAS Technical Standards",
+      "tags": [
+        "eidas",
+        "etsi",
+        "validation"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/ETSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "ETSI TS 119 612 Trusted Lists",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119600_119699/119612/02.03.01_60/ts_119612v020301p.pdf",
+      "description": "ETSI specification defining the format and provisioning rules for the national Trusted Lists of qualified trust service providers mandated by eIDAS.",
+      "subcategory": "eIDAS Technical Standards",
+      "tags": [
+        "trusted-list",
+        "etsi"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/ETSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Identity & Trust (eIDAS)",
+      "name": "EUDI Wallet Architecture and Reference Framework",
+      "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework",
+      "description": "Technical specification defining the common architecture and functional requirements for the European Digital Identity Wallet under eIDAS 2.",
+      "subcategory": "eIDAS Technical Standards",
+      "tags": [
+        "eudi-wallet",
+        "arf",
+        "architecture"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/European Commission",
+      "license": "CC-BY-4.0",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "ANSSI Docker Container Security Recommendations",
+      "url": "https://messervices.cyber.gouv.fr/guides/recommandations-de-securite-relatives-au-deploiement-de-conteneurs-docker",
+      "description": "ANSSI technical guide setting security requirements for deploying and operating Docker containers, published on France's official MesServicesCyber platform.",
+      "subcategory": "EU-Hosted DevSecOps Tooling",
+      "tags": [
+        "docker",
+        "hardening",
+        "anssi"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "France/ANSSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "CLIP OS",
+      "url": "https://clip-os.org/en/",
+      "description": "Multi-level hardened Linux operating system developed and open-sourced by France's ANSSI, built on Gentoo Hardened for defence-in-depth workstation use.",
+      "subcategory": "EU-Hosted DevSecOps Tooling",
+      "tags": [
+        "hardened-os",
+        "linux",
+        "anssi",
+        "open-source"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "France/ANSSI",
+      "hosting_note": "[Open Source]",
+      "license": "LGPL-2.1-or-later",
+      "notes": "Development is archived; the published sources and hardening decisions remain a reference for sovereign workstation builds.",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "code.europa.eu",
+      "url": "https://code.europa.eu/",
+      "description": "The European Commission-hosted GitLab service provides EU-hosted source control and CI/CD for public-sector open-source projects.",
+      "subcategory": "EU-Hosted DevSecOps Tooling",
+      "tags": [
+        "gitlab",
+        "devsecops",
+        "public-sector"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[EU-Hosted]"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "SCS Standards and Compliance Test Suite",
+      "url": "https://github.com/SovereignCloudStack/standards",
+      "description": "Machine-readable Sovereign Cloud Stack standards and an automated compliance-check suite used to certify European providers as SCS-compatible IaaS or KaaS.",
+      "subcategory": "EU-Hosted DevSecOps Tooling",
+      "tags": [
+        "compliance",
+        "testing",
+        "certification",
+        "open-source"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/Sovereign Cloud Stack",
+      "hosting_note": "[Open Source]",
+      "license": "AGPL-3.0-only",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "Sovereign Cloud Stack",
+      "url": "https://sovereigncloudstack.org/",
+      "description": "German-originated open-source cloud stack built on OpenStack and Kubernetes with certifiable standards for federated, vendor-neutral sovereign cloud infrastructure in Europe.",
+      "subcategory": "EU-Hosted DevSecOps Tooling",
+      "tags": [
+        "cloud-stack",
+        "openstack",
+        "kubernetes",
+        "open-source"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/Open Source Business Alliance",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "Eclipse Dataspace Components Connector",
+      "url": "https://github.com/eclipse-edc/Connector",
+      "description": "Open-source control-plane and data-plane connector implementing the IDSA Dataspace Protocol, used as the reference building block for Gaia-X-aligned European data spaces including Catena-X.",
+      "subcategory": "Gaia-X Specifications and Architecture",
+      "tags": [
+        "dataspace",
+        "connector",
+        "open-source",
+        "idsa"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/Eclipse Foundation",
+      "hosting_note": "[Open Source]",
+      "license": "Apache-2.0",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "Eclipse Tractus-X",
+      "url": "https://github.com/eclipse-tractusx",
+      "description": "Eclipse Foundation open-source home for Catena-X and Manufacturing-X reference implementations, providing data-sovereignty and security components for the EU automotive data space.",
+      "subcategory": "Gaia-X Specifications and Architecture",
+      "tags": [
+        "catena-x",
+        "dataspace",
+        "manufacturing",
+        "open-source"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/Eclipse Foundation",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "Eclipse XFSC",
+      "url": "https://github.com/eclipse-xfsc",
+      "description": "Eclipse Foundation project providing open-source microservices (federated catalogue, policy agent, credential services) that implement Gaia-X federation services for interoperable data ecosystems.",
+      "subcategory": "Gaia-X Specifications and Architecture",
+      "tags": [
+        "gaia-x",
+        "federation",
+        "identity",
+        "open-source"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/Eclipse Foundation",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "Gaia-X Data Transfer Agent",
+      "url": "https://gaia-x.eu/from-standard-to-open-source-stack-implementing-trusted-data-transactions-with-the-gaia-x-framework-and-the-data-transfer-agent/",
+      "description": "The open-source Gaia-X Data Transfer Agent implements policy-controlled data transactions under the Gaia-X framework.",
+      "subcategory": "Gaia-X Specifications and Architecture",
+      "tags": [
+        "gaia-x",
+        "data-transfer",
+        "policy"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/Gaia-X",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "Gaia-X Digital Clearing House (GXDCH)",
+      "url": "https://gaia-x.eu/services-deliverables/digital-clearing-house/",
+      "description": "A federated network of execution nodes, operated by providers such as OVH and Proximus, that automatically verifies participants and services against Gaia-X compliance rules.",
+      "subcategory": "Gaia-X Specifications and Architecture",
+      "tags": [
+        "gaia-x",
+        "compliance",
+        "federation",
+        "trust"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/Gaia-X",
+      "hosting_note": "[EU-Hosted]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "Gaia-X Identity and Trust Architecture",
+      "url": "https://gaia-x.gitlab.io/technical-committee/federation-services/federation-service-specifications/L18_IDM_TA/idm_ta/",
+      "description": "The Gaia-X specification defines identity management and trust services for federated European cloud ecosystems.",
+      "subcategory": "Gaia-X Specifications and Architecture",
+      "tags": [
+        "gaia-x",
+        "identity",
+        "trust"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/Gaia-X",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "Gaia-X Trust Framework Architecture",
+      "url": "https://docs.gaia-x.eu/technical-committee/architecture-document/latest/trust_framework_architecture/",
+      "description": "This Gaia-X document defines trust-protocol and compliance mechanisms for Gaia-X participants.",
+      "subcategory": "Gaia-X Specifications and Architecture",
+      "tags": [
+        "gaia-x",
+        "trust",
+        "credentials"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/Gaia-X",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "IDS Reference Architecture Model",
+      "url": "https://internationaldataspaces.org/offers/reference-architecture/",
+      "description": "Reference architecture from the International Data Spaces Association in Dortmund defining the layers, security model and governance for sovereign decentralised data exchange in Europe.",
+      "subcategory": "Gaia-X Specifications and Architecture",
+      "tags": [
+        "dataspace",
+        "architecture",
+        "sovereignty"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "Germany/IDSA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "ACN Catalogo dei Servizi Cloud Qualificati",
+      "url": "https://www.acn.gov.it/portale/en/catalogo-delle-infrastrutture-digitali-e-dei-servizi-cloud",
+      "description": "Registry from Italy's National Cybersecurity Agency listing the qualified cloud infrastructures and IaaS, PaaS and SaaS services that Italian public administrations may procure.",
+      "subcategory": "National Sovereign Cloud Certification Schemes",
+      "tags": [
+        "cloud",
+        "certification",
+        "public-sector"
+      ],
+      "entry_type": "Certification Scheme",
+      "country_or_body": "Italy/ACN",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "Cloud Computing Compliance Criteria Catalogue (C5)",
+      "url": "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Empfehlungen-nach-Angriffszielen/Cloud-Computing/Kriterienkatalog-C5/kriterienkatalog-c5_node.html",
+      "description": "BSI's C5 catalogue defines auditable security criteria for cloud services used in Germany.",
+      "subcategory": "National Sovereign Cloud Certification Schemes",
+      "tags": [
+        "c5",
+        "cloud",
+        "assurance"
+      ],
+      "entry_type": "Certification Scheme",
+      "country_or_body": "Germany/BSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "EUCS Candidate Cloud Certification Scheme",
+      "url": "https://www.enisa.europa.eu/publications/eucs-cloud-service-scheme",
+      "description": "ENISA publishes the candidate EU cybersecurity certification scheme for cloud services.",
+      "subcategory": "National Sovereign Cloud Certification Schemes",
+      "tags": [
+        "eucs",
+        "cloud",
+        "certification"
+      ],
+      "entry_type": "Certification Scheme",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "European Commission Cloud Sovereignty Framework",
+      "url": "https://commission.europa.eu/document/download/09579818-64a6-4dd5-9577-446ab6219113_en",
+      "description": "The European Commission framework provides sovereignty criteria for cloud procurement.",
+      "subcategory": "National Sovereign Cloud Certification Schemes",
+      "tags": [
+        "cloud",
+        "sovereignty",
+        "procurement"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "PILAR",
+      "url": "https://pilar.ccn-cert.cni.es/",
+      "description": "Risk-analysis and management tool from Spain's National Cryptologic Centre with a module for verifying compliance with the Esquema Nacional de Seguridad.",
+      "subcategory": "National Sovereign Cloud Certification Schemes",
+      "tags": [
+        "ens",
+        "risk-analysis",
+        "compliance"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Spain/CCN-CERT",
+      "hosting_note": "[Commercial]",
+      "notes": "Free of charge for Spanish public administrations under a CCN licence, but the source code is not published.",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "SecNumCloud",
+      "url": "https://cyber.gouv.fr/enjeux-technologiques/cloud/",
+      "description": "ANSSI's SecNumCloud qualification page provides the French reference material for qualified cloud services.",
+      "subcategory": "National Sovereign Cloud Certification Schemes",
+      "tags": [
+        "secnumcloud",
+        "cloud",
+        "qualification"
+      ],
+      "entry_type": "Certification Scheme",
+      "country_or_body": "France/ANSSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "SecNumCloud Référentiels de Qualification",
+      "url": "https://cyber.gouv.fr/offre-de-service/solutions-certifiees-et-qualifiees/comprendre-levaluation-de-securite/qualification-de-produit-et-services/referentiels-qualification/",
+      "description": "ANSSI page publishing the SecNumCloud v3.2 requirements referential and evaluation template that French-qualified cloud providers must satisfy for sovereign cloud qualification.",
+      "subcategory": "National Sovereign Cloud Certification Schemes",
+      "tags": [
+        "secnumcloud",
+        "certification",
+        "cloud",
+        "anssi"
+      ],
+      "entry_type": "Certification Scheme",
+      "country_or_body": "France/ANSSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "European Union Public Licence Guidance",
+      "url": "https://interoperable-europe.ec.europa.eu/collection/eupl/how-use-eupl",
+      "description": "European Commission guidance on the EUPL, the copyleft licence adapted to EU law and set as the default for Commission-produced and national public-sector software.",
+      "subcategory": "Sovereign Infrastructure and Public Code",
+      "tags": [
+        "license",
+        "open-source",
+        "public-code"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "EuroStack Initiative",
+      "url": "https://eurostack.eu/",
+      "description": "Cross-party European coalition of companies, academics and policymakers coordinating investment and procurement policy for sovereign digital infrastructure across the technology stack.",
+      "subcategory": "Sovereign Infrastructure and Public Code",
+      "tags": [
+        "sovereignty",
+        "policy",
+        "infrastructure"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/EuroStack Coalition",
+      "confidence": "medium",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "openCode.de",
+      "url": "https://opencode.de/en",
+      "description": "GitLab-based platform run by ZenDiS on behalf of the German Federal Ministry for Digital Affairs where public administrations publish and share open-source public-sector software.",
+      "subcategory": "Sovereign Infrastructure and Public Code",
+      "tags": [
+        "public-code",
+        "gitlab",
+        "public-sector"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/ZenDiS",
+      "hosting_note": "[EU-Hosted]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Sovereign Cloud & DevSecOps",
+      "name": "openDesk",
+      "url": "https://www.opendesk.eu/en",
+      "description": "Open-source modular office and collaboration suite developed by ZenDiS as a sovereign alternative to proprietary productivity suites for German public administration.",
+      "subcategory": "Sovereign Infrastructure and Public Code",
+      "tags": [
+        "collaboration",
+        "open-source",
+        "public-sector"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/ZenDiS",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "EASA Part-IS",
+      "url": "https://www.easa.europa.eu/en/regulations/information-security",
+      "description": "EASA regulatory hub for Part-IS, Regulations (EU) 2023/203 and 2022/1645, mandating information-security risk management and incident reporting across EU aviation organisations.",
+      "subcategory": "Aerospace and Space Telemetry",
+      "tags": [
+        "aviation",
+        "part-is",
+        "easa"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/EASA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ENISA Space Threat Landscape 2025",
+      "url": "https://www.enisa.europa.eu/publications/enisa-space-threat-landscape-2025",
+      "description": "ENISA catalogues cyber threats and mitigations affecting European commercial satellite operations.",
+      "subcategory": "Aerospace and Space Telemetry",
+      "tags": [
+        "space",
+        "satellite",
+        "threat-landscape"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ENISA Space Threat Landscape Repository",
+      "url": "https://github.com/enisaeu/Space-Threat-Landscape",
+      "description": "ENISA's open-source repository contains the data and material supporting its European space threat landscape.",
+      "subcategory": "Aerospace and Space Telemetry",
+      "tags": [
+        "space",
+        "threat-model",
+        "dataset"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ESA Cyber Resilience Framework",
+      "url": "https://www.esa.int/About_Us/Cyber_resilience_at_ESA",
+      "description": "ESA documents the cybersecurity governance and resilience approach used for European space missions and infrastructure.",
+      "subcategory": "Aerospace and Space Telemetry",
+      "tags": [
+        "space",
+        "resilience",
+        "esa"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Europe/ESA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ESA In-Orbit Cybersecurity Demonstration",
+      "url": "https://www.esa.int/Enabling_Support/Operations/ESA_oversees_in-orbit_cybersecurity_demonstration",
+      "description": "ESA account of a supervised in-orbit ethical-hacking exercise on the OPS-SAT nanosatellite, used as a live testbed for spacecraft attack and defence techniques.",
+      "subcategory": "Aerospace and Space Telemetry",
+      "tags": [
+        "space",
+        "satellite",
+        "esa"
+      ],
+      "entry_type": "Report",
+      "country_or_body": "EU/ESA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "EUROCAE ED-203A",
+      "url": "https://www.eurocae.net/product/ed-203a-airworthiness-security-methods-and-considerations/",
+      "description": "EUROCAE standard from working group WG-72 defining methods, risk assessment and security assurance levels for demonstrating aircraft airworthiness security compliance in Europe.",
+      "subcategory": "Aerospace and Space Telemetry",
+      "tags": [
+        "aviation",
+        "airworthiness",
+        "eurocae"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/EUROCAE",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "Galileo OSNMA",
+      "url": "https://www.euspa.europa.eu/galileo-osnma",
+      "description": "EUSPA service page for Galileo Open Service Navigation Message Authentication, the EU GNSS capability that cryptographically authenticates Galileo navigation signals against spoofing.",
+      "subcategory": "Aerospace and Space Telemetry",
+      "tags": [
+        "gnss",
+        "galileo",
+        "anti-spoofing",
+        "euspa"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/EUSPA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "galileo-osnma",
+      "url": "https://github.com/daniestevez/galileo-osnma",
+      "description": "Rust implementation of the Galileo OSNMA protocol built against the EUSPA interface control document, verifying Galileo navigation message authenticity including on microcontrollers.",
+      "subcategory": "Aerospace and Space Telemetry",
+      "tags": [
+        "gnss",
+        "galileo",
+        "osnma",
+        "rust"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Spain/Community",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "OpenSatRange",
+      "url": "https://ceur-ws.org/Vol-3978/regular-s3-04.pdf",
+      "description": "OpenSatRange is a European academic open-source cyber-range design for satellite-system security exercises.",
+      "subcategory": "Aerospace and Space Telemetry",
+      "tags": [
+        "space",
+        "cyber-range",
+        "satellite"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Europe/Academia",
+      "confidence": "medium",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ACER Cybersecurity for Electricity",
+      "url": "https://www.acer.europa.eu/electricity/cybersecurity",
+      "description": "ACER's page on its oversight role under the EU Network Code on Cybersecurity for electricity, Regulation (EU) 2024/1366, which sets sector rules for cross-border electricity cyber risk.",
+      "subcategory": "Energy and Industrial Control Systems",
+      "tags": [
+        "nccs",
+        "electricity",
+        "acer"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/ACER",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ANSSI ICS Classification Method",
+      "url": "https://messervices.cyber.gouv.fr/documents-guides/anssi-guide-industrial_control_systems-classification_method_v2-0.pdf",
+      "description": "ANSSI's method classifies industrial control systems by cyber risk to select proportionate security measures.",
+      "subcategory": "Energy and Industrial Control Systems",
+      "tags": [
+        "ics",
+        "risk",
+        "classification"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "France/ANSSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ANSSI ICS Detailed Measures",
+      "url": "https://messervices.cyber.gouv.fr/documents-guides/Guide_Systemes_industriels__Mesures_detaillees_v2.pdf",
+      "description": "ANSSI provides prescriptive cybersecurity measures for industrial control systems.",
+      "subcategory": "Energy and Industrial Control Systems",
+      "tags": [
+        "ics",
+        "controls",
+        "ot"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "France/ANSSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "BSI ICS-Security-Kompendium",
+      "url": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/ICS/ICS-Security_kompendium_pdf.html",
+      "description": "BSI guideline covering security fundamentals, applicable standards and best-practice measures for operators, integrators and manufacturers of industrial control systems in Germany.",
+      "subcategory": "Energy and Industrial Control Systems",
+      "tags": [
+        "ics",
+        "ot",
+        "bsi",
+        "german-language"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Germany/BSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ENISA ICS-CERT Good Practice Guide",
+      "url": "https://www.enisa.europa.eu/publications/good-practice-guide-for-certs-in-the-area-of-industrial-control-systems",
+      "description": "ENISA guidance defines incident-response practices for CSIRTs serving European industrial control systems.",
+      "subcategory": "Energy and Industrial Control Systems",
+      "tags": [
+        "ics",
+        "csirt",
+        "incident-response"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ENTSO-E Network Code on Cybersecurity",
+      "url": "https://www.entsoe.eu/network_codes/nccs/",
+      "description": "ENTSO-E implementation hub for the EU Network Code on Cybersecurity, covering electricity-sector risk assessment methodologies, minimum requirements and crisis management.",
+      "subcategory": "Energy and Industrial Control Systems",
+      "tags": [
+        "electricity",
+        "nccs",
+        "grid"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/ENTSO-E",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "NCSC-NL Security Check Procesautomatisering",
+      "url": "https://www.ncsc.nl/tools/security-check-procesautomatisering",
+      "description": "Self-assessment tool from the Dutch National Cyber Security Centre producing a tailored checklist of protective measures for organisations running ICS and OT process automation.",
+      "subcategory": "Energy and Industrial Control Systems",
+      "tags": [
+        "ot",
+        "self-assessment",
+        "dutch-language"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Netherlands/NCSC-NL",
+      "hosting_note": "[EU-Hosted]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ASCAD",
+      "url": "https://github.com/ANSSI-FR/ASCAD",
+      "description": "ANSSI and CEA publish ASCAD datasets, scripts, and models for benchmarking side-channel analysis of cryptographic implementations.",
+      "subcategory": "Hardware and Embedded Security Auditing",
+      "tags": [
+        "side-channel",
+        "dataset",
+        "deep-learning"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "France/ANSSI and CEA",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "FAIL*",
+      "url": "https://github.com/danceos/fail",
+      "description": "FAIL* is an open-source fault-injection framework originating at TU Dortmund for assessing software-implemented hardware fault tolerance.",
+      "subcategory": "Hardware and Embedded Security Auditing",
+      "tags": [
+        "fault-injection",
+        "hardware",
+        "testing"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/TU Dortmund",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "FISSC",
+      "url": "https://lazart.gricad-pages.univ-grenoble-alpes.fr/fissc/",
+      "description": "Collection of hardened secure-application implementations from Verimag at Université Grenoble Alpes, used to evaluate robustness against fault-injection attacks.",
+      "subcategory": "Hardware and Embedded Security Auditing",
+      "tags": [
+        "fault-injection",
+        "benchmark",
+        "academic"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "France/Université Grenoble Alpes",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "lascar",
+      "url": "https://github.com/Ledger-Donjon/lascar",
+      "description": "Python library from Ledger's Donjon security lab in Paris for running and visualising power and electromagnetic side-channel analysis on embedded devices.",
+      "subcategory": "Hardware and Embedded Security Auditing",
+      "tags": [
+        "side-channel",
+        "python",
+        "embedded"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "France/Ledger Donjon",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "pyecsca",
+      "url": "https://github.com/J08nY/pyecsca",
+      "description": "Masaryk University-supported pyecsca is an open-source toolkit for side-channel analysis of elliptic-curve implementations.",
+      "subcategory": "Hardware and Embedded Security Auditing",
+      "tags": [
+        "side-channel",
+        "ecc",
+        "reverse-engineering"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Czechia/Masaryk University",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "rainbow",
+      "url": "https://github.com/Ledger-Donjon/rainbow",
+      "description": "Unicorn-based simulator from Ledger's Donjon lab in Paris that traces embedded binary execution to model side-channel leakage and fault injection without physical hardware.",
+      "subcategory": "Hardware and Embedded Security Auditing",
+      "tags": [
+        "fault-injection",
+        "simulator",
+        "embedded"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "France/Ledger Donjon",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "SCALib",
+      "url": "https://github.com/simple-crypto/scalib",
+      "description": "UCLouvain's open-source SCALib provides algorithms for side-channel security evaluation.",
+      "subcategory": "Hardware and Embedded Security Auditing",
+      "tags": [
+        "side-channel",
+        "cryptography",
+        "evaluation"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Belgium/UCLouvain",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "scared",
+      "url": "https://github.com/eshard/scared",
+      "description": "Python framework from French company eShard for differential and correlation power-analysis side-channel attacks against cryptographic hardware, used in European evaluation labs.",
+      "subcategory": "Hardware and Embedded Security Auditing",
+      "tags": [
+        "side-channel",
+        "power-analysis",
+        "python"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "France/eShard",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ShowTime",
+      "url": "https://github.com/KULeuven-COSIC/ShowTime",
+      "description": "Research toolkit from KU Leuven's COSIC group for amplifying and exploiting CPU microarchitectural timing side-channels on embedded and general-purpose processors.",
+      "subcategory": "Hardware and Embedded Security Auditing",
+      "tags": [
+        "timing-attack",
+        "microarchitecture",
+        "academic"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Belgium/KU Leuven",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "vRTLmod",
+      "url": "https://github.com/tum-ei-eda/vrtlmod",
+      "description": "TU Munich's open-source vRTLmod tool enables fault injection in Verilator RTL simulations.",
+      "subcategory": "Hardware and Embedded Security Auditing",
+      "tags": [
+        "fault-injection",
+        "rtl",
+        "verilator"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/TU Munich",
+      "confidence": "medium",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "BIMCO Cyber Risk Management Position",
+      "url": "https://www.bimco.org/regulatory-affairs/policy-positions/cyber-risk-management/",
+      "description": "Policy position from the Copenhagen-based shipping association BIMCO endorsing the Guidelines on Cyber Security Onboard Ships used across EU-flagged fleets.",
+      "subcategory": "Maritime and Port Security",
+      "tags": [
+        "maritime",
+        "shipping",
+        "risk-management"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Denmark/BIMCO",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "EMSA Guidance on Cybersecurity Onboard Ships",
+      "url": "https://www.emsa.europa.eu/publications/inventories/item/5074-guidance-on-how-to-address-cybersecurity-onboard-ships-during-audits,-controls,-verifications-and-inspections.html",
+      "description": "European Maritime Safety Agency guidance for inspectors assessing cybersecurity onboard EU-flagged ships during audits, controls, verifications and inspections.",
+      "subcategory": "Maritime and Port Security",
+      "tags": [
+        "maritime",
+        "inspection",
+        "emsa"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/EMSA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ENISA Cyber Risk Management for Ports",
+      "url": "https://www.enisa.europa.eu/publications/guidelines-cyber-risk-management-for-ports",
+      "description": "ENISA provides a risk-management methodology tailored to European port ecosystems.",
+      "subcategory": "Maritime and Port Security",
+      "tags": [
+        "ports",
+        "risk-management",
+        "supply-chain"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ENISA Port Cybersecurity Good Practices",
+      "url": "https://www.enisa.europa.eu/publications/port-cybersecurity-good-practices-for-cybersecurity-in-the-maritime-sector",
+      "description": "ENISA identifies cybersecurity practices for European port authorities and operators.",
+      "subcategory": "Maritime and Port Security",
+      "tags": [
+        "maritime",
+        "ports",
+        "ot"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "CLC/TS 50701 Railway Cybersecurity",
+      "url": "https://www.cencenelec.eu/news-events/news/2021/eninthespotlight/2021-06-10-new-clc-ts-50701-railways-cybersecurity/",
+      "description": "CENELEC technical specification defining cybersecurity risk assessment, security design and system-acceptance requirements for European railway signalling, rolling stock and fixed installations.",
+      "subcategory": "Transport and Automotive",
+      "tags": [
+        "rail",
+        "cenelec",
+        "ts-50701"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/CENELEC",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ENISA Cybersecurity and AI in Autonomous Driving",
+      "url": "https://www.enisa.europa.eu/publications/enisa-jrc-cybersecurity-challenges-in-the-uptake-of-artificial-intelligence-in-autonomous-driving",
+      "description": "ENISA and JRC map cybersecurity risks and mitigations for AI-enabled autonomous driving in Europe.",
+      "subcategory": "Transport and Automotive",
+      "tags": [
+        "automotive",
+        "ai",
+        "risk"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ENISA Good Practices for Smart Car Security",
+      "url": "https://www.enisa.europa.eu/publications/smart-cars",
+      "description": "ENISA provides cybersecurity controls for connected and automated vehicles in the European market.",
+      "subcategory": "Transport and Automotive",
+      "tags": [
+        "automotive",
+        "connected-cars",
+        "controls"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "ERA Cybersecurity in Railways",
+      "url": "https://www.era.europa.eu/domains/cybersecurity-railways",
+      "description": "European Union Agency for Railways portal tracking its joint work with ENISA on cybersecurity frameworks and guidance for the digitalisation of EU rail.",
+      "subcategory": "Transport and Automotive",
+      "tags": [
+        "rail",
+        "era",
+        "enisa"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ERA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "EVITA Project",
+      "url": "https://www.evita-project.org/",
+      "description": "EU FP7-funded research project that produced a reference security architecture protecting automotive on-board network components from tampering.",
+      "subcategory": "Transport and Automotive",
+      "tags": [
+        "automotive",
+        "architecture",
+        "eu-funded"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/FP7",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cyber-Physical Security",
+      "name": "UN Regulation No. 155",
+      "url": "https://eur-lex.europa.eu/eli/reg/2021/387/oj/eng",
+      "description": "Official Journal text of UN Regulation No. 155 on vehicle cybersecurity management systems, mandatory for EU type approval of category M and N vehicles.",
+      "subcategory": "Transport and Automotive",
+      "tags": [
+        "automotive",
+        "type-approval",
+        "csms",
+        "unece"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/UNECE",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Telecom, 5G & Network Infrastructure Security",
+      "name": "BSI NESAS-CCS-GI",
+      "url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Zertifizierung-und-Anerkennung/Zertifizierung-von-Produkten/Zertifizierung-nach-NESAS/NESAS-CCS-GI_node.html",
+      "description": "BSI's NESAS-CCS-GI scheme evaluates security of 5G network products for the German market.",
+      "subcategory": "5G and Mobile Network Security",
+      "tags": [
+        "5g",
+        "nesas",
+        "certification"
+      ],
+      "entry_type": "Certification Scheme",
+      "country_or_body": "Germany/BSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Telecom, 5G & Network Infrastructure Security",
+      "name": "BSI TR-03163 Security in Telecommunications Infrastructure",
+      "url": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03163/BSI-TR-03163.pdf?__blob=publicationFile&v=7",
+      "description": "BSI TR-03163 specifies security requirements for telecommunications infrastructure used in German 5G networks.",
+      "subcategory": "5G and Mobile Network Security",
+      "tags": [
+        "5g",
+        "bsi",
+        "requirements"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "Germany/BSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Telecom, 5G & Network Infrastructure Security",
+      "name": "ENISA 5G Security Controls Matrix",
+      "url": "https://www.enisa.europa.eu/publications/5g-security-controls-matrix",
+      "description": "ENISA maps 5G threats to security controls supporting implementation of the EU 5G Toolbox.",
+      "subcategory": "5G and Mobile Network Security",
+      "tags": [
+        "5g",
+        "controls",
+        "threats"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Telecom, 5G & Network Infrastructure Security",
+      "name": "ENISA 5G Supplement under the EECC",
+      "url": "https://www.enisa.europa.eu/publications/5g-supplement-security-measures-under-eecc",
+      "description": "ENISA specifies security measures for 5G operators under the European Electronic Communications Code.",
+      "subcategory": "5G and Mobile Network Security",
+      "tags": [
+        "5g",
+        "eecc",
+        "telecom"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Telecom, 5G & Network Infrastructure Security",
+      "name": "EU 5G Security Toolbox",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/eu-toolbox-5g-security",
+      "description": "The EU 5G Toolbox defines coordinated strategic and technical risk-mitigation measures for 5G networks.",
+      "subcategory": "5G and Mobile Network Security",
+      "tags": [
+        "5g",
+        "toolbox",
+        "risk"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/NIS Cooperation Group",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Telecom, 5G & Network Infrastructure Security",
+      "name": "ENISA Undersea Cables",
+      "url": "https://www.enisa.europa.eu/publications/undersea-cables",
+      "description": "ENISA provides technical guidance for national authorities supervising undersea cable security.",
+      "subcategory": "Fixed and Submarine Cable Infrastructure Security",
+      "tags": [
+        "undersea-cables",
+        "threats",
+        "resilience"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Telecom, 5G & Network Infrastructure Security",
+      "name": "EU Recommendation on Submarine Cable Security",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/recommendation-security-and-resilience-submarine-cable-infrastructures",
+      "description": "This EU recommendation sets a coordinated approach to the security and resilience of submarine cable infrastructure.",
+      "subcategory": "Fixed and Submarine Cable Infrastructure Security",
+      "tags": [
+        "submarine-cables",
+        "resilience",
+        "critical-infrastructure"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Telecom, 5G & Network Infrastructure Security",
+      "name": "EU Report on Submarine Cable Resilience",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/report-security-and-resilience-eu-submarine-cable-infrastructures",
+      "description": "This EU report assesses the security and resilience of submarine cable infrastructure.",
+      "subcategory": "Fixed and Submarine Cable Infrastructure Security",
+      "tags": [
+        "submarine-cables",
+        "risk-assessment",
+        "resilience"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Telecom, 5G & Network Infrastructure Security",
+      "name": "EU Submarine Cable Security Toolbox",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/submarine-cable-security-toolbox-and-cable-projects-european-interest",
+      "description": "The European Commission publishes an EU toolbox for submarine-cable security and cable projects of European interest.",
+      "subcategory": "Fixed and Submarine Cable Infrastructure Security",
+      "tags": [
+        "submarine-cables",
+        "toolbox",
+        "risk"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Telecom, 5G & Network Infrastructure Security",
+      "name": "EU Report on Cybersecurity of Open RAN",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/cybersecurity-open-radio-access-networks",
+      "description": "The EU report identifies Open RAN security risks and mitigation measures in the context of the 5G Toolbox.",
+      "subcategory": "Open RAN and 6G Security",
+      "tags": [
+        "open-ran",
+        "5g",
+        "risk"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/NIS Cooperation Group",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "EUCC Agreed Cryptographic Mechanisms",
+      "url": "https://certification.enisa.europa.eu/document/download/f4657490-9757-4a97-8deb-fd4d6a1358ee_en?filename=EUCC_guidelines_Agreed+Cryptographic+Mechanisms+v2.pdf",
+      "description": "ENISA EUCC scheme document defining the cryptographic mechanisms accepted by all national certification authorities for EU Common Criteria certification.",
+      "subcategory": "Common Criteria and EUCC Certification",
+      "tags": [
+        "eucc",
+        "mechanisms",
+        "enisa"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "EUCC State-of-the-Art Documents",
+      "url": "https://certification.enisa.europa.eu/publications/eucc-state-art-documents_en",
+      "description": "ENISA collection of technical documents harmonising EUCC evaluation methods for smart cards, integrated circuits and hardware security devices across the EU.",
+      "subcategory": "Common Criteria and EUCC Certification",
+      "tags": [
+        "eucc",
+        "evaluation",
+        "hardware"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "ANSSI Guide de sélection d'algorithmes cryptographiques",
+      "url": "https://messervices.cyber.gouv.fr/documents-guides/anssi-guide-selection_crypto-1.0.pdf",
+      "description": "ANSSI reference guide recommending approved cryptographic algorithms, operating modes and key sizes for developers and administrators in France.",
+      "subcategory": "European Cryptographic Recommendations",
+      "tags": [
+        "anssi",
+        "algorithms",
+        "french-language"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "France/ANSSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "ANSSI Views on the Post-Quantum Cryptography Transition",
+      "url": "https://messervices.cyber.gouv.fr/guides/en-anssi-views-post-quantum-cryptography-transition",
+      "description": "ANSSI position paper setting a phased timeline for migrating French systems to hybrid and then post-quantum cryptography.",
+      "subcategory": "European Cryptographic Recommendations",
+      "tags": [
+        "anssi",
+        "pqc",
+        "hybrid"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "France/ANSSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "BSI TR-02102-1",
+      "url": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-1.pdf",
+      "description": "BSI technical guideline giving annually updated recommendations on cryptographic algorithms and minimum key lengths, referenced across German and EU certification work.",
+      "subcategory": "European Cryptographic Recommendations",
+      "tags": [
+        "bsi",
+        "key-lengths",
+        "algorithms"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "Germany/BSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "Kryptografie quantensicher gestalten",
+      "url": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Broschueren/Kryptografie-quantensicher-gestalten.html",
+      "description": "BSI publication explaining quantum-computing risk to cryptography and outlining Germany's recommended migration path to quantum-safe algorithms.",
+      "subcategory": "European Cryptographic Recommendations",
+      "tags": [
+        "bsi",
+        "pqc",
+        "german-language"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Germany/BSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "SOG-IS Agreed Cryptographic Mechanisms",
+      "url": "https://www.sogis.eu/documents/cc/crypto/SOGIS-Agreed-Cryptographic-Mechanisms-1.3.pdf",
+      "description": "SOG-IS Crypto Working Group document specifying the cryptographic mechanisms accepted for Common Criteria evaluations across participating European states.",
+      "subcategory": "European Cryptographic Recommendations",
+      "tags": [
+        "sog-is",
+        "common-criteria",
+        "mechanisms"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "EU/SOG-IS",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "CrypTool",
+      "url": "https://www.cryptool.org/en/",
+      "description": "Open-source e-learning platform for cryptography and cryptanalysis hosted by the Research Institute CODE at the Bundeswehr University Munich.",
+      "subcategory": "Open-Source Cryptographic Implementations",
+      "tags": [
+        "education",
+        "cryptanalysis",
+        "germany"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/Universität der Bundeswehr München",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "CRYSTALS",
+      "url": "https://pq-crystals.org/",
+      "description": "Reference implementations of the Kyber KEM and Dilithium signature scheme from a largely European team spanning CWI, ENS Lyon, Radboud University, Ruhr University Bochum and IBM Research Zurich.",
+      "subcategory": "Open-Source Cryptographic Implementations",
+      "tags": [
+        "pqc",
+        "kyber",
+        "dilithium"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Netherlands/Radboud University",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "eBACS",
+      "url": "https://bench.cr.yp.to/results-sign.html",
+      "description": "Benchmarking site originating in the EU ECRYPT and VAMPIRE projects and run from TU Eindhoven, comparing public-key and post-quantum signature implementations.",
+      "subcategory": "Open-Source Cryptographic Implementations",
+      "tags": [
+        "benchmarking",
+        "ecrypt",
+        "signatures"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Netherlands/TU Eindhoven",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "FALCON",
+      "url": "https://falcon-sign.info/",
+      "description": "Post-quantum signature scheme with a reference implementation from a design team including French researchers, selected for standardisation and tracked in EU migration guidance.",
+      "subcategory": "Open-Source Cryptographic Implementations",
+      "tags": [
+        "pqc",
+        "signature",
+        "falcon"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "France/Multi-institution",
+      "hosting_note": "[Open Source]",
+      "notes": "Institutional affiliations are not listed on the project page; European involvement is established through the designer list.",
+      "confidence": "medium",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "HACL*",
+      "url": "https://github.com/hacl-star/hacl-star",
+      "description": "Formally verified cryptographic library from Inria's Project Everest providing memory-safe and side-channel resistant implementations of modern primitives.",
+      "subcategory": "Open-Source Cryptographic Implementations",
+      "tags": [
+        "formal-verification",
+        "inria",
+        "library"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "France/Inria",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "pqm4",
+      "url": "https://github.com/mupq/pqm4",
+      "description": "Benchmarking and testing suite from Radboud University, descended from the EU Horizon 2020 PQCRYPTO project, for post-quantum algorithms on ARM Cortex-M4 microcontrollers.",
+      "subcategory": "Open-Source Cryptographic Implementations",
+      "tags": [
+        "pqc",
+        "embedded",
+        "benchmarking"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Netherlands/Radboud University",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "SPHINCS+",
+      "url": "https://sphincs.org/",
+      "description": "Stateless hash-based signature scheme led by researchers at TU Eindhoven, Radboud University, MPI-SP and Graz University of Technology, now part of the post-quantum standard set.",
+      "subcategory": "Open-Source Cryptographic Implementations",
+      "tags": [
+        "pqc",
+        "hash-based",
+        "signature"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Netherlands/TU Eindhoven",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "ENISA Post-Quantum Cryptography Report",
+      "url": "https://www.enisa.europa.eu/publications/post-quantum-cryptography-current-state-and-quantum-mitigation",
+      "description": "ENISA technical report assessing the standardisation status of post-quantum algorithms and proposing hybrid mitigation strategies for EU organisations.",
+      "subcategory": "Post-Quantum Transition Policy",
+      "tags": [
+        "pqc",
+        "enisa",
+        "hybrid"
+      ],
+      "entry_type": "Report",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "EuroQCI",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/quantum",
+      "description": "European Commission and ESA initiative, signed by all 27 Member States, to build an EU-wide quantum key distribution communication infrastructure.",
+      "subcategory": "Post-Quantum Transition Policy",
+      "tags": [
+        "qkd",
+        "quantum",
+        "infrastructure"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "PQC Coordinated Implementation Roadmap",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/coordinated-implementation-roadmap-transition-post-quantum-cryptography",
+      "description": "First deliverable of the NIS Cooperation Group's post-quantum work stream, setting milestones from 2026 to 2035 for Member States to migrate critical infrastructure.",
+      "subcategory": "Post-Quantum Transition Policy",
+      "tags": [
+        "pqc",
+        "roadmap",
+        "critical-infrastructure"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/NIS Cooperation Group",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "PQCRYPTO",
+      "url": "https://pqcrypto.eu.org/",
+      "description": "EU Horizon 2020 project coordinated by TU Eindhoven that designed and benchmarked the post-quantum public-key systems underpinning much of the European PQC tooling ecosystem.",
+      "subcategory": "Post-Quantum Transition Policy",
+      "tags": [
+        "pqc",
+        "horizon-2020",
+        "research"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Netherlands/TU Eindhoven",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Cryptography, Certification & Post-Quantum Readiness",
+      "name": "Recommendation (EU) 2024/1101 on Post-Quantum Cryptography",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/recommendation-coordinated-implementation-roadmap-transition-post-quantum-cryptography",
+      "description": "European Commission recommendation calling on Member States to adopt a coordinated roadmap for moving public administration and critical infrastructure to post-quantum cryptography.",
+      "subcategory": "Post-Quantum Transition Policy",
+      "tags": [
+        "pqc",
+        "eu-policy",
+        "roadmap"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "CERT-EU Security Advisories",
+      "url": "https://cert.europa.eu/publications/security-advisories/2026",
+      "description": "CERT-EU publishes actionable security advisories for EU institutions and the wider European CSIRT community.",
+      "subcategory": "Advisory Feeds and Reports",
+      "tags": [
+        "advisories",
+        "cert-eu",
+        "vulnerabilities"
+      ],
+      "entry_type": "Feed",
+      "country_or_body": "EU/CERT-EU",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "CERT-FR Security Advisories",
+      "url": "https://www.cert.ssi.gouv.fr/avis/",
+      "description": "Continuously updated advisory feed published by CERT-FR, the operational arm of France's national cybersecurity agency ANSSI.",
+      "subcategory": "Advisory Feeds and Reports",
+      "tags": [
+        "advisories",
+        "anssi",
+        "cert-fr"
+      ],
+      "entry_type": "Feed",
+      "country_or_body": "France/CERT-FR",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "ENISA NIS360",
+      "url": "https://www.enisa.europa.eu/enisa-nis360-2026",
+      "description": "Annual ENISA report assessing the cybersecurity maturity and criticality of the sectors of high criticality listed in Annex I of the NIS2 Directive.",
+      "subcategory": "Advisory Feeds and Reports",
+      "tags": [
+        "nis2",
+        "enisa",
+        "sector-maturity"
+      ],
+      "entry_type": "Report",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "ENISA Threat Landscape",
+      "url": "https://www.enisa.europa.eu/publications/enisa-threat-landscape-2025",
+      "description": "ENISA's annual analysis of cybersecurity incidents observed across the EU, summarising the prime threats and trends for the reporting period.",
+      "subcategory": "Advisory Feeds and Reports",
+      "tags": [
+        "annual-report",
+        "enisa",
+        "threat-landscape"
+      ],
+      "entry_type": "Report",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "EU-CyCLONe",
+      "url": "https://www.enisa.europa.eu/topics/eu-incident-response-and-cyber-crisis-management/eu-cyclone",
+      "description": "The EU Cyber Crisis Liaison Organisation Network formalised by NIS2 Article 16, through which ENISA supports Member State crisis authorities with shared situational awareness.",
+      "subcategory": "Advisory Feeds and Reports",
+      "tags": [
+        "crisis-management",
+        "nis2",
+        "enisa"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "NCSC-NL Security Advisories CSAF Feed",
+      "url": "https://advisories.ncsc.nl/",
+      "description": "NCSC-NL publishes machine-readable CSAF security advisories.",
+      "subcategory": "Advisory Feeds and Reports",
+      "tags": [
+        "csaf",
+        "advisories",
+        "vulnerabilities"
+      ],
+      "entry_type": "Feed",
+      "country_or_body": "Netherlands/NCSC-NL",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "ADTimeline",
+      "url": "https://github.com/ANSSI-FR/ADTimeline",
+      "description": "PowerShell forensic tool from ANSSI that reconstructs a timeline of Active Directory object changes from replication metadata during incident investigations.",
+      "subcategory": "Incident Response and Forensics",
+      "tags": [
+        "active-directory",
+        "forensics",
+        "anssi"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "France/ANSSI",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "AIL Framework",
+      "url": "https://github.com/CIRCL/AIL-Framework",
+      "description": "CIRCL's open-source AIL framework supports analysis of information leaks and threat-intelligence sources.",
+      "subcategory": "Incident Response and Forensics",
+      "tags": [
+        "ail",
+        "threat-intelligence",
+        "leaks"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Luxembourg/CIRCL",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "CIRCL hashlookup",
+      "url": "https://www.circl.lu/services/hashlookup/",
+      "description": "Public API from Luxembourg's national CSIRT for checking file hashes against known-file databases such as the NIST NSRL during evidence triage.",
+      "subcategory": "Incident Response and Forensics",
+      "tags": [
+        "hash-database",
+        "circl",
+        "forensics"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Luxembourg/CIRCL",
+      "hosting_note": "[EU-Hosted]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "CIRCL Passive DNS",
+      "url": "https://www.circl.lu/services/passive-dns/",
+      "description": "Historical DNS record database with a REST API, run by Luxembourg's national CSIRT and used across the EU CSIRT community for forensic pivoting.",
+      "subcategory": "Incident Response and Forensics",
+      "tags": [
+        "passive-dns",
+        "circl",
+        "forensics"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Luxembourg/CIRCL",
+      "hosting_note": "[EU-Hosted]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "CIRCL Passive SSL",
+      "url": "https://www.circl.lu/services/passive-ssl/",
+      "description": "Searchable historical database of X.509 certificates observed per IP address, run by Luxembourg's national CSIRT for pivoting during investigations.",
+      "subcategory": "Incident Response and Forensics",
+      "tags": [
+        "passive-ssl",
+        "circl",
+        "certificates"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Luxembourg/CIRCL",
+      "hosting_note": "[EU-Hosted]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "DFIR-O365RC",
+      "url": "https://github.com/ANSSI-FR/DFIR-O365RC",
+      "description": "Forensic toolset from ANSSI for collecting Microsoft 365 unified audit logs and Entra ID data when investigating cloud identity compromise.",
+      "subcategory": "Incident Response and Forensics",
+      "tags": [
+        "microsoft-365",
+        "forensics",
+        "anssi"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "France/ANSSI",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "DRAKVUF Sandbox",
+      "url": "https://github.com/CERT-Polska/drakvuf-sandbox",
+      "description": "Agentless black-box malware analysis sandbox from CERT Polska built on the DRAKVUF hypervisor-based introspection engine.",
+      "subcategory": "Malware Analysis and Sandboxes",
+      "tags": [
+        "sandbox",
+        "malware-analysis",
+        "cert-polska"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Poland/CERT Polska",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "Karton",
+      "url": "https://github.com/CERT-Polska/karton",
+      "description": "Distributed task-pipeline framework from CERT Polska used to chain malware analysis backends such as DRAKVUF Sandbox and MWDB Core.",
+      "subcategory": "Malware Analysis and Sandboxes",
+      "tags": [
+        "orchestration",
+        "malware-pipeline",
+        "cert-polska"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Poland/CERT Polska",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "Lookyloo",
+      "url": "https://github.com/Lookyloo/lookyloo",
+      "description": "Web capture tool from CIRCL Luxembourg that records and visually maps the domains and redirects a page contacts, used for phishing and malicious-site analysis.",
+      "subcategory": "Malware Analysis and Sandboxes",
+      "tags": [
+        "web-capture",
+        "phishing",
+        "circl"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Luxembourg/CIRCL",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "malduck",
+      "url": "https://github.com/CERT-Polska/malduck",
+      "description": "Python library from CERT Polska providing cryptography, decompression and memory-model helpers for building malware configuration extractors.",
+      "subcategory": "Malware Analysis and Sandboxes",
+      "tags": [
+        "malware-config",
+        "python",
+        "cert-polska"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Poland/CERT Polska",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "MWDB Core",
+      "url": "https://github.com/CERT-Polska/mwdb-core",
+      "description": "Malware sample and configuration repository from CERT Polska with a REST API for storing, tracking and sharing analysis artefacts between CSIRTs.",
+      "subcategory": "Malware Analysis and Sandboxes",
+      "tags": [
+        "malware-repository",
+        "cert-polska",
+        "api"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Poland/CERT Polska",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "Pandora",
+      "url": "https://github.com/pandora-analysis/pandora",
+      "description": "Analysis framework from CIRCL Luxembourg that inspects submitted files with multiple integrated tools to determine whether they are suspicious or malicious.",
+      "subcategory": "Malware Analysis and Sandboxes",
+      "tags": [
+        "file-analysis",
+        "circl",
+        "triage"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Luxembourg/CIRCL",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "CERT-EU Cyber Threat Intelligence Framework",
+      "url": "https://www.cert.europa.eu/publications/threat-intelligence/cyber-threat-intelligence-framework/",
+      "description": "CERT-EU defines a structured threat-intelligence process for EU institutions and peer CSIRTs.",
+      "subcategory": "Sharing Platforms and Standards",
+      "tags": [
+        "cti",
+        "cert-eu",
+        "framework"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/CERT-EU",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "D4 Project",
+      "url": "https://www.d4-project.org/",
+      "description": "Distributed sensor network operated by CIRCL Luxembourg for monitoring denial-of-service and other malicious internet activity, feeding EU threat intelligence sharing.",
+      "subcategory": "Sharing Platforms and Standards",
+      "tags": [
+        "sensor-network",
+        "ddos",
+        "circl"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Luxembourg/CIRCL",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "IntelMQ",
+      "url": "https://github.com/certtools/intelmq",
+      "description": "Message-queue-based system maintained by CERT.at for CSIRTs across Europe to collect, normalise and process security event feeds at scale.",
+      "subcategory": "Sharing Platforms and Standards",
+      "tags": [
+        "feed-processing",
+        "csirt",
+        "automation"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Austria/CERT.at",
+      "hosting_note": "[Open Source]",
+      "license": "AGPL-3.0-only",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "MISP",
+      "url": "https://www.circl.lu/services/misp-malware-information-sharing-platform/",
+      "description": "The open-source MISP platform maintained in Luxembourg supports structured threat-intelligence sharing among European CSIRTs.",
+      "subcategory": "Sharing Platforms and Standards",
+      "tags": [
+        "misp",
+        "threat-sharing",
+        "stix"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Luxembourg/CIRCL",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "MISP Project",
+      "url": "https://www.misp-project.org/",
+      "description": "Open-source platform developed with support from CIRCL, Luxembourg's national CSIRT, for collecting, storing and sharing structured threat intelligence across the EU CSIRTs Network.",
+      "subcategory": "Sharing Platforms and Standards",
+      "tags": [
+        "misp",
+        "ioc-sharing",
+        "platform"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Luxembourg/CIRCL",
+      "hosting_note": "[Open Source]",
+      "license": "AGPL-3.0-only",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "MISP Standard",
+      "url": "https://www.misp-standard.org/",
+      "description": "Open specification for exchanging structured threat intelligence, maintained by the CIRCL-led MISP Project and used by EU CSIRTs and CERT-EU.",
+      "subcategory": "Sharing Platforms and Standards",
+      "tags": [
+        "standard",
+        "misp",
+        "data-model"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "Luxembourg/CIRCL",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "MISP Taxonomies",
+      "url": "https://github.com/MISP/misp-taxonomies",
+      "description": "Repository of classification taxonomies used across the EU CSIRT community to tag and classify threat intelligence in MISP, maintained by the CIRCL-led MISP Project.",
+      "subcategory": "Sharing Platforms and Standards",
+      "tags": [
+        "taxonomy",
+        "misp",
+        "classification"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "Luxembourg/CIRCL",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "n6",
+      "url": "https://github.com/CERT-Polska/n6",
+      "description": "System from CERT Polska with a REST API and web portal for collecting, managing and distributing large-scale security incident and threat data to constituents.",
+      "subcategory": "Sharing Platforms and Standards",
+      "tags": [
+        "cert-polska",
+        "feed-distribution",
+        "api"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Poland/CERT Polska",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "Artemis",
+      "url": "https://github.com/CERT-Polska/Artemis",
+      "description": "Modular vulnerability scanner from CERT Polska used to assess and report weaknesses across the large domain sets a national CSIRT is responsible for.",
+      "subcategory": "Vulnerability Intelligence",
+      "tags": [
+        "scanner",
+        "cert-polska",
+        "asm"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Poland/CERT Polska",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "CIRCL Vulnerability-Lookup Instance",
+      "url": "https://vulnerability.circl.lu/",
+      "description": "Public instance run by CIRCL Luxembourg for searching and correlating vulnerability advisories from national databases, CSAF feeds and community sightings.",
+      "subcategory": "Vulnerability Intelligence",
+      "tags": [
+        "vulnerability-database",
+        "csaf",
+        "circl"
+      ],
+      "entry_type": "Feed",
+      "country_or_body": "Luxembourg/CIRCL",
+      "hosting_note": "[EU-Hosted]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "European Vulnerability Database",
+      "url": "https://euvd.enisa.europa.eu/",
+      "description": "ENISA's EUVD publishes vulnerability records and related EU coordination information.",
+      "subcategory": "Vulnerability Intelligence",
+      "tags": [
+        "euvd",
+        "vulnerabilities",
+        "enisa"
+      ],
+      "entry_type": "Feed",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Threat Intelligence",
+      "name": "Vulnerability-Lookup",
+      "url": "https://github.com/vulnerability-lookup/vulnerability-lookup",
+      "description": "Software from CIRCL Luxembourg that correlates advisories from national vulnerability databases and CSAF providers and supports coordinated disclosure workflows.",
+      "subcategory": "Vulnerability Intelligence",
+      "tags": [
+        "cvd",
+        "correlation",
+        "circl"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Luxembourg/CIRCL",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "AR-in-a-Box",
+      "url": "https://www.enisa.europa.eu/topics/awareness-and-cyber-hygiene/ar-in-a-box",
+      "description": "ENISA provides reusable materials for planning and running cybersecurity awareness programmes.",
+      "subcategory": "Awareness and Workforce Training",
+      "tags": [
+        "awareness",
+        "training",
+        "toolkit"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "CIRCL Training Initiatives",
+      "url": "https://www.circl.lu/services/training-initiative/",
+      "description": "Luxembourg's CIRCL publishes practical threat-intelligence and incident-response training resources.",
+      "subcategory": "Awareness and Workforce Training",
+      "tags": [
+        "training",
+        "incident-response",
+        "cti"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Luxembourg/CIRCL",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "Cyber Europe",
+      "url": "https://www.enisa.europa.eu/topics/skills-and-competences-for-companies/cyber-europe",
+      "description": "ENISA's biennial pan-European cyber crisis exercise series training public and private sector professionals in cross-border incident response.",
+      "subcategory": "Awareness and Workforce Training",
+      "tags": [
+        "exercise",
+        "crisis-management",
+        "enisa"
+      ],
+      "entry_type": "Training",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "ENISA C-Level Awareness Guide",
+      "url": "https://www.enisa.europa.eu/sites/default/files/2024-11/GUIDE-C-LEVEL-Web.pdf",
+      "description": "ENISA guidance helps organisations deliver cybersecurity awareness programmes to senior leadership.",
+      "subcategory": "Awareness and Workforce Training",
+      "tags": [
+        "awareness",
+        "leadership",
+        "training"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "ENISA CyberEducation Platform",
+      "url": "https://www.enisa.europa.eu/tools/enisa-cybereducation-platform",
+      "description": "ENISA's platform catalogues European cybersecurity education and training opportunities.",
+      "subcategory": "Awareness and Workforce Training",
+      "tags": [
+        "education",
+        "training",
+        "catalogue"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[EU-Hosted]"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "ENISA SME Training Material",
+      "url": "https://www.enisa.europa.eu/publications/archive/training-material-SMEs",
+      "description": "ENISA provides reusable cybersecurity training material for European small and medium-sized enterprises.",
+      "subcategory": "Awareness and Workforce Training",
+      "tags": [
+        "sme",
+        "training",
+        "awareness"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "INCIBE Training Hub",
+      "url": "https://www.incibe.es/en/incibe/formacion",
+      "description": "Free courses and MOOCs from Spain's National Cybersecurity Institute for citizens, educators, SMEs and aspiring professionals under the national cybersecurity strategy.",
+      "subcategory": "Awareness and Workforce Training",
+      "tags": [
+        "training",
+        "mooc",
+        "workforce"
+      ],
+      "entry_type": "Training",
+      "country_or_body": "Spain/INCIBE",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "Ireland's Cyber Security Academy",
+      "url": "https://digital-skills-jobs.europa.eu/en/inspiration/resources/irelands-cyber-security-academy",
+      "description": "Irish national cybersecurity training programme for school-age students run by Cyber Ireland, catalogued on the EU Digital Skills and Jobs Platform.",
+      "subcategory": "Awareness and Workforce Training",
+      "tags": [
+        "youth",
+        "schools",
+        "workforce"
+      ],
+      "entry_type": "Training",
+      "country_or_body": "Ireland/Cyber Ireland",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "NCSC-NL Cyberbewustwording",
+      "url": "https://www.ncsc.nl/mensgerichte-beveiliging/cyberbewustwording",
+      "description": "Free e-learning, quizzes and phishing-awareness toolkit from the Dutch National Cyber Security Centre for building employee security behaviour.",
+      "subcategory": "Awareness and Workforce Training",
+      "tags": [
+        "awareness",
+        "e-learning",
+        "dutch-language"
+      ],
+      "entry_type": "Training",
+      "country_or_body": "Netherlands/NCSC-NL",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "CERT Polska CTF Infrastructure Guide",
+      "url": "https://cert.pl/en/posts/2018/07/technical-aspects-of-ctf-contest-organization/",
+      "description": "CERT Polska documents technical infrastructure practices for operating national and European CTF competitions.",
+      "subcategory": "Competitions and CTF Infrastructure",
+      "tags": [
+        "ctf",
+        "infrastructure",
+        "operations"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Poland/CERT Polska",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "Cyber Security Challenge Germany",
+      "url": "https://cscg.de/",
+      "description": "Germany's national online hacking competition, supported by the BSI, that qualifies participants for the European Cybersecurity Challenge.",
+      "subcategory": "Competitions and CTF Infrastructure",
+      "tags": [
+        "ctf",
+        "competition",
+        "national-qualifier"
+      ],
+      "entry_type": "Training",
+      "country_or_body": "Germany/NFITS",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "CyberChallenge.IT",
+      "url": "https://cyberchallenge.it/",
+      "description": "Italy's national cybersecurity training and competition programme run by CINI's Cybersecurity National Laboratory, which selects the Italian European Cybersecurity Challenge team.",
+      "subcategory": "Competitions and CTF Infrastructure",
+      "tags": [
+        "ctf",
+        "students",
+        "national-qualifier"
+      ],
+      "entry_type": "Training",
+      "country_or_body": "Italy/CINI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "ECSC Gameboard",
+      "url": "https://github.com/enisaeu/ecsc-gameboard",
+      "description": "Scoreboard and gameboard platform maintained by ENISA for running European Cybersecurity Challenge competitions.",
+      "subcategory": "Competitions and CTF Infrastructure",
+      "tags": [
+        "ctf",
+        "scoreboard",
+        "enisa"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/ENISA",
+      "hosting_note": "[Open Source]",
+      "license": "EUPL-1.2",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "EnoEngine",
+      "url": "https://github.com/enowars/EnoEngine",
+      "description": "Gameserver engine powering the ENOWARS attack-defense CTF events organised at TU Berlin.",
+      "subcategory": "Competitions and CTF Infrastructure",
+      "tags": [
+        "ctf",
+        "attack-defense",
+        "gameserver"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/TU Berlin",
+      "hosting_note": "[Open Source]",
+      "license": "MIT",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "European Cybersecurity Challenge",
+      "url": "https://ecsc.eu/",
+      "description": "Annual pan-European capture-the-flag championship between national youth teams, organised by ENISA with the Member States.",
+      "subcategory": "Competitions and CTF Infrastructure",
+      "tags": [
+        "ctf",
+        "competition",
+        "enisa"
+      ],
+      "entry_type": "Training",
+      "country_or_body": "EU/ENISA",
+      "hosting_note": "[EU-Hosted]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "FAUST CTF Gameserver",
+      "url": "https://github.com/fausecteam/ctf-gameserver",
+      "description": "Attack-defense CTF gameserver from the FAUST team at Friedrich-Alexander-Universität Erlangen-Nürnberg, reused by other European CTF organisers.",
+      "subcategory": "Competitions and CTF Infrastructure",
+      "tags": [
+        "ctf",
+        "attack-defense",
+        "gameserver"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/FAU Erlangen-Nürnberg",
+      "hosting_note": "[Open Source]",
+      "license": "ISC",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "openECSC Challenge Source",
+      "url": "https://github.com/ECSC2024/openECSC-2024",
+      "description": "Published challenge set from openECSC, the open online qualifier tied to the ENISA European Cybersecurity Challenge, hosted by Italy's Cybersecurity National Lab.",
+      "subcategory": "Competitions and CTF Infrastructure",
+      "tags": [
+        "ctf",
+        "challenges",
+        "jeopardy"
+      ],
+      "entry_type": "Dataset",
+      "country_or_body": "Italy/CINI",
+      "hosting_note": "[Open Source]",
+      "license": "GPL-3.0-only",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "saarCTF Gameserver",
+      "url": "https://github.com/MarkusBauer/saarctf-gameserver",
+      "description": "Attack-defense CTF gameserver infrastructure built by Saarland University's saarsec team for hosting the European saarCTF competition.",
+      "subcategory": "Competitions and CTF Infrastructure",
+      "tags": [
+        "ctf",
+        "attack-defense",
+        "gameserver"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Germany/Saarland University",
+      "hosting_note": "[Open Source]",
+      "license": "MIT",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "CR14 Cyber Range",
+      "url": "https://www.cr14.ee/ranges/",
+      "description": "Estonia's CR14 provides national cyber-range infrastructure for exercises and testing.",
+      "subcategory": "Cyber Range Platforms",
+      "tags": [
+        "cyber-range",
+        "exercises",
+        "estonia"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Estonia/CR14",
+      "confidence": "medium",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[EU-Hosted]"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "Cyber Sandbox Creator",
+      "url": "https://gitlab.ics.muni.cz/muni-kypo-csc/cyber-sandbox-creator",
+      "description": "Tool from Masaryk University's CSIRT-MU for building lightweight local virtual labs for cybersecurity training without deploying a full EU cyber range.",
+      "subcategory": "Cyber Range Platforms",
+      "tags": [
+        "virtual-lab",
+        "open-source",
+        "vagrant"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Czechia/Masaryk University",
+      "hosting_note": "[Open Source]",
+      "license": "MIT",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "CyberRangeCZ Platform",
+      "url": "https://docs.platform.cyberrange.cz/",
+      "description": "CyberRangeCZ documentation supports deployment of the Czech open-source KYPO cyber-range platform.",
+      "subcategory": "Cyber Range Platforms",
+      "tags": [
+        "cyber-range",
+        "kypo",
+        "documentation"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Czechia/Masaryk University",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "CyberRangeCZ Platform Source",
+      "url": "https://github.com/cyberrangecz",
+      "description": "Container-based open-source cyber range platform from Masaryk University, the maintained successor to the KYPO Cyber Range Platform used for hands-on training in Czechia and the EU.",
+      "subcategory": "Cyber Range Platforms",
+      "tags": [
+        "cyber-range",
+        "open-source",
+        "sandbox"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Czechia/Masaryk University",
+      "hosting_note": "[Open Source]",
+      "license": "MIT",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "KYPO Cyber Range Platform",
+      "url": "https://crp.kypo.muni.cz/",
+      "description": "Masaryk University's open-source KYPO platform provides reproducible cybersecurity training ranges.",
+      "subcategory": "Cyber Range Platforms",
+      "tags": [
+        "cyber-range",
+        "training",
+        "kypo"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Czechia/Masaryk University",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[Open Source]"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "Luxembourg Cyber Range",
+      "url": "https://www.cyber-range.lu/",
+      "description": "Luxembourg's national cyber range provides hosted environments for cybersecurity training and exercises.",
+      "subcategory": "Cyber Range Platforms",
+      "tags": [
+        "cyber-range",
+        "training",
+        "luxembourg"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Luxembourg/Cyber Range",
+      "confidence": "medium",
+      "last_verified": "2026-09-16",
+      "hosting_note": "[EU-Hosted]"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "CyberHEAD",
+      "url": "https://tools.enisa.europa.eu/topics/education/cyberhead",
+      "description": "ENISA-maintained database of cybersecurity higher-education programmes offered by academic institutions across EU and EFTA countries.",
+      "subcategory": "Skills and Competency Frameworks",
+      "tags": [
+        "education",
+        "database",
+        "enisa"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "EU/ENISA",
+      "hosting_note": "[EU-Hosted]",
+      "confidence": "medium",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "ECSF Role Profiles",
+      "url": "https://www.enisa.europa.eu/publications/european-cybersecurity-skills-framework-role-profiles",
+      "description": "ENISA specifies twelve cybersecurity role profiles and associated competencies for the EU labour market.",
+      "subcategory": "Skills and Competency Frameworks",
+      "tags": [
+        "ecsf",
+        "roles",
+        "competencies"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "ECSF User Manual",
+      "url": "https://www.enisa.europa.eu/publications/european-cybersecurity-skills-framework-ecsf",
+      "description": "The ENISA user manual provides implementation guidance for applying ECSF in organisations and education.",
+      "subcategory": "Skills and Competency Frameworks",
+      "tags": [
+        "ecsf",
+        "workforce",
+        "implementation"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "European Cybersecurity Skills Academy",
+      "url": "https://digital-skills-jobs.europa.eu/en/cyber-skills-academy-knowledge-and-training",
+      "description": "European Commission initiative consolidating cybersecurity training, national academies and skills-framework guidance across Member States to close the workforce gap.",
+      "subcategory": "Skills and Competency Frameworks",
+      "tags": [
+        "skills",
+        "workforce",
+        "ecsf"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/European Commission",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Training & Cyber Ranges",
+      "name": "European Cybersecurity Skills Framework",
+      "url": "https://www.enisa.europa.eu/topics/skills-and-competences/skills-development/european-cybersecurity-skills-framework-ecsf",
+      "description": "ENISA's ECSF defines a common EU vocabulary of cybersecurity roles, skills, and competencies.",
+      "subcategory": "Skills and Competency Frameworks",
+      "tags": [
+        "ecsf",
+        "skills",
+        "roles"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "Österreichisches Informationssicherheitshandbuch",
+      "url": "https://www.onlinesicherheit.gv.at/Services/Publikationen/Sicherheitshandbuecher/Oesterreichisches-Informationssicherheitshandbuch-BKA-A-SIT.html",
+      "description": "Austria's national information security handbook, published jointly by A-SIT and the Federal Chancellery, supporting ISMS implementation in government and industry.",
+      "subcategory": "Austria/A-SIT",
+      "tags": [
+        "isms",
+        "handbook",
+        "german-language"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Austria/A-SIT",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "Cyberforsvar der virker",
+      "url": "https://samsik.dk/publikationer/cyberforsvar-der-virker/",
+      "description": "Denmark's basic cyber-defence guide from the Centre for Cyber Security, setting out six steps to build organisational cyber resilience.",
+      "subcategory": "Denmark/CFCS",
+      "tags": [
+        "baseline",
+        "danish-language"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Denmark/CFCS",
+      "notes": "Hosting moved from CFCS to Styrelsen for Samfundssikkerhed following the Danish agency reorganisation.",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "CERT-EU",
+      "url": "https://cert.europa.eu/",
+      "description": "The Computer Emergency Response Team for the EU institutions, bodies and agencies, serving over ninety entities and publishing its own threat-intelligence products.",
+      "subcategory": "EU/CERT-EU",
+      "tags": [
+        "csirt",
+        "eu-institutions",
+        "threat-intel"
+      ],
+      "entry_type": "Organisation",
+      "country_or_body": "EU/CERT-EU",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "ENISA National Cybersecurity Strategy Evaluation Framework",
+      "url": "https://www.enisa.europa.eu/publications/an-evaluation-framework-for-cyber-security-strategies",
+      "description": "ENISA provides a structured framework for evaluating national cybersecurity strategies in Europe.",
+      "subcategory": "EU/ENISA",
+      "tags": [
+        "strategy",
+        "evaluation",
+        "national"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "ENISA Threat Landscape Hub",
+      "url": "https://www.enisa.europa.eu/topics/cyber-threats/threat-landscape",
+      "description": "ENISA's landing page for its threat landscape work, collecting the annual EU-wide assessment and the sectoral and thematic landscapes that accompany it.",
+      "subcategory": "EU/ENISA",
+      "tags": [
+        "threat-intel",
+        "enisa",
+        "landscape"
+      ],
+      "entry_type": "Feed",
+      "country_or_body": "EU/ENISA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "E-ITS",
+      "url": "https://www.ria.ee/en/cyber-security/management-state-information-security-measures",
+      "description": "Estonia's national information security baseline published by RIA, aligned with ISO/IEC 27001 and built on Germany's BSI IT-Grundschutz method.",
+      "subcategory": "Estonia/RIA",
+      "tags": [
+        "baseline",
+        "iso27001",
+        "it-grundschutz"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "Estonia/RIA",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "Cybermeter",
+      "url": "https://www.kyberturvallisuuskeskus.fi/files/media/file/Kybermittari_Cybermeter_User_Guide_V1.pdf",
+      "description": "NCSC-FI's Cybermeter provides a national framework for assessing organisational cybersecurity maturity.",
+      "subcategory": "Finland/NCSC-FI",
+      "tags": [
+        "maturity",
+        "assessment",
+        "finland"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Finland/NCSC-FI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "Katakri",
+      "url": "https://www.kyberturvallisuuskeskus.fi/en/our-activities/ncsa",
+      "description": "Finland's national security auditing criteria and accreditation tool, published by Traficom's NCSA-FI for assessing organisational information security.",
+      "subcategory": "Finland/NCSC-FI",
+      "tags": [
+        "audit",
+        "accreditation",
+        "katakri"
+      ],
+      "entry_type": "Certification Scheme",
+      "country_or_body": "Finland/NCSC-FI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "ANSSI General Security Framework (RGS)",
+      "url": "https://cyber.gouv.fr/reglementation/reglementation-identite-confiance-numerique/securite-echanges-voie-electronique/referentiel-general-de-securite/documents-referentiel-general-de-securite/",
+      "description": "The RGS defines security requirements for electronic exchanges with French public authorities.",
+      "subcategory": "France/ANSSI",
+      "tags": [
+        "rgs",
+        "public-sector",
+        "trust"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "France/ANSSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "ANSSI GitHub Organisation",
+      "url": "https://github.com/ANSSI-FR",
+      "description": "Official open-source repository hub of France's ANSSI, publishing forensic, cryptographic and Active Directory security tools such as DFIR-ORC and MLA.",
+      "subcategory": "France/ANSSI",
+      "tags": [
+        "open-source",
+        "forensics",
+        "anssi"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "France/ANSSI",
+      "hosting_note": "[Open Source]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "ANSSI Guideline for a Healthy Information System",
+      "url": "https://messervices.cyber.gouv.fr/documents-guides/guideline-for-a-healthy-information-system-in-42-measures_v2.pdf",
+      "description": "ANSSI specifies 42 baseline measures for securing information systems in French organisations.",
+      "subcategory": "France/ANSSI",
+      "tags": [
+        "baseline",
+        "hygiene",
+        "france"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "France/ANSSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "EBIOS Risk Manager",
+      "url": "https://cyber.gouv.fr/securisation/analyse-des-risques/methode-ebios-rm/",
+      "description": "ANSSI's reference risk-management method, assessing and treating digital risk through a five-workshop process and referenced across French regulatory guidance.",
+      "subcategory": "France/ANSSI",
+      "tags": [
+        "risk-management",
+        "methodology",
+        "ebios"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "France/ANSSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "BSI C5:2020",
+      "url": "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Empfehlungen-nach-Angriffszielen/Cloud-Computing/Kriterienkatalog-C5/C5_AktuelleVersion/C5_AktuelleVersion_node.html",
+      "description": "BSI C5:2020 defines cloud security criteria and audit requirements used in Germany.",
+      "subcategory": "Germany/BSI",
+      "tags": [
+        "c5",
+        "cloud",
+        "audit"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "Germany/BSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "BSI IT-Grundschutz",
+      "url": "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/it-grundschutz.html",
+      "description": "BSI IT-Grundschutz provides a modular information-security management framework for German organisations.",
+      "subcategory": "Germany/BSI",
+      "tags": [
+        "grundschutz",
+        "isms",
+        "controls"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Germany/BSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "IT-Grundschutz-Kompendium",
+      "url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html",
+      "description": "BSI's modular baseline-protection catalogue organising security building blocks with threats and requirements for systematic ISMS implementation in Germany.",
+      "subcategory": "Germany/BSI",
+      "tags": [
+        "baseline",
+        "grundschutz",
+        "isms"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "Germany/BSI",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "Greek National Cybersecurity Authority",
+      "url": "https://cyber.gov.gr/en/",
+      "description": "Greece's national cybersecurity authority, responsible for NIS2 regulatory oversight, incident coordination and requirements for essential and important entities.",
+      "subcategory": "Greece/NCSA",
+      "tags": [
+        "authority",
+        "nis2",
+        "oversight"
+      ],
+      "entry_type": "Organisation",
+      "country_or_body": "Greece/NCSA",
+      "confidence": "medium",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "Hungarian National Cyber Security Center",
+      "url": "https://en.nki.gov.hu/",
+      "description": "Hungary's national CSIRT under the Special Service for National Security, providing incident response, vulnerability testing and SOC services for government and critical infrastructure.",
+      "subcategory": "Hungary/NKI",
+      "tags": [
+        "csirt",
+        "incident-response",
+        "soc"
+      ],
+      "entry_type": "Organisation",
+      "country_or_body": "Hungary/NKI",
+      "confidence": "medium",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "Ireland Cyber Security Baseline Standards",
+      "url": "https://ncsc.gov.ie/pdfs/Cyber_Security_Baseline_Standards_Rev_1_2022_Final.pdf",
+      "description": "Ireland's NCSC defines mandatory baseline cybersecurity controls for public-service bodies.",
+      "subcategory": "Ireland/NCSC",
+      "tags": [
+        "baseline",
+        "public-sector",
+        "ireland"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "Ireland/NCSC",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "Ireland ICT Procurement Security Guidelines",
+      "url": "https://www.ncsc.gov.ie/pdfs/Guidelines_on_Cyber_Security_Specifications.pdf",
+      "description": "Ireland's NCSC provides cybersecurity requirements for public-sector ICT procurement.",
+      "subcategory": "Ireland/NCSC",
+      "tags": [
+        "procurement",
+        "requirements",
+        "ireland"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Ireland/NCSC",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "Ireland NCSC NIS2 Guidance",
+      "url": "https://www.ncsc.gov.ie/nis2/",
+      "description": "Ireland's NCSC hub for NIS2 transposition guidance, including draft risk-management measures, a scope self-assessment tool and its recommendation of the CyFun framework.",
+      "subcategory": "Ireland/NCSC",
+      "tags": [
+        "nis2",
+        "guidance",
+        "risk-management"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Ireland/NCSC",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "Framework Nazionale per la Cybersecurity e la Data Protection",
+      "url": "https://www.cybersecurityframework.it/",
+      "description": "Italy's national cybersecurity and data-protection framework from CIS-Sapienza and CINI with support from the National Cybersecurity Agency, mapping controls for Italian entities.",
+      "subcategory": "Italy/ACN",
+      "tags": [
+        "framework",
+        "risk-management",
+        "italian-language"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Italy/ACN",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "CERT.LV",
+      "url": "https://cert.lv/en",
+      "description": "Latvia's national CERT, providing incident coordination, threat-hunting playbooks and public cybersecurity awareness programmes under the EU CSIRTs Network.",
+      "subcategory": "Latvia/CERT.LV",
+      "tags": [
+        "csirt",
+        "awareness",
+        "incident-response"
+      ],
+      "entry_type": "Organisation",
+      "country_or_body": "Latvia/CERT.LV",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "CIRCL",
+      "url": "https://www.circl.lu/",
+      "description": "Luxembourg's national CERT for the private sector, communes and NGOs, and the publisher of open-source tools including MISP, Passive DNS and CIRCLean.",
+      "subcategory": "Luxembourg/CIRCL",
+      "tags": [
+        "csirt",
+        "misp",
+        "open-source"
+      ],
+      "entry_type": "Organisation",
+      "country_or_body": "Luxembourg/CIRCL",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "MONARC",
+      "url": "https://www.monarc.lu/",
+      "description": "Open-source risk assessment method and tool developed by Luxembourg's national cybersecurity agency and used by EU public bodies and SMEs.",
+      "subcategory": "Luxembourg/NC3",
+      "tags": [
+        "risk-assessment",
+        "open-source",
+        "isms"
+      ],
+      "entry_type": "Tool",
+      "country_or_body": "Luxembourg/NC3",
+      "hosting_note": "[Open Source]",
+      "license": "AGPL-3.0-only",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "BIO2",
+      "url": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/baseline-informatiebeveiliging-overheid/",
+      "description": "The Dutch government's unified information security baseline for national, municipal, provincial and water-authority bodies, aligned to ISO/IEC 27001 and legally mandatory.",
+      "subcategory": "Netherlands/Digitale Overheid",
+      "tags": [
+        "baseline",
+        "government",
+        "iso27001"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "Netherlands/Digitale Overheid",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "NCSC-NL Fundamentals",
+      "url": "https://www.ncsc.nl/en/fundamentals",
+      "description": "NCSC-NL defines baseline security principles and implementation guidance for organisations in the Netherlands.",
+      "subcategory": "Netherlands/NCSC-NL",
+      "tags": [
+        "fundamentals",
+        "baseline",
+        "guidance"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Netherlands/NCSC-NL",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "Grunnprinsipper for IKT-sikkerhet",
+      "url": "https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/grunnprinsipper-for-ikt-sikkerhet/",
+      "description": "Baseline ICT security principles from Norway's National Security Authority, organised around identify, protect, detect and handle categories for EEA critical infrastructure.",
+      "subcategory": "Norway/NSM",
+      "tags": [
+        "baseline",
+        "framework",
+        "norwegian-language"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "Norway/NSM",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "CERT Polska n6 Service",
+      "url": "https://cert.pl/en/n6/",
+      "description": "Threat-intelligence exchange service operated by CERT Polska that matches malware, phishing and vulnerability feed data to registered Polish organisations by IP and domain.",
+      "subcategory": "Poland/CERT Polska",
+      "tags": [
+        "threat-intel",
+        "feed",
+        "constituency"
+      ],
+      "entry_type": "Feed",
+      "country_or_body": "Poland/CERT Polska",
+      "hosting_note": "[EU-Hosted]",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "MWDB Service",
+      "url": "https://mwdb.cert.pl/",
+      "description": "Hosted malware sample and threat-intelligence repository run by CERT Polska for vetted researchers and CSIRTs in the EU.",
+      "subcategory": "Poland/CERT Polska",
+      "tags": [
+        "malware",
+        "repository",
+        "constituency"
+      ],
+      "entry_type": "Feed",
+      "country_or_body": "Poland/CERT Polska",
+      "hosting_note": "[EU-Hosted]",
+      "notes": "Access is granted on request; the underlying software is listed separately as MWDB Core.",
+      "confidence": "medium",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "CCN-STIC Guides",
+      "url": "https://www.ccn.cni.es/en/menu-guides-ccn-stic-en",
+      "description": "Series of security standards, instructions and guides published by Spain's Centro Criptológico Nacional for public administration and strategic organisations.",
+      "subcategory": "Spain/CCN",
+      "tags": [
+        "guides",
+        "ens",
+        "public-sector"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Spain/CCN",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "MSB Metodstöd för informationssäkerhet",
+      "url": "https://metodstod-informationssakerhet.msb.se/",
+      "description": "Sweden's official methodology support site for systematic information security work, based on the ISO/IEC 27000 series and published by MSB.",
+      "subcategory": "Sweden/MSB",
+      "tags": [
+        "methodology",
+        "iso27000",
+        "swedish-language"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Sweden/MSB",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "Swiss ICT Minimum Standard",
+      "url": "https://www.bacs.admin.ch/en/ict-minimum-standard",
+      "description": "Switzerland's federal minimum standard for critical infrastructure ICT resilience, mandatory for electricity and gas providers and recommended for other sectors.",
+      "subcategory": "Switzerland/NCSC-CH",
+      "tags": [
+        "baseline",
+        "critical-infrastructure"
+      ],
+      "entry_type": "Standard",
+      "country_or_body": "Switzerland/NCSC-CH",
+      "notes": "Switzerland is not an EU or EEA member; the standard is included as a widely referenced European national baseline.",
+      "confidence": "high",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "UK NCSC 10 Steps to Cyber Security",
+      "url": "https://www.ncsc.gov.uk/collection/10-steps",
+      "description": "The UK NCSC specifies ten risk-management areas for organisational cybersecurity programmes.",
+      "subcategory": "United Kingdom/NCSC",
+      "tags": [
+        "baseline",
+        "risk-management",
+        "guidance"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "United Kingdom/NCSC",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "notes": "United Kingdom, not an EU member state; included because the UK NIS Regulations derive from NIS1 and the guidance is widely referenced by EU operators."
+    },
+    {
+      "category": "National Cybersecurity Authorities & Standards",
+      "name": "UK NCSC Cyber Assessment Framework",
+      "url": "https://www.ncsc.gov.uk/collection/cyber-assessment-framework",
+      "description": "The UK NCSC CAF defines cybersecurity outcomes for assessing essential services.",
+      "subcategory": "United Kingdom/NCSC",
+      "tags": [
+        "caf",
+        "critical-infrastructure",
+        "assessment"
+      ],
+      "entry_type": "Framework",
+      "country_or_body": "United Kingdom/NCSC",
+      "confidence": "high",
+      "last_verified": "2026-09-16",
+      "notes": "United Kingdom, not an EU member state; the CAF is widely used as a reference implementation of NIS-style outcome-based assessment."
+    }
+  ]
+}

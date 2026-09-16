@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Scope and verification rules
+    url: https://github.com/mdiamantino/awesome-eu-cybersec/blob/main/CONTRIBUTING.md
+    about: What qualifies, and the bar an entry has to clear.
+  - name: How entries are verified
+    url: https://github.com/mdiamantino/awesome-eu-cybersec/blob/main/docs/METHODOLOGY.md
+    about: Generation, verification, critic pass and continuous checks.

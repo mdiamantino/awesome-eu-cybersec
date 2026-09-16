@@ -1,0 +1,140 @@
+# Canonical taxonomy for awesome-eu-cybersec.
+# `slug` maps to data/resources/<slug>.yml and to the README anchor.
+# Order here is the order rendered in README.md.
+# Adding a category or subcategory REQUIRES a PR that also updates the scope line.
+
+categories:
+  - slug: governance-risk-policy
+    name: "Governance, Risk & Policy Mapping"
+    emoji: "🧭"
+    description: >-
+      Horizontal EU regulation: NIS2, GDPR and privacy-enhancing technologies, the
+      EU AI Act, and the certification and governance schemes that cut across sectors.
+    subcategories:
+      - "NIS2"
+      - "GDPR and PETs"
+      - "EU AI Act"
+      - "EU Certification and Governance Schemes"
+
+  - slug: dora
+    name: "Financial Sector Resilience (DORA)"
+    emoji: "🏦"
+    description: >-
+      Regulation (EU) 2022/2554 implementation: registers of information for ICT
+      third-party risk, threat-led penetration testing, and major-incident reporting.
+    subcategories:
+      - "ICT Third-Party Risk Registers"
+      - "Threat-Led Penetration Testing"
+      - "Incident Classification and Reporting"
+      - "DORA Implementation Guidance"
+
+  - slug: cra-supply-chain
+    name: "Software Supply Chain & Product Security (CRA)"
+    emoji: "📦"
+    description: >-
+      Regulation (EU) 2024/2847 implementation: conformity assessment, SBOM and
+      vulnerability handling duties, and coordinated vulnerability disclosure.
+    subcategories:
+      - "CRA Implementation Guidance"
+      - "Conformity Assessment"
+      - "SBOM and Vulnerability Handling"
+      - "Coordinated Vulnerability Disclosure"
+
+  - slug: eidas-identity
+    name: "Sovereign Identity & Trust (eIDAS)"
+    emoji: "🪪"
+    description: >-
+      Regulation (EU) 910/2014 as amended by 2024/1183: qualified trust services,
+      the European Digital Identity Wallet, and the ETSI/CEN standards behind them.
+    subcategories:
+      - "Signature and Trust-Service Tooling"
+      - "EUDI Wallet Implementations and Testing"
+      - "eIDAS Technical Standards"
+      - "Trusted Lists and Conformity"
+
+  - slug: sovereign-cloud
+    name: "Sovereign Cloud & DevSecOps"
+    emoji: "☁️"
+    description: >-
+      Gaia-X and dataspace architecture, national cloud qualification schemes
+      (SecNumCloud, C5, ENS), and the tooling used to reach and hold those baselines.
+    subcategories:
+      - "Gaia-X Specifications and Architecture"
+      - "National Sovereign Cloud Certification Schemes"
+      - "EU-Hosted DevSecOps Tooling"
+      - "Sovereign Infrastructure and Public Code"
+
+  - slug: cyber-physical
+    name: "Cyber-Physical Security"
+    emoji: "⚙️"
+    description: >-
+      NIS2 Annex I and II operational technology: energy and ICS, transport and
+      automotive, maritime and ports, space, and the hardware auditing methods
+      that cut across all of them.
+    subcategories:
+      - "Energy and Industrial Control Systems"
+      - "Transport and Automotive"
+      - "Maritime and Port Security"
+      - "Aerospace and Space Telemetry"
+      - "Hardware and Embedded Security Auditing"
+
+  - slug: telecom-5g
+    name: "Telecom, 5G & Network Infrastructure Security"
+    emoji: "📡"
+    description: >-
+      The EU 5G Security Toolbox, EECC security obligations, Open RAN and 6G
+      research security, and the resilience of fixed and submarine infrastructure.
+    subcategories:
+      - "5G and Mobile Network Security"
+      - "Open RAN and 6G Security"
+      - "Fixed and Submarine Cable Infrastructure Security"
+      - "Telecom Incident Reporting and Regulation"
+
+  - slug: cryptography-pqc
+    name: "Cryptography, Certification & Post-Quantum Readiness"
+    emoji: "🔐"
+    description: >-
+      European cryptographic recommendations (BSI TR-02102, ANSSI, SOG-IS), the
+      EUCC certification scheme, and the coordinated EU transition to post-quantum
+      cryptography.
+    subcategories:
+      - "Post-Quantum Transition Policy"
+      - "European Cryptographic Recommendations"
+      - "Common Criteria and EUCC Certification"
+      - "Open-Source Cryptographic Implementations"
+
+  - slug: threat-intelligence
+    name: "Threat Intelligence"
+    emoji: "🛰️"
+    description: >-
+      Platforms, sandboxes, vulnerability sources and advisory feeds run by
+      European CSIRTs and EU bodies, the operational backbone of the CSIRTs Network.
+    subcategories:
+      - "Sharing Platforms and Standards"
+      - "Malware Analysis and Sandboxes"
+      - "Vulnerability Intelligence"
+      - "Advisory Feeds and Reports"
+      - "Incident Response and Forensics"
+
+  - slug: training-cyber-ranges
+    name: "Training & Cyber Ranges"
+    emoji: "🎓"
+    description: >-
+      Open-source range and CTF infrastructure from European universities, the
+      European Cybersecurity Skills Framework, and official awareness programmes.
+    subcategories:
+      - "Cyber Range Platforms"
+      - "Competitions and CTF Infrastructure"
+      - "Skills and Competency Frameworks"
+      - "Awareness and Workforce Training"
+
+  - slug: national-authorities
+    name: "National Cybersecurity Authorities & Standards"
+    emoji: "🇪🇺"
+    description: >-
+      One section per national authority, listing its flagship standards,
+      frameworks and open-source tools. Flagship only, not an exhaustive index.
+    # Subcategories are "Country/Agency" pairs generated from the data, so a new
+    # country can be added without a taxonomy PR.
+    subcategories: []
+    subcategories_are_dynamic: true

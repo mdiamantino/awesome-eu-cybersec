@@ -1,0 +1,4 @@
+# Tooling for validating and building the list.
+PyYAML>=6.0
+jsonschema>=4.20
+httpx>=0.27

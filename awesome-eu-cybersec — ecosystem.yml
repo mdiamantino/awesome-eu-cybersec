@@ -1,0 +1,1174 @@
+# awesome-eu-cybersec — verified resources
+# URLs fetched and content-matched on 2026-09-16.
+
+# Governance, Risk & Policy Mapping
+#   NIS2
+- name: NIS2 Technical Implementation Guidance
+  url: https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance
+  description: ENISA guidance translates the NIS2 implementing act into technical cybersecurity risk-management measures.
+  category: Governance, Risk & Policy Mapping
+  subcategory: NIS2
+  tags:
+  - nis2
+  - risk-management
+  - controls
+  entry_type: Guideline
+  country_or_body: EU/ENISA
+  confidence: high
+- name: NIS2 Scope and Awareness Resources
+  url: https://www.enisa.europa.eu/topics/awareness-and-cyber-hygiene/raising-awareness-campaigns/network-and-information-systems-directive-2-nis2
+  description: ENISA provides implementation-oriented NIS2 scope, obligations, and awareness resources for covered entities.
+  category: Governance, Risk & Policy Mapping
+  subcategory: NIS2
+  tags:
+  - nis2
+  - awareness
+  entry_type: Guideline
+  country_or_body: EU/ENISA
+  confidence: high
+- name: nis2-public
+  url: https://github.com/fabriziosalmi/nis2-public
+  description: This open-source repository provides NIS2-oriented posture-management controls and reporting.
+  category: Governance, Risk & Policy Mapping
+  subcategory: NIS2
+  tags:
+  - nis2
+  - controls
+  - automation
+  entry_type: Tool
+  country_or_body: Italy/Community
+  hosting_note: '[Open Source]'
+  confidence: medium
+
+#   GDPR and PETs
+- name: PDP4E Privacy Engineering Toolkit
+  url: https://cordis.europa.eu/project/id/787034/results
+  description: The EU-funded PDP4E project publishes privacy-engineering methods and tools for implementing GDPR requirements.
+  category: Governance, Risk & Policy Mapping
+  subcategory: GDPR and PETs
+  tags:
+  - gdpr
+  - privacy-engineering
+  - h2020
+  entry_type: Framework
+  country_or_body: EU/European Commission
+  confidence: high
+
+#   EU AI Act
+- name: EuConform
+  url: https://github.com/Hiepler/EuConform
+  description: EuConform is an open-source tool for documenting and mapping conformity obligations under the EU AI Act.
+  category: Governance, Risk & Policy Mapping
+  subcategory: EU AI Act
+  tags:
+  - ai-act
+  - conformity
+  - documentation
+  entry_type: Tool
+  country_or_body: EU/Community
+  hosting_note: '[Open Source]'
+  confidence: medium
+- name: MCP EU AI Act Compliance Scanner
+  url: https://github.com/ark-forge/mcp-eu-ai-act
+  description: This open-source scanner maps software evidence to EU AI Act compliance checks.
+  category: Governance, Risk & Policy Mapping
+  subcategory: EU AI Act
+  tags:
+  - ai-act
+  - scanner
+  - mcp
+  entry_type: Tool
+  country_or_body: EU/Community
+  hosting_note: '[Open Source]'
+  confidence: medium
+
+# Financial Sector Resilience (DORA)
+#   ICT Third-Party Risk Registers
+- name: DORA Registers of Information Templates
+  url: https://www.eba.europa.eu/activities/direct-supervision-and-oversight/digital-operational-resilience-act/preparation-dora-application
+  description: The European Supervisory Authorities provide templates for DORA ICT third-party registers of information.
+  category: Financial Sector Resilience (DORA)
+  subcategory: ICT Third-Party Risk Registers
+  tags:
+  - dora
+  - third-party-risk
+  - register
+  entry_type: Standard
+  country_or_body: EU/ESAs
+  confidence: high
+- name: DORA Register of Information ITS
+  url: https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/implementing-technical-standards-establish-templates-register-information
+  description: The EBA page publishes implementing technical standards for DORA registers of contractual ICT arrangements.
+  category: Financial Sector Resilience (DORA)
+  subcategory: ICT Third-Party Risk Registers
+  tags:
+  - dora
+  - its
+  - register
+  entry_type: Standard
+  country_or_body: EU/EBA
+  confidence: high
+
+#   Threat-Led Penetration Testing
+- name: DORA TLPT Regulatory Technical Standards
+  url: https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-regulatory-technical-standards-specifying-elements-related-threat-led-penetration-tests
+  description: The joint ESA standard specifies DORA requirements for threat-led penetration testing.
+  category: Financial Sector Resilience (DORA)
+  subcategory: Threat-Led Penetration Testing
+  tags:
+  - dora
+  - tlpt
+  - red-team
+  entry_type: Standard
+  country_or_body: EU/ESAs
+  confidence: high
+- name: TIBER-EU Framework 2025
+  url: https://www.ecb.europa.eu/pub/pdf/other/ecb.tiber_eu_framework_2025~b32eff9a10.en.pdf
+  description: The ECB framework defines intelligence-led red-team testing aligned with DORA TLPT requirements.
+  category: Financial Sector Resilience (DORA)
+  subcategory: Threat-Led Penetration Testing
+  tags:
+  - dora
+  - tiber-eu
+  - tlpt
+  entry_type: Framework
+  country_or_body: EU/ECB
+  confidence: high
+
+#   Incident Classification and Reporting
+- name: DORA Incident Classification RTS
+  url: https://www.esma.europa.eu/sites/default/files/2024-01/JC_2023_83_-_Final_Report_on_draft_RTS_on_classification_of_major_incidents_and_significant_cyber_threats.pdf
+  description: The joint ESA standard defines criteria for classifying major ICT incidents and significant cyber threats under DORA.
+  category: Financial Sector Resilience (DORA)
+  subcategory: Incident Classification and Reporting
+  tags:
+  - dora
+  - incidents
+  - classification
+  entry_type: Standard
+  country_or_body: EU/ESAs
+  confidence: high
+- name: DORA Major Incident Reporting RTS and ITS
+  url: https://www.eba.europa.eu/sites/default/files/2023-12/ecc72f1c-c68a-4e64-97dd-47470117c3ae/JC%202023%2070%20-%20%20CP%20on%20draft%20RTS%20and%20ITS%20on%20major%20incident%20reporting%20under%20DORA.pdf
+  description: The joint ESA package specifies DORA major-incident reporting content, timelines, and templates.
+  category: Financial Sector Resilience (DORA)
+  subcategory: Incident Classification and Reporting
+  tags:
+  - dora
+  - reporting
+  - incidents
+  entry_type: Standard
+  country_or_body: EU/ESAs
+  confidence: medium
+
+# Software Supply Chain & Product Security (CRA)
+#   CRA Implementation Guidance
+- name: BSI Cyber Resilience Act Guidance
+  url: https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Cyber_Resilience_Act/cyber_resilience_act.html
+  description: BSI guidance explains operational product-security obligations under the EU Cyber Resilience Act.
+  category: Software Supply Chain & Product Security (CRA)
+  subcategory: CRA Implementation Guidance
+  tags:
+  - cra
+  - product-security
+  - bsi
+  entry_type: Guideline
+  country_or_body: Germany/BSI
+  confidence: high
+- name: European Commission CRA Implementation Portal
+  url: https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act
+  description: The Commission portal consolidates implementation material for the EU Cyber Resilience Act, including open-source software considerations.
+  category: Software Supply Chain & Product Security (CRA)
+  subcategory: CRA Implementation Guidance
+  tags:
+  - cra
+  - implementation
+  - open-source
+  entry_type: Guideline
+  country_or_body: EU/European Commission
+  confidence: high
+
+#   Conformity Assessment
+- name: CRA Conformity Assessment Guidance
+  url: https://digital-strategy.ec.europa.eu/en/policies/cra-conformity-assessment
+  description: The Commission guidance explains CRA conformity-assessment routes for products with digital elements.
+  category: Software Supply Chain & Product Security (CRA)
+  subcategory: Conformity Assessment
+  tags:
+  - cra
+  - conformity
+  - ce-marking
+  entry_type: Guideline
+  country_or_body: EU/European Commission
+  confidence: high
+- name: ORC WG CRA FAQ
+  url: https://cra.orcwg.org/faq/official/assessment/
+  description: The Open Regulatory Compliance Working Group provides implementation guidance for CRA conformity assessment of open-source software.
+  category: Software Supply Chain & Product Security (CRA)
+  subcategory: Conformity Assessment
+  tags:
+  - cra
+  - open-source
+  - conformity
+  entry_type: Guideline
+  country_or_body: EU/Open Regulatory Compliance Working Group
+  confidence: high
+
+#   Open Source and SBOM
+- name: European Commission CRA Open Source Guidance
+  url: https://digital-strategy.ec.europa.eu/en/policies/cra-open-source
+  description: The Commission guidance explains how the CRA applies to free and open-source software and software stewards.
+  category: Software Supply Chain & Product Security (CRA)
+  subcategory: Open Source and SBOM
+  tags:
+  - cra
+  - open-source
+  - sbom
+  entry_type: Guideline
+  country_or_body: EU/European Commission
+  confidence: high
+
+# Sovereign Identity & Trust (eIDAS)
+#   Signature and Trust-Service Tooling
+- name: Digital Signature Services (DSS)
+  url: https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467109107/Digital+Signature+Service+-+DSS
+  description: The European Commission's open-source DSS library implements eIDAS-aligned electronic signatures including PAdES.
+  category: Sovereign Identity & Trust (eIDAS)
+  subcategory: Signature and Trust-Service Tooling
+  tags:
+  - eidas
+  - pades
+  - signatures
+  entry_type: Tool
+  country_or_body: EU/European Commission
+  hosting_note: '[Open Source]'
+  confidence: high
+- name: DSS Documentation
+  url: https://ec.europa.eu/digital-building-blocks/DSS/webapp-demo/doc/dss-documentation.html
+  description: The DSS documentation specifies implementation and validation of eIDAS signature formats and trust lists.
+  category: Sovereign Identity & Trust (eIDAS)
+  subcategory: Signature and Trust-Service Tooling
+  tags:
+  - eidas
+  - dss
+  - validation
+  entry_type: Guideline
+  country_or_body: EU/European Commission
+  confidence: high
+
+#   EUDI Wallet Implementations and Testing
+- name: EUDI Wallet Reference Implementation
+  url: https://github.com/eu-digital-identity-wallet/.github/blob/main/profile/reference-implementation.md
+  description: The official open-source reference implementation supports development of wallets under the European Digital Identity framework.
+  category: Sovereign Identity & Trust (eIDAS)
+  subcategory: EUDI Wallet Implementations and Testing
+  tags:
+  - eudi
+  - wallet
+  - reference-implementation
+  entry_type: Tool
+  country_or_body: EU/European Commission
+  hosting_note: '[Open Source]'
+  confidence: high
+- name: EUDI Wallet Implementation Portal
+  url: https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation
+  description: The Commission portal provides architecture, reference implementation, and testing resources for EU Digital Identity Wallets.
+  category: Sovereign Identity & Trust (eIDAS)
+  subcategory: EUDI Wallet Implementations and Testing
+  tags:
+  - eudi
+  - wallet
+  - testing
+  entry_type: Framework
+  country_or_body: EU/European Commission
+  confidence: high
+
+#   eIDAS Technical Standards
+- name: ETSI TR 119 460
+  url: https://www.etsi.org/deliver/etsi_tr/119400_119499/119460/01.01.01_60/tr_119460v010101p.pdf
+  description: ETSI TR 119 460 provides implementation guidance for eIDAS trust-service validation.
+  category: Sovereign Identity & Trust (eIDAS)
+  subcategory: eIDAS Technical Standards
+  tags:
+  - eidas
+  - etsi
+  - validation
+  entry_type: Standard
+  country_or_body: EU/ETSI
+  confidence: high
+- name: eIDAS Standards and Specifications
+  url: https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467109093/Standards+and+specifications
+  description: The Commission catalogue lists standards used to implement eIDAS electronic signatures and trust services.
+  category: Sovereign Identity & Trust (eIDAS)
+  subcategory: eIDAS Technical Standards
+  tags:
+  - eidas
+  - etsi
+  - trust-services
+  entry_type: Standard
+  country_or_body: EU/European Commission
+  confidence: high
+- name: ENISA Overview of Standards Related to eIDAS
+  url: https://www.enisa.europa.eu/sites/default/files/publications/ENISA%20Report%20-%20Overview%20of%20standards%20related%20to%20eIDAS.pdf
+  description: ENISA maps technical standards relevant to implementation of eIDAS services.
+  category: Sovereign Identity & Trust (eIDAS)
+  subcategory: eIDAS Technical Standards
+  tags:
+  - eidas
+  - standards
+  - trust-services
+  entry_type: Guideline
+  country_or_body: EU/ENISA
+  confidence: high
+
+# Sovereign Cloud & DevSecOps
+#   Gaia-X Specifications & Architecture
+- name: Gaia-X Identity and Trust Architecture
+  url: https://gaia-x.gitlab.io/technical-committee/federation-services/federation-service-specifications/L18_IDM_TA/idm_ta/
+  description: The Gaia-X specification defines identity management and trust services for federated European cloud ecosystems.
+  category: Sovereign Cloud & DevSecOps
+  subcategory: Gaia-X Specifications & Architecture
+  tags:
+  - gaia-x
+  - identity
+  - trust
+  entry_type: Standard
+  country_or_body: EU/Gaia-X
+  confidence: high
+- name: Gaia-X Data Transfer Agent
+  url: https://gaia-x.eu/from-standard-to-open-source-stack-implementing-trusted-data-transactions-with-the-gaia-x-framework-and-the-data-transfer-agent/
+  description: The open-source Gaia-X Data Transfer Agent implements policy-controlled data transactions under the Gaia-X framework.
+  category: Sovereign Cloud & DevSecOps
+  subcategory: Gaia-X Specifications & Architecture
+  tags:
+  - gaia-x
+  - data-transfer
+  - policy
+  entry_type: Tool
+  country_or_body: EU/Gaia-X
+  hosting_note: '[Open Source]'
+  confidence: high
+- name: Gaia-X Trust Framework Architecture
+  url: https://docs.gaia-x.eu/technical-committee/architecture-document/latest/trust_framework_architecture/
+  description: This Gaia-X document defines trust-protocol and compliance mechanisms for Gaia-X participants.
+  category: Sovereign Cloud & DevSecOps
+  subcategory: Gaia-X Specifications & Architecture
+  tags:
+  - gaia-x
+  - trust
+  - credentials
+  entry_type: Framework
+  country_or_body: EU/Gaia-X
+  confidence: high
+
+#   National Sovereign Cloud Certification & Qualification Schemes
+- name: Cloud Computing Compliance Criteria Catalogue (C5)
+  url: https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Empfehlungen-nach-Angriffszielen/Cloud-Computing/Kriterienkatalog-C5/kriterienkatalog-c5_node.html
+  description: BSI's C5 catalogue defines auditable security criteria for cloud services used in Germany.
+  category: Sovereign Cloud & DevSecOps
+  subcategory: National Sovereign Cloud Certification & Qualification Schemes
+  tags:
+  - c5
+  - cloud
+  - assurance
+  entry_type: Certification Scheme
+  country_or_body: Germany/BSI
+  confidence: high
+- name: SecNumCloud
+  url: https://cyber.gouv.fr/enjeux-technologiques/cloud/
+  description: ANSSI's SecNumCloud qualification page provides the French reference material for qualified cloud services.
+  category: Sovereign Cloud & DevSecOps
+  subcategory: National Sovereign Cloud Certification & Qualification Schemes
+  tags:
+  - secnumcloud
+  - cloud
+  - qualification
+  entry_type: Certification Scheme
+  country_or_body: France/ANSSI
+  confidence: high
+- name: EUCS Candidate Cloud Certification Scheme
+  url: https://www.enisa.europa.eu/publications/eucs-cloud-service-scheme
+  description: ENISA publishes the candidate EU cybersecurity certification scheme for cloud services.
+  category: Sovereign Cloud & DevSecOps
+  subcategory: National Sovereign Cloud Certification & Qualification Schemes
+  tags:
+  - eucs
+  - cloud
+  - certification
+  entry_type: Certification Scheme
+  country_or_body: EU/ENISA
+  confidence: high
+- name: European Commission Cloud Sovereignty Framework
+  url: https://commission.europa.eu/document/download/09579818-64a6-4dd5-9577-446ab6219113_en
+  description: The European Commission framework provides sovereignty criteria for cloud procurement.
+  category: Sovereign Cloud & DevSecOps
+  subcategory: National Sovereign Cloud Certification & Qualification Schemes
+  tags:
+  - cloud
+  - sovereignty
+  - procurement
+  entry_type: Framework
+  country_or_body: EU/European Commission
+  confidence: high
+
+#   EU-Hosted DevSecOps Tooling
+- name: code.europa.eu
+  url: https://code.europa.eu/
+  description: The European Commission-hosted GitLab service provides EU-hosted source control and CI/CD for public-sector open-source projects.
+  category: Sovereign Cloud & DevSecOps
+  subcategory: EU-Hosted DevSecOps Tooling
+  tags:
+  - gitlab
+  - devsecops
+  - public-sector
+  entry_type: Tool
+  country_or_body: EU/European Commission
+  hosting_note: '[EU-Hosted]'
+  confidence: high
+
+# Cyber-Physical Security
+#   Energy & Industrial Control Systems (OT/ICS/SCADA)
+- name: ENISA ICS-CERT Good Practice Guide
+  url: https://www.enisa.europa.eu/publications/good-practice-guide-for-certs-in-the-area-of-industrial-control-systems
+  description: ENISA guidance defines incident-response practices for CSIRTs serving European industrial control systems.
+  category: Cyber-Physical Security
+  subcategory: Energy & Industrial Control Systems (OT/ICS/SCADA)
+  tags:
+  - ics
+  - csirt
+  - incident-response
+  entry_type: Guideline
+  country_or_body: EU/ENISA
+  confidence: high
+- name: ANSSI ICS Classification Method
+  url: https://messervices.cyber.gouv.fr/documents-guides/anssi-guide-industrial_control_systems-classification_method_v2-0.pdf
+  description: ANSSI's method classifies industrial control systems by cyber risk to select proportionate security measures.
+  category: Cyber-Physical Security
+  subcategory: Energy & Industrial Control Systems (OT/ICS/SCADA)
+  tags:
+  - ics
+  - risk
+  - classification
+  entry_type: Guideline
+  country_or_body: France/ANSSI
+  confidence: high
+- name: ANSSI ICS Detailed Measures
+  url: https://messervices.cyber.gouv.fr/documents-guides/Guide_Systemes_industriels__Mesures_detaillees_v2.pdf
+  description: ANSSI provides prescriptive cybersecurity measures for industrial control systems.
+  category: Cyber-Physical Security
+  subcategory: Energy & Industrial Control Systems (OT/ICS/SCADA)
+  tags:
+  - ics
+  - controls
+  - ot
+  entry_type: Guideline
+  country_or_body: France/ANSSI
+  confidence: high
+
+#   Transport & Automotive
+- name: ENISA Good Practices for Smart Car Security
+  url: https://www.enisa.europa.eu/publications/smart-cars
+  description: ENISA provides cybersecurity controls for connected and automated vehicles in the European market.
+  category: Cyber-Physical Security
+  subcategory: Transport & Automotive
+  tags:
+  - automotive
+  - connected-cars
+  - controls
+  entry_type: Guideline
+  country_or_body: EU/ENISA
+  confidence: high
+- name: ENISA Cybersecurity and AI in Autonomous Driving
+  url: https://www.enisa.europa.eu/publications/enisa-jrc-cybersecurity-challenges-in-the-uptake-of-artificial-intelligence-in-autonomous-driving
+  description: ENISA and JRC map cybersecurity risks and mitigations for AI-enabled autonomous driving in Europe.
+  category: Cyber-Physical Security
+  subcategory: Transport & Automotive
+  tags:
+  - automotive
+  - ai
+  - risk
+  entry_type: Guideline
+  country_or_body: EU/ENISA
+  confidence: high
+
+#   Maritime & Port Security
+- name: ENISA Port Cybersecurity Good Practices
+  url: https://www.enisa.europa.eu/publications/port-cybersecurity-good-practices-for-cybersecurity-in-the-maritime-sector
+  description: ENISA identifies cybersecurity practices for European port authorities and operators.
+  category: Cyber-Physical Security
+  subcategory: Maritime & Port Security
+  tags:
+  - maritime
+  - ports
+  - ot
+  entry_type: Guideline
+  country_or_body: EU/ENISA
+  confidence: high
+- name: ENISA Cyber Risk Management for Ports
+  url: https://www.enisa.europa.eu/publications/guidelines-cyber-risk-management-for-ports
+  description: ENISA provides a risk-management methodology tailored to European port ecosystems.
+  category: Cyber-Physical Security
+  subcategory: Maritime & Port Security
+  tags:
+  - ports
+  - risk-management
+  - supply-chain
+  entry_type: Guideline
+  country_or_body: EU/ENISA
+  confidence: high
+
+#   Aerospace & Space Telemetry
+- name: ENISA Space Threat Landscape 2025
+  url: https://www.enisa.europa.eu/publications/enisa-space-threat-landscape-2025
+  description: ENISA catalogues cyber threats and mitigations affecting European commercial satellite operations.
+  category: Cyber-Physical Security
+  subcategory: Aerospace & Space Telemetry
+  tags:
+  - space
+  - satellite
+  - threat-landscape
+  entry_type: Guideline
+  country_or_body: EU/ENISA
+  confidence: high
+- name: ENISA Space Threat Landscape Repository
+  url: https://github.com/enisaeu/Space-Threat-Landscape
+  description: ENISA's open-source repository contains the data and material supporting its European space threat landscape.
+  category: Cyber-Physical Security
+  subcategory: Aerospace & Space Telemetry
+  tags:
+  - space
+  - threat-model
+  - dataset
+  entry_type: Tool
+  country_or_body: EU/ENISA
+  hosting_note: '[Open Source]'
+  confidence: high
+- name: ESA Cyber Resilience Framework
+  url: https://www.esa.int/About_Us/Cyber_resilience_at_ESA
+  description: ESA documents the cybersecurity governance and resilience approach used for European space missions and infrastructure.
+  category: Cyber-Physical Security
+  subcategory: Aerospace & Space Telemetry
+  tags:
+  - space
+  - resilience
+  - esa
+  entry_type: Framework
+  country_or_body: Europe/ESA
+  confidence: high
+- name: OpenSatRange
+  url: https://ceur-ws.org/Vol-3978/regular-s3-04.pdf
+  description: OpenSatRange is a European academic open-source cyber-range design for satellite-system security exercises.
+  category: Cyber-Physical Security
+  subcategory: Aerospace & Space Telemetry
+  tags:
+  - space
+  - cyber-range
+  - satellite
+  entry_type: Tool
+  country_or_body: Europe/Academia
+  hosting_note: '[Open Source]'
+  confidence: medium
+
+#   Hardware & Embedded Security Auditing
+- name: FAIL*
+  url: https://github.com/danceos/fail
+  description: FAIL* is an open-source fault-injection framework originating at TU Dortmund for assessing software-implemented hardware fault tolerance.
+  category: Cyber-Physical Security
+  subcategory: Hardware & Embedded Security Auditing
+  tags:
+  - fault-injection
+  - hardware
+  - testing
+  entry_type: Tool
+  country_or_body: Germany/TU Dortmund
+  hosting_note: '[Open Source]'
+  confidence: high
+- name: vRTLmod
+  url: https://github.com/tum-ei-eda/vrtlmod
+  description: TU Munich's open-source vRTLmod tool enables fault injection in Verilator RTL simulations.
+  category: Cyber-Physical Security
+  subcategory: Hardware & Embedded Security Auditing
+  tags:
+  - fault-injection
+  - rtl
+  - verilator
+  entry_type: Tool
+  country_or_body: Germany/TU Munich
+  hosting_note: '[Open Source]'
+  confidence: medium
+- name: SCALib
+  url: https://github.com/simple-crypto/scalib
+  description: UCLouvain's open-source SCALib provides algorithms for side-channel security evaluation.
+  category: Cyber-Physical Security
+  subcategory: Hardware & Embedded Security Auditing
+  tags:
+  - side-channel
+  - cryptography
+  - evaluation
+  entry_type: Tool
+  country_or_body: Belgium/UCLouvain
+  hosting_note: '[Open Source]'
+  confidence: high
+- name: ASCAD
+  url: https://github.com/ANSSI-FR/ASCAD
+  description: ANSSI and CEA publish ASCAD datasets, scripts, and models for benchmarking side-channel analysis of cryptographic implementations.
+  category: Cyber-Physical Security
+  subcategory: Hardware & Embedded Security Auditing
+  tags:
+  - side-channel
+  - dataset
+  - deep-learning
+  entry_type: Tool
+  country_or_body: France/ANSSI and CEA
+  hosting_note: '[Open Source]'
+  confidence: high
+- name: pyecsca
+  url: https://github.com/J08nY/pyecsca
+  description: Masaryk University-supported pyecsca is an open-source toolkit for side-channel analysis of elliptic-curve implementations.
+  category: Cyber-Physical Security
+  subcategory: Hardware & Embedded Security Auditing
+  tags:
+  - side-channel
+  - ecc
+  - reverse-engineering
+  entry_type: Tool
+  country_or_body: Czechia/Masaryk University
+  hosting_note: '[Open Source]'
+  confidence: high
+
+# Telecom, 5G & Network Infrastructure Security
+#   5G/Mobile Network Security
+- name: ENISA 5G Supplement under the EECC
+  url: https://www.enisa.europa.eu/publications/5g-supplement-security-measures-under-eecc
+  description: ENISA specifies security measures for 5G operators under the European Electronic Communications Code.
+  category: Telecom, 5G & Network Infrastructure Security
+  subcategory: 5G/Mobile Network Security
+  tags:
+  - 5g
+  - eecc
+  - telecom
+  entry_type: Guideline
+  country_or_body: EU/ENISA
+  confidence: high
+- name: BSI NESAS-CCS-GI
+  url: https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Zertifizierung-und-Anerkennung/Zertifizierung-von-Produkten/Zertifizierung-nach-NESAS/NESAS-CCS-GI_node.html
+  description: BSI's NESAS-CCS-GI scheme evaluates security of 5G network products for the German market.
+  category: Telecom, 5G & Network Infrastructure Security
+  subcategory: 5G/Mobile Network Security
+  tags:
+  - 5g
+  - nesas
+  - certification
+  entry_type: Certification Scheme
+  country_or_body: Germany/BSI
+  confidence: high
+- name: EU 5G Security Toolbox
+  url: https://digital-strategy.ec.europa.eu/en/library/eu-toolbox-5g-security
+  description: The EU 5G Toolbox defines coordinated strategic and technical risk-mitigation measures for 5G networks.
+  category: Telecom, 5G & Network Infrastructure Security
+  subcategory: 5G/Mobile Network Security
+  tags:
+  - 5g
+  - toolbox
+  - risk
+  entry_type: Framework
+  country_or_body: EU/NIS Cooperation Group
+  confidence: high
+- name: ENISA 5G Security Controls Matrix
+  url: https://www.enisa.europa.eu/publications/5g-security-controls-matrix
+  description: ENISA maps 5G threats to security controls supporting implementation of the EU 5G Toolbox.
+  category: Telecom, 5G & Network Infrastructure Security
+  subcategory: 5G/Mobile Network Security
+  tags:
+  - 5g
+  - controls
+  - threats
+  entry_type: Framework
+  country_or_body: EU/ENISA
+  confidence: high
+- name: BSI TR-03163 Security in Telecommunications Infrastructure
+  url: https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03163/BSI-TR-03163.pdf?__blob=publicationFile&v=7
+  description: BSI TR-03163 specifies security requirements for telecommunications infrastructure used in German 5G networks.
+  category: Telecom, 5G & Network Infrastructure Security
+  subcategory: 5G/Mobile Network Security
+  tags:
+  - 5g
+  - bsi
+  - requirements
+  entry_type: Standard
+  country_or_body: Germany/BSI
+  confidence: high
+
+#   Open RAN Security
+- name: EU Report on Cybersecurity of Open RAN
+  url: https://digital-strategy.ec.europa.eu/en/library/cybersecurity-open-radio-access-networks
+  description: The EU report identifies Open RAN security risks and mitigation measures in the context of the 5G Toolbox.
+  category: Telecom, 5G & Network Infrastructure Security
+  subcategory: Open RAN Security
+  tags:
+  - open-ran
+  - 5g
+  - risk
+  entry_type: Guideline
+  country_or_body: EU/NIS Cooperation Group
+  confidence: high
+
+#   Fixed & Submarine Cable Infrastructure Security
+- name: EU Recommendation on Submarine Cable Security
+  url: https://digital-strategy.ec.europa.eu/en/library/recommendation-security-and-resilience-submarine-cable-infrastructures
+  description: This EU recommendation sets a coordinated approach to the security and resilience of submarine cable infrastructure.
+  category: Telecom, 5G & Network Infrastructure Security
+  subcategory: Fixed & Submarine Cable Infrastructure Security
+  tags:
+  - submarine-cables
+  - resilience
+  - critical-infrastructure
+  entry_type: Guideline
+  country_or_body: EU/European Commission
+  confidence: high
+- name: EU Submarine Cable Security Toolbox
+  url: https://digital-strategy.ec.europa.eu/en/library/submarine-cable-security-toolbox-and-cable-projects-european-interest
+  description: The European Commission publishes an EU toolbox for submarine-cable security and cable projects of European interest.
+  category: Telecom, 5G & Network Infrastructure Security
+  subcategory: Fixed & Submarine Cable Infrastructure Security
+  tags:
+  - submarine-cables
+  - toolbox
+  - risk
+  entry_type: Framework
+  country_or_body: EU/European Commission
+  confidence: high
+- name: ENISA Undersea Cables
+  url: https://www.enisa.europa.eu/publications/undersea-cables
+  description: ENISA provides technical guidance for national authorities supervising undersea cable security.
+  category: Telecom, 5G & Network Infrastructure Security
+  subcategory: Fixed & Submarine Cable Infrastructure Security
+  tags:
+  - undersea-cables
+  - threats
+  - resilience
+  entry_type: Guideline
+  country_or_body: EU/ENISA
+  confidence: high
+- name: EU Report on Submarine Cable Resilience
+  url: https://digital-strategy.ec.europa.eu/en/library/report-security-and-resilience-eu-submarine-cable-infrastructures
+  description: This EU report assesses the security and resilience of submarine cable infrastructure.
+  category: Telecom, 5G & Network Infrastructure Security
+  subcategory: Fixed & Submarine Cable Infrastructure Security
+  tags:
+  - submarine-cables
+  - risk-assessment
+  - resilience
+  entry_type: Guideline
+  country_or_body: EU/European Commission
+  confidence: high
+
+# Threat Intelligence
+#   EU and National Threat Intelligence
+- name: CERT-EU Cyber Threat Intelligence Framework
+  url: https://www.cert.europa.eu/publications/threat-intelligence/cyber-threat-intelligence-framework/
+  description: CERT-EU defines a structured threat-intelligence process for EU institutions and peer CSIRTs.
+  category: Threat Intelligence
+  subcategory: EU and National Threat Intelligence
+  tags:
+  - cti
+  - cert-eu
+  - framework
+  entry_type: Framework
+  country_or_body: EU/CERT-EU
+  confidence: high
+- name: CERT-EU Security Advisories
+  url: https://cert.europa.eu/publications/security-advisories/2026
+  description: CERT-EU publishes actionable security advisories for EU institutions and the wider European CSIRT community.
+  category: Threat Intelligence
+  subcategory: EU and National Threat Intelligence
+  tags:
+  - advisories
+  - cert-eu
+  - vulnerabilities
+  entry_type: Feed
+  country_or_body: EU/CERT-EU
+  confidence: high
+- name: MISP
+  url: https://www.circl.lu/services/misp-malware-information-sharing-platform/
+  description: The open-source MISP platform maintained in Luxembourg supports structured threat-intelligence sharing among European CSIRTs.
+  category: Threat Intelligence
+  subcategory: EU and National Threat Intelligence
+  tags:
+  - misp
+  - threat-sharing
+  - stix
+  entry_type: Tool
+  country_or_body: Luxembourg/CIRCL
+  hosting_note: '[Open Source]'
+  confidence: high
+- name: AIL Framework
+  url: https://github.com/CIRCL/AIL-Framework
+  description: CIRCL's open-source AIL framework supports analysis of information leaks and threat-intelligence sources.
+  category: Threat Intelligence
+  subcategory: EU and National Threat Intelligence
+  tags:
+  - ail
+  - threat-intelligence
+  - leaks
+  entry_type: Tool
+  country_or_body: Luxembourg/CIRCL
+  hosting_note: '[Open Source]'
+  confidence: high
+- name: European Vulnerability Database
+  url: https://euvd.enisa.europa.eu/
+  description: ENISA's EUVD publishes vulnerability records and related EU coordination information.
+  category: Threat Intelligence
+  subcategory: EU and National Threat Intelligence
+  tags:
+  - euvd
+  - vulnerabilities
+  - enisa
+  entry_type: Feed
+  country_or_body: EU/ENISA
+  confidence: high
+- name: NCSC-NL Security Advisories CSAF Feed
+  url: https://advisories.ncsc.nl/
+  description: NCSC-NL publishes machine-readable CSAF security advisories.
+  category: Threat Intelligence
+  subcategory: EU and National Threat Intelligence
+  tags:
+  - csaf
+  - advisories
+  - vulnerabilities
+  entry_type: Feed
+  country_or_body: Netherlands/NCSC-NL
+  confidence: high
+
+# Training & Cyber Ranges
+#   Cyber Range Platforms
+- name: KYPO Cyber Range Platform
+  url: https://crp.kypo.muni.cz/
+  description: Masaryk University's open-source KYPO platform provides reproducible cybersecurity training ranges.
+  category: Training & Cyber Ranges
+  subcategory: Cyber Range Platforms
+  tags:
+  - cyber-range
+  - training
+  - kypo
+  entry_type: Tool
+  country_or_body: Czechia/Masaryk University
+  hosting_note: '[Open Source]'
+  confidence: high
+- name: CyberRangeCZ Platform
+  url: https://docs.platform.cyberrange.cz/
+  description: CyberRangeCZ documentation supports deployment of the Czech open-source KYPO cyber-range platform.
+  category: Training & Cyber Ranges
+  subcategory: Cyber Range Platforms
+  tags:
+  - cyber-range
+  - kypo
+  - documentation
+  entry_type: Tool
+  country_or_body: Czechia/Masaryk University
+  hosting_note: '[Open Source]'
+  confidence: high
+- name: CR14 Cyber Range
+  url: https://www.cr14.ee/ranges/
+  description: Estonia's CR14 provides national cyber-range infrastructure for exercises and testing.
+  category: Training & Cyber Ranges
+  subcategory: Cyber Range Platforms
+  tags:
+  - cyber-range
+  - exercises
+  - estonia
+  entry_type: Framework
+  country_or_body: Estonia/CR14
+  hosting_note: '[EU-Hosted]'
+  confidence: medium
+- name: Luxembourg Cyber Range
+  url: https://www.cyber-range.lu/
+  description: Luxembourg's national cyber range provides hosted environments for cybersecurity training and exercises.
+  category: Training & Cyber Ranges
+  subcategory: Cyber Range Platforms
+  tags:
+  - cyber-range
+  - training
+  - luxembourg
+  entry_type: Framework
+  country_or_body: Luxembourg/Cyber Range
+  hosting_note: '[EU-Hosted]'
+  confidence: medium
+
+#   Competitions & CTF Infrastructure
+- name: CERT Polska CTF Infrastructure Guide
+  url: https://cert.pl/en/posts/2018/07/technical-aspects-of-ctf-contest-organization/
+  description: CERT Polska documents technical infrastructure practices for operating national and European CTF competitions.
+  category: Training & Cyber Ranges
+  subcategory: Competitions & CTF Infrastructure
+  tags:
+  - ctf
+  - infrastructure
+  - operations
+  entry_type: Guideline
+  country_or_body: Poland/CERT Polska
+  confidence: high
+
+#   Skills & Competency Frameworks
+- name: European Cybersecurity Skills Framework
+  url: https://www.enisa.europa.eu/topics/skills-and-competences/skills-development/european-cybersecurity-skills-framework-ecsf
+  description: ENISA's ECSF defines a common EU vocabulary of cybersecurity roles, skills, and competencies.
+  category: Training & Cyber Ranges
+  subcategory: Skills & Competency Frameworks
+  tags:
+  - ecsf
+  - skills
+  - roles
+  entry_type: Framework
+  country_or_body: EU/ENISA
+  confidence: high
+- name: ECSF User Manual
+  url: https://www.enisa.europa.eu/publications/european-cybersecurity-skills-framework-ecsf
+  description: The ENISA user manual provides implementation guidance for applying ECSF in organisations and education.
+  category: Training & Cyber Ranges
+  subcategory: Skills & Competency Frameworks
+  tags:
+  - ecsf
+  - workforce
+  - implementation
+  entry_type: Guideline
+  country_or_body: EU/ENISA
+  confidence: high
+- name: ECSF Role Profiles
+  url: https://www.enisa.europa.eu/publications/european-cybersecurity-skills-framework-role-profiles
+  description: ENISA specifies twelve cybersecurity role profiles and associated competencies for the EU labour market.
+  category: Training & Cyber Ranges
+  subcategory: Skills & Competency Frameworks
+  tags:
+  - ecsf
+  - roles
+  - competencies
+  entry_type: Framework
+  country_or_body: EU/ENISA
+  confidence: high
+
+#   Awareness & Workforce Training Resources
+- name: AR-in-a-Box
+  url: https://www.enisa.europa.eu/topics/awareness-and-cyber-hygiene/ar-in-a-box
+  description: ENISA provides reusable materials for planning and running cybersecurity awareness programmes.
+  category: Training & Cyber Ranges
+  subcategory: Awareness & Workforce Training Resources
+  tags:
+  - awareness
+  - training
+  - toolkit
+  entry_type: Tool
+  country_or_body: EU/ENISA
+  hosting_note: '[Open Source]'
+  confidence: high
+- name: ENISA CyberEducation Platform
+  url: https://www.enisa.europa.eu/tools/enisa-cybereducation-platform
+  description: ENISA's platform catalogues European cybersecurity education and training opportunities.
+  category: Training & Cyber Ranges
+  subcategory: Awareness & Workforce Training Resources
+  tags:
+  - education
+  - training
+  - catalogue
+  entry_type: Tool
+  country_or_body: EU/ENISA
+  hosting_note: '[EU-Hosted]'
+  confidence: high
+- name: ENISA C-Level Awareness Guide
+  url: https://www.enisa.europa.eu/sites/default/files/2024-11/GUIDE-C-LEVEL-Web.pdf
+  description: ENISA guidance helps organisations deliver cybersecurity awareness programmes to senior leadership.
+  category: Training & Cyber Ranges
+  subcategory: Awareness & Workforce Training Resources
+  tags:
+  - awareness
+  - leadership
+  - training
+  entry_type: Guideline
+  country_or_body: EU/ENISA
+  confidence: high
+- name: CIRCL Training Initiatives
+  url: https://www.circl.lu/services/training-initiative/
+  description: Luxembourg's CIRCL publishes practical threat-intelligence and incident-response training resources.
+  category: Training & Cyber Ranges
+  subcategory: Awareness & Workforce Training Resources
+  tags:
+  - training
+  - incident-response
+  - cti
+  entry_type: Guideline
+  country_or_body: Luxembourg/CIRCL
+  confidence: high
+- name: ENISA SME Training Material
+  url: https://www.enisa.europa.eu/publications/archive/training-material-SMEs
+  description: ENISA provides reusable cybersecurity training material for European small and medium-sized enterprises.
+  category: Training & Cyber Ranges
+  subcategory: Awareness & Workforce Training Resources
+  tags:
+  - sme
+  - training
+  - awareness
+  entry_type: Guideline
+  country_or_body: EU/ENISA
+  confidence: high
+
+# National Cybersecurity Authorities & Standards
+#   France/ANSSI
+- name: ANSSI Guideline for a Healthy Information System
+  url: https://messervices.cyber.gouv.fr/documents-guides/guideline-for-a-healthy-information-system-in-42-measures_v2.pdf
+  description: ANSSI specifies 42 baseline measures for securing information systems in French organisations.
+  category: National Cybersecurity Authorities & Standards
+  subcategory: France/ANSSI
+  tags:
+  - baseline
+  - hygiene
+  - france
+  entry_type: Guideline
+  country_or_body: France/ANSSI
+  confidence: high
+- name: ANSSI General Security Framework (RGS)
+  url: https://cyber.gouv.fr/reglementation/reglementation-identite-confiance-numerique/securite-echanges-voie-electronique/referentiel-general-de-securite/documents-referentiel-general-de-securite/
+  description: The RGS defines security requirements for electronic exchanges with French public authorities.
+  category: National Cybersecurity Authorities & Standards
+  subcategory: France/ANSSI
+  tags:
+  - rgs
+  - public-sector
+  - trust
+  entry_type: Standard
+  country_or_body: France/ANSSI
+  confidence: high
+
+#   Germany/BSI
+- name: BSI IT-Grundschutz
+  url: https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/it-grundschutz.html
+  description: BSI IT-Grundschutz provides a modular information-security management framework for German organisations.
+  category: National Cybersecurity Authorities & Standards
+  subcategory: Germany/BSI
+  tags:
+  - grundschutz
+  - isms
+  - controls
+  entry_type: Framework
+  country_or_body: Germany/BSI
+  confidence: high
+- name: BSI C5:2020
+  url: https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Empfehlungen-nach-Angriffszielen/Cloud-Computing/Kriterienkatalog-C5/C5_AktuelleVersion/C5_AktuelleVersion_node.html
+  description: BSI C5:2020 defines cloud security criteria and audit requirements used in Germany.
+  category: National Cybersecurity Authorities & Standards
+  subcategory: Germany/BSI
+  tags:
+  - c5
+  - cloud
+  - audit
+  entry_type: Standard
+  country_or_body: Germany/BSI
+  confidence: high
+
+#   Netherlands/NCSC-NL
+- name: NCSC-NL Fundamentals
+  url: https://www.ncsc.nl/en/fundamentals
+  description: NCSC-NL defines baseline security principles and implementation guidance for organisations in the Netherlands.
+  category: National Cybersecurity Authorities & Standards
+  subcategory: Netherlands/NCSC-NL
+  tags:
+  - fundamentals
+  - baseline
+  - guidance
+  entry_type: Guideline
+  country_or_body: Netherlands/NCSC-NL
+  confidence: high
+
+#   United Kingdom/NCSC
+- name: UK NCSC 10 Steps to Cyber Security
+  url: https://www.ncsc.gov.uk/collection/10-steps
+  description: The UK NCSC specifies ten risk-management areas for organisational cybersecurity programmes.
+  category: National Cybersecurity Authorities & Standards
+  subcategory: United Kingdom/NCSC
+  tags:
+  - baseline
+  - risk-management
+  - guidance
+  entry_type: Guideline
+  country_or_body: United Kingdom/NCSC
+  confidence: high
+- name: UK NCSC Cyber Assessment Framework
+  url: https://www.ncsc.gov.uk/collection/cyber-assessment-framework
+  description: The UK NCSC CAF defines cybersecurity outcomes for assessing essential services.
+  category: National Cybersecurity Authorities & Standards
+  subcategory: United Kingdom/NCSC
+  tags:
+  - caf
+  - critical-infrastructure
+  - assessment
+  entry_type: Framework
+  country_or_body: United Kingdom/NCSC
+  confidence: high
+
+#   Finland/NCSC-FI
+- name: Cybermeter
+  url: https://www.kyberturvallisuuskeskus.fi/files/media/file/Kybermittari_Cybermeter_User_Guide_V1.pdf
+  description: NCSC-FI's Cybermeter provides a national framework for assessing organisational cybersecurity maturity.
+  category: National Cybersecurity Authorities & Standards
+  subcategory: Finland/NCSC-FI
+  tags:
+  - maturity
+  - assessment
+  - finland
+  entry_type: Framework
+  country_or_body: Finland/NCSC-FI
+  confidence: high
+
+#   EU/CERT-EU
+- name: CERT-EU Cyber Threat Intelligence Framework
+  url: https://cert.europa.eu/blog/cti-framework
+  description: CERT-EU publishes a common threat-intelligence framework for EU institutions and bodies.
+  category: National Cybersecurity Authorities & Standards
+  subcategory: EU/CERT-EU
+  tags:
+  - cti
+  - eu-institutions
+  - framework
+  entry_type: Framework
+  country_or_body: EU/CERT-EU
+  confidence: high
+
+#   EU/ENISA
+- name: ENISA National Cybersecurity Strategy Evaluation Framework
+  url: https://www.enisa.europa.eu/publications/an-evaluation-framework-for-cyber-security-strategies
+  description: ENISA provides a structured framework for evaluating national cybersecurity strategies in Europe.
+  category: National Cybersecurity Authorities & Standards
+  subcategory: EU/ENISA
+  tags:
+  - strategy
+  - evaluation
+  - national
+  entry_type: Framework
+  country_or_body: EU/ENISA
+  confidence: high
+
+#   Ireland/NCSC
+- name: Ireland Cyber Security Baseline Standards
+  url: https://ncsc.gov.ie/pdfs/Cyber_Security_Baseline_Standards_Rev_1_2022_Final.pdf
+  description: Ireland's NCSC defines mandatory baseline cybersecurity controls for public-service bodies.
+  category: National Cybersecurity Authorities & Standards
+  subcategory: Ireland/NCSC
+  tags:
+  - baseline
+  - public-sector
+  - ireland
+  entry_type: Standard
+  country_or_body: Ireland/NCSC
+  confidence: high
+- name: Ireland ICT Procurement Security Guidelines
+  url: https://www.ncsc.gov.ie/pdfs/Guidelines_on_Cyber_Security_Specifications.pdf
+  description: Ireland's NCSC provides cybersecurity requirements for public-sector ICT procurement.
+  category: National Cybersecurity Authorities & Standards
+  subcategory: Ireland/NCSC
+  tags:
+  - procurement
+  - requirements
+  - ireland
+  entry_type: Guideline
+  country_or_body: Ireland/NCSC
+  confidence: high
+

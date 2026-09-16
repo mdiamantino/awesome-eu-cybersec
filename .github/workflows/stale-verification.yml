@@ -1,0 +1,22 @@
+name: Stale verification report
+
+on:
+  schedule:
+    # Monthly nudge listing entries no one has re-checked in over a year.
+    - cron: '0 7 1 * *'
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: List entries due for re-verification
+        run: python scripts/stale.py --days 365
+        working-directory: scripts

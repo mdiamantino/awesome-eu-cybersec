@@ -1,0 +1,80 @@
+name: Propose a resource
+description: Suggest a tool, standard, certification scheme or guideline for the list
+title: "[resource] "
+labels: ["resource proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing: open the URL and confirm it is the resource you are describing.
+        Entries that cannot be verified are not merged.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: The resource's own name, not a tagline.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Direct HTTPS link to the resource itself, not a search or a homepage.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One objective sentence. No superlatives. State the EU relevance explicitly.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - "Governance, Risk & Policy Mapping"
+        - "Financial Sector Resilience (DORA)"
+        - "Software Supply Chain & Product Security (CRA)"
+        - "Sovereign Identity & Trust (eIDAS)"
+        - "Sovereign Cloud & DevSecOps"
+        - "Cyber-Physical Security"
+        - "Telecom, 5G & Network Infrastructure Security"
+        - "Cryptography, Certification & Post-Quantum Readiness"
+        - "Threat Intelligence"
+        - "Training & Cyber Ranges"
+        - "National Cybersecurity Authorities & Standards"
+        - "Not sure"
+    validations:
+      required: true
+  - type: dropdown
+    id: entry_type
+    attributes:
+      label: What kind of resource is it?
+      options: [Tool, Standard, Certification Scheme, Framework, Guideline, Report, Feed, Dataset, Training, Organisation]
+    validations:
+      required: true
+  - type: input
+    id: country_or_body
+    attributes:
+      label: Maintained by
+      description: "Country/Agency or EU/Body, e.g. France/ANSSI, EU/ENISA, Poland/CERT Polska."
+    validations:
+      required: true
+  - type: textarea
+    id: eu_relevance
+    attributes:
+      label: Why it is in scope
+      description: >-
+        Which EU regulation, EU or national scheme, or European maintainer puts this in
+        scope? If it is commercial or from outside the EU/EEA, say why it still belongs.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What you saw on the page
+      description: Quote the title, issuing body or licence that confirms this is the claimed resource.
+    validations:
+      required: true

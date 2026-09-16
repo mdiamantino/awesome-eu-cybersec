@@ -1,0 +1,33 @@
+name: Report a problem with an entry
+description: Dead link, wrong description, archived project, superseded document
+title: "[fix] "
+labels: ["correction"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry
+      description: Name as it appears in README.md.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong
+      options:
+        - Link is dead or redirects somewhere else
+        - Description does not match the resource
+        - Project is archived or unmaintained with no successor
+        - Document has been superseded by a newer version
+        - Wrong category, subcategory or maintainer
+        - Does not meet the scope rules
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Detail
+      description: What you saw, and the replacement URL if there is one.
+    validations:
+      required: true
