@@ -94,7 +94,7 @@ entries:
   confidence: high
   last_verified: '2026-09-16'
 - name: Ireland's Cyber Security Academy
-  url: https://digital-skills-jobs.europa.eu/en/inspiration/resources/irelands-cyber-security-academy
+  url: https://digital-skills-jobs.europa.eu/en/learning-space/resources/irelands-cyber-security-academy
   description: Irish national cybersecurity training programme for school-age students run by Cyber Ireland,
     catalogued on the EU Digital Skills and Jobs Platform.
   subcategory: Awareness and Workforce Training
@@ -276,8 +276,8 @@ entries:
   last_verified: '2026-09-16'
 - name: CyberRangeCZ Platform
   url: https://docs.platform.cyberrange.cz/
-  description: CyberRangeCZ documentation supports deployment of the Czech open-source KYPO cyber-range
-    platform.
+  description: Container-based open-source cyber range platform from Masaryk University, the maintained
+    successor to KYPO used for hands-on training in the EU.
   subcategory: Cyber Range Platforms
   tags:
   - cyber-range
@@ -288,21 +288,8 @@ entries:
   confidence: high
   last_verified: '2026-09-16'
   hosting_note: '[Open Source]'
-- name: CyberRangeCZ Platform Source
-  url: https://github.com/cyberrangecz
-  description: Container-based open-source cyber range platform from Masaryk University, the maintained
-    successor to the KYPO Cyber Range Platform used for hands-on training in Czechia and the EU.
-  subcategory: Cyber Range Platforms
-  tags:
-  - cyber-range
-  - open-source
-  - sandbox
-  entry_type: Tool
-  country_or_body: Czechia/Masaryk University
-  hosting_note: '[Open Source]'
+  repo: https://github.com/cyberrangecz
   license: MIT
-  confidence: high
-  last_verified: '2026-09-16'
 - name: KYPO Cyber Range Platform
   url: https://crp.kypo.muni.cz/
   description: Masaryk University's open-source KYPO platform provides reproducible cybersecurity training

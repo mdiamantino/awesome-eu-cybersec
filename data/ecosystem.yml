@@ -16,7 +16,7 @@
   last_verified: '2026-09-16'
 - category: Governance, Risk & Policy Mapping
   name: capAI
-  url: https://www.oii.ox.ac.uk/news-events/a-report-from-the-universities-of-oxford-and-bologna-will-help-protect-society-from-unethical-ai-with-a-world-first-approach-to-support-organisations-to-meet-future-eu-regulations/
+  url: https://www.oii.ox.ac.uk/a-report-from-the-universities-of-oxford-and-bologna-will-help-protect-society-from-unethical-ai-with-a-world-first-approach-to-support-organisations-to-meet-future-eu-regulations/
   description: Conformity assessment procedure for the EU AI Act from the University of Oxford and the
     University of Bologna, structured as an auditable compliance scorecard.
   subcategory: EU AI Act
@@ -96,20 +96,6 @@
   tags:
   - certification
   - common-criteria
-  - cybersecurity-act
-  entry_type: Certification Scheme
-  country_or_body: EU/ENISA
-  confidence: high
-  last_verified: '2026-09-16'
-- category: Governance, Risk & Policy Mapping
-  name: EUCS Cloud Services Scheme
-  url: https://www.enisa.europa.eu/publications/eucs-cloud-services-scheme
-  description: Candidate European Cybersecurity Certification Scheme for Cloud Services drafted by ENISA
-    under Article 48 of the Cybersecurity Act to harmonise cloud assurance levels.
-  subcategory: EU Certification and Governance Schemes
-  tags:
-  - cloud
-  - certification
   - cybersecurity-act
   entry_type: Certification Scheme
   country_or_body: EU/ENISA
@@ -369,7 +355,7 @@
   last_verified: '2026-09-16'
 - category: Financial Sector Resilience (DORA)
   name: EBA Reporting Framework 3.5
-  url: https://www.eba.europa.eu/risk-and-data-analysis/reporting-frameworks/reporting-framework-35
+  url: https://www.eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-35
   description: EBA technical package of data point model, XBRL taxonomy and validation rules implementing
     the cross-sectoral DORA register-of-information reporting requirements.
   subcategory: ICT Third-Party Risk Registers
@@ -869,7 +855,7 @@
   last_verified: '2026-09-16'
 - category: Software Supply Chain & Product Security (CRA)
   name: Sovereign Tech Resilience
-  url: https://www.sovereign.tech/programs/bug-resilience
+  url: https://www.sovereign.tech/programs/resilience
   description: German government-backed Sovereign Tech Agency programme funding security audits and bug
     bounties for critical open-source components carrying CRA supply-chain risk.
   subcategory: SBOM and Vulnerability Handling
@@ -881,6 +867,21 @@
   country_or_body: Germany/Sovereign Tech Agency
   confidence: medium
   last_verified: '2026-09-16'
+- category: Sovereign Identity & Trust (eIDAS)
+  name: EU Digital Identity Wallet GitHub Organisation
+  url: https://github.com/eu-digital-identity-wallet
+  description: The European Commission organisation hosting every European Digital Identity Wallet reference
+    implementation, library and specification.
+  subcategory: EUDI Wallet Implementations and Testing
+  tags:
+  - eudi
+  - wallet
+  - reference-implementation
+  entry_type: Tool
+  country_or_body: EU/European Commission
+  confidence: high
+  last_verified: '2026-09-16'
+  hosting_note: '[Open Source]'
 - category: Sovereign Identity & Trust (eIDAS)
   name: EUDI Android Wallet Reference Application
   url: https://github.com/eu-digital-identity-wallet/eudi-app-android-wallet-ui
@@ -928,21 +929,6 @@
   confidence: high
   last_verified: '2026-09-16'
 - category: Sovereign Identity & Trust (eIDAS)
-  name: EUDI Wallet Reference Implementation
-  url: https://github.com/eu-digital-identity-wallet/.github/blob/main/profile/reference-implementation.md
-  description: The official open-source reference implementation supports development of wallets under
-    the European Digital Identity framework.
-  subcategory: EUDI Wallet Implementations and Testing
-  tags:
-  - eudi
-  - wallet
-  - reference-implementation
-  entry_type: Tool
-  country_or_body: EU/European Commission
-  confidence: high
-  last_verified: '2026-09-16'
-  hosting_note: '[Open Source]'
-- category: Sovereign Identity & Trust (eIDAS)
   name: EUDIW Credential Issuer Service
   url: https://github.com/eu-digital-identity-wallet/eudi-srv-web-issuing-eudiw-py
   description: Reference OpenID4VCI credential issuer for PID, mDL and qualified electronic attestations
@@ -960,7 +946,7 @@
   last_verified: '2026-09-16'
 - category: Sovereign Identity & Trust (eIDAS)
   name: EUDIW Verifier Endpoint
-  url: https://github.com/eu-digital-identity-wallet/eudi-srv-web-verifier-endpoint-23220-4-kt
+  url: https://github.com/eu-digital-identity-wallet/eudi-srv-verifier-endpoint
   description: Reference OpenID4VP verifier and relying-party backend for validating European Digital
     Identity Wallet credential presentations.
   subcategory: EUDI Wallet Implementations and Testing
@@ -1034,7 +1020,7 @@
   last_verified: '2026-09-16'
 - category: Sovereign Identity & Trust (eIDAS)
   name: AusweisApp
-  url: https://github.com/Governikus/AusweisApp2
+  url: https://github.com/Governikus/AusweisApp
   description: Germany's official open-source eID client for authenticating with the national identity
     card online function, connected to the German eIDAS node.
   subcategory: Signature and Trust-Service Tooling
@@ -1303,7 +1289,7 @@
   last_verified: '2026-09-16'
 - category: Sovereign Cloud & DevSecOps
   name: code.europa.eu
-  url: https://code.europa.eu/
+  url: https://about.code.europa.eu
   description: The European Commission-hosted GitLab service provides EU-hosted source control and CI/CD
     for public-sector open-source projects.
   subcategory: EU-Hosted DevSecOps Tooling
@@ -1713,7 +1699,7 @@
   confidence: high
   last_verified: '2026-09-16'
 - category: Cyber-Physical Security
-  name: Galileo OSNMA
+  name: Galileo OSNMA Service
   url: https://www.euspa.europa.eu/galileo-osnma
   description: EUSPA service page for Galileo Open Service Navigation Message Authentication, the EU GNSS
     capability that cryptographically authenticates Galileo navigation signals against spoofing.
@@ -1728,7 +1714,7 @@
   confidence: high
   last_verified: '2026-09-16'
 - category: Cyber-Physical Security
-  name: galileo-osnma
+  name: galileo-osnma (Rust implementation)
   url: https://github.com/daniestevez/galileo-osnma
   description: Rust implementation of the Galileo OSNMA protocol built against the EUSPA interface control
     document, verifying Galileo navigation message authenticity including on microcontrollers.
@@ -3342,7 +3328,7 @@
   last_verified: '2026-09-16'
 - category: Training & Cyber Ranges
   name: Ireland's Cyber Security Academy
-  url: https://digital-skills-jobs.europa.eu/en/inspiration/resources/irelands-cyber-security-academy
+  url: https://digital-skills-jobs.europa.eu/en/learning-space/resources/irelands-cyber-security-academy
   description: Irish national cybersecurity training programme for school-age students run by Cyber Ireland,
     catalogued on the EU Digital Skills and Jobs Platform.
   subcategory: Awareness and Workforce Training
@@ -3537,8 +3523,8 @@
 - category: Training & Cyber Ranges
   name: CyberRangeCZ Platform
   url: https://docs.platform.cyberrange.cz/
-  description: CyberRangeCZ documentation supports deployment of the Czech open-source KYPO cyber-range
-    platform.
+  description: Container-based open-source cyber range platform from Masaryk University, the maintained
+    successor to KYPO used for hands-on training in the EU.
   subcategory: Cyber Range Platforms
   tags:
   - cyber-range
@@ -3549,22 +3535,8 @@
   confidence: high
   last_verified: '2026-09-16'
   hosting_note: '[Open Source]'
-- category: Training & Cyber Ranges
-  name: CyberRangeCZ Platform Source
-  url: https://github.com/cyberrangecz
-  description: Container-based open-source cyber range platform from Masaryk University, the maintained
-    successor to the KYPO Cyber Range Platform used for hands-on training in Czechia and the EU.
-  subcategory: Cyber Range Platforms
-  tags:
-  - cyber-range
-  - open-source
-  - sandbox
-  entry_type: Tool
-  country_or_body: Czechia/Masaryk University
-  hosting_note: '[Open Source]'
+  repo: https://github.com/cyberrangecz
   license: MIT
-  confidence: high
-  last_verified: '2026-09-16'
 - category: Training & Cyber Ranges
   name: KYPO Cyber Range Platform
   url: https://crp.kypo.muni.cz/
@@ -3681,7 +3653,7 @@
   last_verified: '2026-09-16'
 - category: National Cybersecurity Authorities & Standards
   name: Cyberforsvar der virker
-  url: https://samsik.dk/publikationer/cyberforsvar-der-virker/
+  url: https://samsik.dk/cyb-publikationer/cyberforsvar-der-virker/
   description: Denmark's basic cyber-defence guide from the Centre for Cyber Security, setting out six
     steps to build organisational cyber resilience.
   subcategory: Denmark/CFCS
@@ -3718,20 +3690,6 @@
   - evaluation
   - national
   entry_type: Framework
-  country_or_body: EU/ENISA
-  confidence: high
-  last_verified: '2026-09-16'
-- category: National Cybersecurity Authorities & Standards
-  name: ENISA Threat Landscape Hub
-  url: https://www.enisa.europa.eu/topics/cyber-threats/threat-landscape
-  description: ENISA's landing page for its threat landscape work, collecting the annual EU-wide assessment
-    and the sectoral and thematic landscapes that accompany it.
-  subcategory: EU/ENISA
-  tags:
-  - threat-intel
-  - enisa
-  - landscape
-  entry_type: Feed
   country_or_body: EU/ENISA
   confidence: high
   last_verified: '2026-09-16'
@@ -4029,7 +3987,7 @@
   last_verified: '2026-09-16'
 - category: National Cybersecurity Authorities & Standards
   name: Grunnprinsipper for IKT-sikkerhet
-  url: https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/grunnprinsipper-for-ikt-sikkerhet/
+  url: https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/ta-i-bruk-grunnprinsippene/
   description: Baseline ICT security principles from Norway's National Security Authority, organised around
     identify, protect, detect and handle categories for EEA critical infrastructure.
   subcategory: Norway/NSM

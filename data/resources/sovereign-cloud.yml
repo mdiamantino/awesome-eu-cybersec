@@ -34,7 +34,7 @@ entries:
   confidence: high
   last_verified: '2026-09-16'
 - name: code.europa.eu
-  url: https://code.europa.eu/
+  url: https://about.code.europa.eu
   description: The European Commission-hosted GitLab service provides EU-hosted source control and CI/CD
     for public-sector open-source projects.
   subcategory: EU-Hosted DevSecOps Tooling

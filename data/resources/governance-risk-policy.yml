@@ -16,7 +16,7 @@ entries:
   confidence: high
   last_verified: '2026-09-16'
 - name: capAI
-  url: https://www.oii.ox.ac.uk/news-events/a-report-from-the-universities-of-oxford-and-bologna-will-help-protect-society-from-unethical-ai-with-a-world-first-approach-to-support-organisations-to-meet-future-eu-regulations/
+  url: https://www.oii.ox.ac.uk/a-report-from-the-universities-of-oxford-and-bologna-will-help-protect-society-from-unethical-ai-with-a-world-first-approach-to-support-organisations-to-meet-future-eu-regulations/
   description: Conformity assessment procedure for the EU AI Act from the University of Oxford and the
     University of Bologna, structured as an auditable compliance scorecard.
   subcategory: EU AI Act
@@ -91,19 +91,6 @@ entries:
   tags:
   - certification
   - common-criteria
-  - cybersecurity-act
-  entry_type: Certification Scheme
-  country_or_body: EU/ENISA
-  confidence: high
-  last_verified: '2026-09-16'
-- name: EUCS Cloud Services Scheme
-  url: https://www.enisa.europa.eu/publications/eucs-cloud-services-scheme
-  description: Candidate European Cybersecurity Certification Scheme for Cloud Services drafted by ENISA
-    under Article 48 of the Cybersecurity Act to harmonise cloud assurance levels.
-  subcategory: EU Certification and Governance Schemes
-  tags:
-  - cloud
-  - certification
   - cybersecurity-act
   entry_type: Certification Scheme
   country_or_body: EU/ENISA

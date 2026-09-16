@@ -83,7 +83,7 @@ entries:
   confidence: high
   last_verified: '2026-09-16'
 - name: EBA Reporting Framework 3.5
-  url: https://www.eba.europa.eu/risk-and-data-analysis/reporting-frameworks/reporting-framework-35
+  url: https://www.eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-35
   description: EBA technical package of data point model, XBRL taxonomy and validation rules implementing
     the cross-sectoral DORA register-of-information reporting requirements.
   subcategory: ICT Third-Party Risk Registers

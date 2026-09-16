@@ -263,7 +263,7 @@ entries:
   confidence: high
   last_verified: '2026-09-16'
 - name: Sovereign Tech Resilience
-  url: https://www.sovereign.tech/programs/bug-resilience
+  url: https://www.sovereign.tech/programs/resilience
   description: German government-backed Sovereign Tech Agency programme funding security audits and bug
     bounties for critical open-source components carrying CRA supply-chain risk.
   subcategory: SBOM and Vulnerability Handling

@@ -81,7 +81,7 @@ entries:
   country_or_body: EU/EUROCAE
   confidence: high
   last_verified: '2026-09-16'
-- name: Galileo OSNMA
+- name: Galileo OSNMA Service
   url: https://www.euspa.europa.eu/galileo-osnma
   description: EUSPA service page for Galileo Open Service Navigation Message Authentication, the EU GNSS
     capability that cryptographically authenticates Galileo navigation signals against spoofing.
@@ -95,7 +95,7 @@ entries:
   country_or_body: EU/EUSPA
   confidence: high
   last_verified: '2026-09-16'
-- name: galileo-osnma
+- name: galileo-osnma (Rust implementation)
   url: https://github.com/daniestevez/galileo-osnma
   description: Rust implementation of the Galileo OSNMA protocol built against the EUSPA interface control
     document, verifying Galileo navigation message authenticity including on microcontrollers.

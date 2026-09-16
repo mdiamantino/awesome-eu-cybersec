@@ -16,7 +16,7 @@ entries:
   confidence: high
   last_verified: '2026-09-16'
 - name: Cyberforsvar der virker
-  url: https://samsik.dk/publikationer/cyberforsvar-der-virker/
+  url: https://samsik.dk/cyb-publikationer/cyberforsvar-der-virker/
   description: Denmark's basic cyber-defence guide from the Centre for Cyber Security, setting out six
     steps to build organisational cyber resilience.
   subcategory: Denmark/CFCS
@@ -51,19 +51,6 @@ entries:
   - evaluation
   - national
   entry_type: Framework
-  country_or_body: EU/ENISA
-  confidence: high
-  last_verified: '2026-09-16'
-- name: ENISA Threat Landscape Hub
-  url: https://www.enisa.europa.eu/topics/cyber-threats/threat-landscape
-  description: ENISA's landing page for its threat landscape work, collecting the annual EU-wide assessment
-    and the sectoral and thematic landscapes that accompany it.
-  subcategory: EU/ENISA
-  tags:
-  - threat-intel
-  - enisa
-  - landscape
-  entry_type: Feed
   country_or_body: EU/ENISA
   confidence: high
   last_verified: '2026-09-16'
@@ -339,7 +326,7 @@ entries:
   confidence: high
   last_verified: '2026-09-16'
 - name: Grunnprinsipper for IKT-sikkerhet
-  url: https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/grunnprinsipper-for-ikt-sikkerhet/
+  url: https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/ta-i-bruk-grunnprinsippene/
   description: Baseline ICT security principles from Norway's National Security Authority, organised around
     identify, protect, detect and handle categories for EEA critical infrastructure.
   subcategory: Norway/NSM

@@ -44,6 +44,16 @@ class Result:
     category: str
     status: int | None
     note: str
+    final_url: str = ""
+
+    @property
+    def redirected(self) -> bool:
+        """True when the listed URL is not where the content actually lives.
+
+        Two spellings of one ENISA page slipped in as separate entries before
+        this check existed, so an uncanonical URL is worth surfacing.
+        """
+        return bool(self.final_url) and self.final_url.rstrip("/") != self.url.rstrip("/")
 
     @property
     def state(self) -> str:
@@ -67,7 +77,9 @@ async def check(client: httpx.AsyncClient, entry: dict, category: str, sem: asyn
                 continue
             if method == "HEAD" and not (200 <= response.status_code < 400):
                 continue  # retry over GET before believing a HEAD failure
-            return Result(entry["name"], url, category, response.status_code, "")
+            return Result(
+                entry["name"], url, category, response.status_code, "", str(response.url)
+            )
     return Result(entry["name"], url, category, None, "unreachable")
 
 
@@ -101,6 +113,9 @@ def main() -> int:
     broken = [r for r in results if r.state == "broken"]
     blocked = [r for r in results if r.state == "blocked"]
 
+    redirected = [r for r in results if r.state == "ok" and r.redirected]
+    for r in sorted(redirected, key=lambda r: r.url):
+        print(f"redirect      {r.name}\n              {r.url}\n           -> {r.final_url}")
     for r in sorted(blocked, key=lambda r: r.url):
         print(f"blocked  {r.status or r.note:>12}  {r.name} - {r.url}")
     for r in sorted(broken, key=lambda r: r.url):
@@ -108,12 +123,17 @@ def main() -> int:
 
     print(
         f"\n{len(results)} links: {len(results) - len(broken) - len(blocked)} ok, "
-        f"{len(blocked)} blocked by bot protection, {len(broken)} broken"
+        f"{len(blocked)} blocked by bot protection, {len(broken)} broken, "
+        f"{len(redirected)} not canonical"
     )
 
     if args.json_out:
         with open(args.json_out, "w", encoding="utf-8") as f:
-            json.dump([{**asdict(r), "state": r.state} for r in results], f, indent=2)
+            json.dump(
+                [{**asdict(r), "state": r.state, "redirected": r.redirected} for r in results],
+                f,
+                indent=2,
+            )
 
     if broken:
         return 1
