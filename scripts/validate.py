@@ -9,8 +9,14 @@ from __future__ import annotations
 import datetime as dt
 import re
 import sys
+from pathlib import Path
 from collections import defaultdict
 from urllib.parse import urlparse
+
+# Runnable from anywhere: CONTRIBUTING tells contributors to use
+# `python scripts/validate.py` from the repo root, which puts the repo root on
+# sys.path rather than this directory.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from jsonschema import Draft202012Validator
 

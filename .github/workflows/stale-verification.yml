@@ -19,4 +19,3 @@ jobs:
 
       - name: List entries due for re-verification
         run: python scripts/stale.py --days 365
-        working-directory: scripts

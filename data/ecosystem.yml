@@ -2145,6 +2145,22 @@
   confidence: high
   last_verified: '2026-09-16'
 - category: Telecom, 5G & Network Infrastructure Security
+  name: 5GReplay
+  url: https://github.com/Montimage/5GReplay
+  description: 5G protocol traffic replay and fuzzing tool from Montimage in France for attack-injection
+    testing of 5G core and RAN components.
+  subcategory: 5G and Mobile Network Security
+  tags:
+  - fuzzing
+  - 5g
+  - attack-injection
+  entry_type: Tool
+  country_or_body: France/Montimage
+  hosting_note: '[Open Source]'
+  license: Apache-2.0
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
   name: BSI NESAS-CCS-GI
   url: https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Zertifizierung-und-Anerkennung/Zertifizierung-von-Produkten/Zertifizierung-nach-NESAS/NESAS-CCS-GI_node.html
   description: BSI's NESAS-CCS-GI scheme evaluates security of 5G network products for the German market.
@@ -2199,6 +2215,76 @@
   confidence: high
   last_verified: '2026-09-16'
 - category: Telecom, 5G & Network Infrastructure Security
+  name: ENISA NFV Security in 5G
+  url: https://www.enisa.europa.eu/publications/nfv-security-in-5g-challenges-and-best-practices
+  description: ENISA report cataloguing security challenges and practices for network function virtualisation
+    in EU 5G deployments.
+  subcategory: 5G and Mobile Network Security
+  tags:
+  - enisa
+  - nfv
+  - virtualisation
+  entry_type: Report
+  country_or_body: EU/ENISA
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
+  name: ENISA Security in 5G Specifications
+  url: https://www.enisa.europa.eu/sites/default/files/publications/ENISA%20Report%20-%20Security%20in%205G%20Specifications.pdf
+  description: ENISA analysis of the security controls inside 3GPP 5G standalone specifications, written
+    to guide national regulators setting requirements under the EECC.
+  subcategory: 5G and Mobile Network Security
+  tags:
+  - enisa
+  - 3gpp
+  - eecc
+  entry_type: Report
+  country_or_body: EU/ENISA
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
+  name: ENISA Threat Landscape for 5G Networks
+  url: https://www.enisa.europa.eu/publications/enisa-threat-landscape-for-5g-networks
+  description: ENISA threat taxonomy and asset mapping for 5G networks, used to inform Member State implementation
+    of the EU 5G Cybersecurity Toolbox.
+  subcategory: 5G and Mobile Network Security
+  tags:
+  - enisa
+  - threat-landscape
+  - 5g
+  entry_type: Report
+  country_or_body: EU/ENISA
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
+  name: ETSI GS NFV-SEC 012
+  url: https://www.etsi.org/deliver/etsi_gs/NFV-SEC/001_099/012/03.01.01_60/gs_nfv-sec012v030101p.pdf
+  description: ETSI NFV Industry Specification Group standard defining a system architecture for running
+    sensitive virtualised network functions on trusted host platforms.
+  subcategory: 5G and Mobile Network Security
+  tags:
+  - etsi
+  - nfv
+  - trusted-platform
+  entry_type: Standard
+  country_or_body: EU/ETSI
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
+  name: ETSI TS 133 501 5G Security Architecture
+  url: https://www.etsi.org/deliver/etsi_ts/133500_133599/133501/18.09.00_60/ts_133501v180900p.pdf
+  description: The 3GPP 5G security architecture and procedures specification as published by ETSI, the
+    normative baseline for 5G authentication and confidentiality in Europe.
+  subcategory: 5G and Mobile Network Security
+  tags:
+  - etsi
+  - 3gpp
+  - 5g
+  entry_type: Standard
+  country_or_body: EU/ETSI
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
   name: EU 5G Security Toolbox
   url: https://digital-strategy.ec.europa.eu/en/library/eu-toolbox-5g-security
   description: The EU 5G Toolbox defines coordinated strategic and technical risk-mitigation measures
@@ -2223,6 +2309,20 @@
   - resilience
   entry_type: Guideline
   country_or_body: EU/ENISA
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
+  name: EU Action Plan on Cable Security
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025JC0009
+  description: Joint Communication from the European Commission and the High Representative setting coordinated
+    prevention, detection, response and deterrence measures for EU submarine cable security.
+  subcategory: Fixed and Submarine Cable Infrastructure Security
+  tags:
+  - submarine-cables
+  - resilience
+  - policy
+  entry_type: Framework
+  country_or_body: EU/European Commission
   confidence: high
   last_verified: '2026-09-16'
 - category: Telecom, 5G & Network Infrastructure Security
@@ -2267,6 +2367,20 @@
   confidence: high
   last_verified: '2026-09-16'
 - category: Telecom, 5G & Network Infrastructure Security
+  name: NATO-EU Critical Undersea Infrastructure Coordination Cell
+  url: https://ec.europa.eu/newsroom/cipr/items/786843/
+  description: European Commission record of the joint NATO and EU coordination cell set up to map vulnerabilities
+    and coordinate protection of submarine cables and pipelines.
+  subcategory: Fixed and Submarine Cable Infrastructure Security
+  tags:
+  - submarine-cables
+  - nato
+  - critical-infrastructure
+  entry_type: Report
+  country_or_body: EU/European Commission
+  confidence: medium
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
   name: EU Report on Cybersecurity of Open RAN
   url: https://digital-strategy.ec.europa.eu/en/library/cybersecurity-open-radio-access-networks
   description: The EU report identifies Open RAN security risks and mitigation measures in the context
@@ -2278,6 +2392,153 @@
   - risk
   entry_type: Guideline
   country_or_body: EU/NIS Cooperation Group
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
+  name: INSPIRE-5Gplus
+  url: https://cordis.europa.eu/project/id/871808
+  description: EU Horizon 2020 project that built automated security and trust management for 5G and beyond
+    networks, with its deliverables published through CORDIS.
+  subcategory: Open RAN and 6G Security
+  tags:
+  - horizon-2020
+  - 5g
+  - trust-management
+  entry_type: Framework
+  country_or_body: EU/Horizon 2020
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
+  name: O-RAN ALLIANCE Security Work Group
+  url: https://www.o-ran.org/blog/the-o-ran-alliance-security-work-group-continues-defining-o-ran-security-solutions
+  description: Overview of the threat modelling, requirements, protocol and testing specifications produced
+    by WG11 of the German-registered O-RAN ALLIANCE for Open RAN interfaces.
+  subcategory: Open RAN and 6G Security
+  tags:
+  - open-ran
+  - wg11
+  - zero-trust
+  entry_type: Standard
+  country_or_body: Germany/O-RAN ALLIANCE
+  notes: The alliance is globally scoped but incorporated as a German e.V.; the specifications themselves
+    are members-only.
+  confidence: medium
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
+  name: OpenAirInterface
+  url: https://openairinterface.eurecom.fr/
+  description: Open-source 4G and 5G RAN and core network stack originated at EURECOM in France, used
+    as the reference implementation in European Open RAN and 6G security research.
+  subcategory: Open RAN and 6G Security
+  tags:
+  - open-ran
+  - 5g
+  - eurecom
+  entry_type: Tool
+  country_or_body: France/EURECOM
+  hosting_note: '[Open Source]'
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
+  name: ROBUST-6G
+  url: https://robust-6g.eu/
+  description: Project funded by the EU Smart Networks and Services Joint Undertaking building an AI-driven
+    zero-touch security service platform for 6G networks.
+  subcategory: Open RAN and 6G Security
+  tags:
+  - 6g
+  - sns-ju
+  - zero-touch
+  entry_type: Framework
+  country_or_body: EU/SNS JU
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
+  name: srsRAN Project
+  url: https://github.com/srsran/srsRAN_Project
+  description: O-RAN-compliant 5G CU and DU software from Software Radio Systems in Ireland, widely used
+    in European Open RAN research testbeds.
+  subcategory: Open RAN and 6G Security
+  tags:
+  - open-ran
+  - 5g
+  - cu-du
+  entry_type: Tool
+  country_or_body: Ireland/Software Radio Systems
+  hosting_note: '[Open Source]'
+  license: AGPL-3.0-only
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
+  name: 5G Toolbox Second Progress Report
+  url: https://digital-strategy.ec.europa.eu/en/library/second-report-member-states-progress-implementing-eu-toolbox-5g-cybersecurity
+  description: NIS Cooperation Group assessment, prepared with the Commission and ENISA, of Member State
+    progress implementing the strategic and technical measures of the EU 5G Toolbox.
+  subcategory: Telecom Incident Reporting and Regulation
+  tags:
+  - 5g-toolbox
+  - nis-cooperation-group
+  entry_type: Report
+  country_or_body: EU/NIS Cooperation Group
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
+  name: ARCEP Opinion 2019-1106 on the 5G Authorisation Regime
+  url: https://www.arcep.fr/uploads/tx_gsavis/19-1106.pdf
+  description: ARCEP's opinion on France's prior-authorisation regime for operators' 5G radio equipment,
+    the national instrument implementing the EU 5G Toolbox supplier measures.
+  subcategory: Telecom Incident Reporting and Regulation
+  tags:
+  - france
+  - 5g-toolbox
+  - french-language
+  entry_type: Guideline
+  country_or_body: France/ARCEP
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
+  name: Besluit veiligheid en integriteit telecommunicatie
+  url: https://wetten.overheid.nl/BWBR0042843
+  description: Dutch decree setting binding security and integrity requirements for public electronic
+    communications networks, including the supplier-risk powers of the EU 5G Toolbox.
+  subcategory: Telecom Incident Reporting and Regulation
+  tags:
+  - netherlands
+  - supplier-risk
+  - dutch-language
+  entry_type: Standard
+  country_or_body: Netherlands/Rijksoverheid
+  notes: Primary legal text rather than guidance; listed because the operative technical requirements
+    sit in the decree itself.
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
+  name: Bundesnetzagentur Katalog von Sicherheitsanforderungen
+  url: https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/OeffentlicheSicherheit/KatalogSicherheitsanforderungen/Katalog_eng.html
+  description: Germany's binding catalogue of telecom security requirements issued by Bundesnetzagentur
+    with the BSI, implementing the EECC security duties in national law.
+  subcategory: Telecom Incident Reporting and Regulation
+  tags:
+  - germany
+  - tkg
+  - requirements
+  entry_type: Framework
+  country_or_body: Germany/Bundesnetzagentur
+  confidence: high
+  last_verified: '2026-09-16'
+- category: Telecom, 5G & Network Infrastructure Security
+  name: ENISA CIRAS
+  url: https://ciras.enisa.europa.eu/
+  description: ENISA's Cybersecurity Incident Reporting and Analysis System, where EU telecom regulators
+    submit and explore Article 40 EECC security incident data.
+  subcategory: Telecom Incident Reporting and Regulation
+  tags:
+  - incident-reporting
+  - eecc
+  - enisa
+  entry_type: Tool
+  country_or_body: EU/ENISA
+  hosting_note: '[EU-Hosted]'
   confidence: high
   last_verified: '2026-09-16'
 - category: Cryptography, Certification & Post-Quantum Readiness
@@ -2865,21 +3126,6 @@
   last_verified: '2026-09-16'
 - category: Threat Intelligence
   name: MISP
-  url: https://www.circl.lu/services/misp-malware-information-sharing-platform/
-  description: The open-source MISP platform maintained in Luxembourg supports structured threat-intelligence
-    sharing among European CSIRTs.
-  subcategory: Sharing Platforms and Standards
-  tags:
-  - misp
-  - threat-sharing
-  - stix
-  entry_type: Tool
-  country_or_body: Luxembourg/CIRCL
-  confidence: high
-  last_verified: '2026-09-16'
-  hosting_note: '[Open Source]'
-- category: Threat Intelligence
-  name: MISP Project
   url: https://www.misp-project.org/
   description: Open-source platform developed with support from CIRCL, Luxembourg's national CSIRT, for
     collecting, storing and sharing structured threat intelligence across the EU CSIRTs Network.

@@ -289,20 +289,6 @@ entries:
   confidence: high
   last_verified: '2026-09-16'
 - name: MISP
-  url: https://www.circl.lu/services/misp-malware-information-sharing-platform/
-  description: The open-source MISP platform maintained in Luxembourg supports structured threat-intelligence
-    sharing among European CSIRTs.
-  subcategory: Sharing Platforms and Standards
-  tags:
-  - misp
-  - threat-sharing
-  - stix
-  entry_type: Tool
-  country_or_body: Luxembourg/CIRCL
-  confidence: high
-  last_verified: '2026-09-16'
-  hosting_note: '[Open Source]'
-- name: MISP Project
   url: https://www.misp-project.org/
   description: Open-source platform developed with support from CIRCL, Luxembourg's national CSIRT, for
     collecting, storing and sharing structured threat intelligence across the EU CSIRTs Network.

@@ -14,7 +14,13 @@ import argparse
 import asyncio
 import json
 import sys
+from pathlib import Path
 from dataclasses import asdict, dataclass
+
+# Runnable from anywhere: CONTRIBUTING tells contributors to use
+# `python scripts/validate.py` from the repo root, which puts the repo root on
+# sys.path rather than this directory.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import httpx
 

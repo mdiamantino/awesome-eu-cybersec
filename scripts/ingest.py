@@ -14,6 +14,11 @@ import datetime as dt
 import sys
 from pathlib import Path
 
+# Runnable from anywhere: CONTRIBUTING tells contributors to use
+# `python scripts/validate.py` from the repo root, which puts the repo root on
+# sys.path rather than this directory.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 import yaml
 
 from common import RESOURCES, load_categories, load_resource_file
