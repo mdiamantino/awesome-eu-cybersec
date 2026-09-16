@@ -180,6 +180,8 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for
+    exact terms.
 - name: Karton
   url: https://github.com/CERT-Polska/karton
   description: Distributed task-pipeline framework from CERT Polska used to chain malware analysis backends
@@ -209,6 +211,8 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for
+    exact terms.
 - name: malduck
   url: https://github.com/CERT-Polska/malduck
   description: Python library from CERT Polska providing cryptography, decompression and memory-model
@@ -238,6 +242,8 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for
+    exact terms.
 - name: Pandora
   url: https://github.com/pandora-analysis/pandora
   description: Analysis framework from CIRCL Luxembourg that inspects submitted files with multiple integrated
@@ -336,6 +342,8 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for
+    exact terms.
 - name: n6
   url: https://github.com/CERT-Polska/n6
   description: System from CERT Polska with a REST API and web portal for collecting, managing and distributing

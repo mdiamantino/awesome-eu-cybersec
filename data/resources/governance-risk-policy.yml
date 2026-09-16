@@ -100,6 +100,8 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for
+    exact terms.
 - name: ARX Data Anonymization Tool
   url: https://arx.deidentifier.org/
   description: Open-source anonymisation tool from the Berlin Institute of Health implementing statistical

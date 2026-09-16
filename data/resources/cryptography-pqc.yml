@@ -181,6 +181,8 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: The repository publishes no licence file, so reuse terms are undefined; the code is public but
+    not formally open source.
 - name: SPHINCS+
   url: https://sphincs.org/
   description: Stateless hash-based signature scheme led by researchers at TU Eindhoven, Radboud University,

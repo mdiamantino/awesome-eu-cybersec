@@ -118,7 +118,8 @@
       "country_or_body": "Germany/SerNet",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "notes": "Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for exact terms."
     },
     {
       "category": "Governance, Risk & Policy Mapping",
@@ -1855,7 +1856,8 @@
       "country_or_body": "EU/ENISA",
       "confidence": "high",
       "last_verified": "2026-09-16",
-      "hosting_note": "[Open Source]"
+      "hosting_note": "[Open Source]",
+      "notes": "The repository publishes no licence file, so reuse terms are undefined; the code is public but not formally open source."
     },
     {
       "category": "Cyber-Physical Security",
@@ -2087,7 +2089,8 @@
       "country_or_body": "France/ANSSI and CEA",
       "confidence": "high",
       "last_verified": "2026-09-16",
-      "hosting_note": "[Open Source]"
+      "hosting_note": "[Open Source]",
+      "notes": "Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for exact terms."
     },
     {
       "category": "Cyber-Physical Security",
@@ -2229,7 +2232,8 @@
       "country_or_body": "Belgium/KU Leuven",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "notes": "The repository publishes no licence file, so reuse terms are undefined; the code is public but not formally open source."
     },
     {
       "category": "Cyber-Physical Security",
@@ -3079,7 +3083,8 @@
       "country_or_body": "Netherlands/Radboud University",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "notes": "The repository publishes no licence file, so reuse terms are undefined; the code is public but not formally open source."
     },
     {
       "category": "Cryptography, Certification & Post-Quantum Readiness",
@@ -3394,7 +3399,8 @@
       "country_or_body": "Poland/CERT Polska",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "notes": "Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for exact terms."
     },
     {
       "category": "Threat Intelligence",
@@ -3429,7 +3435,8 @@
       "country_or_body": "Luxembourg/CIRCL",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "notes": "Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for exact terms."
     },
     {
       "category": "Threat Intelligence",
@@ -3464,7 +3471,8 @@
       "country_or_body": "Poland/CERT Polska",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "notes": "Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for exact terms."
     },
     {
       "category": "Threat Intelligence",
@@ -3584,7 +3592,8 @@
       "country_or_body": "Luxembourg/CIRCL",
       "hosting_note": "[Open Source]",
       "confidence": "high",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-16",
+      "notes": "Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for exact terms."
     },
     {
       "category": "Threat Intelligence",

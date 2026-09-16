@@ -105,6 +105,8 @@
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for
+    exact terms.
 - category: Governance, Risk & Policy Mapping
   name: ARX Data Anonymization Tool
   url: https://arx.deidentifier.org/
@@ -1629,6 +1631,8 @@
   confidence: high
   last_verified: '2026-09-16'
   hosting_note: '[Open Source]'
+  notes: The repository publishes no licence file, so reuse terms are undefined; the code is public but
+    not formally open source.
 - category: Cyber-Physical Security
   name: ESA Cyber Resilience Framework
   url: https://www.esa.int/About_Us/Cyber_resilience_at_ESA
@@ -1832,6 +1836,8 @@
   confidence: high
   last_verified: '2026-09-16'
   hosting_note: '[Open Source]'
+  notes: Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for
+    exact terms.
 - category: Cyber-Physical Security
   name: FAIL*
   url: https://github.com/danceos/fail
@@ -1957,6 +1963,8 @@
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: The repository publishes no licence file, so reuse terms are undefined; the code is public but
+    not formally open source.
 - category: Cyber-Physical Security
   name: vRTLmod
   url: https://github.com/tum-ei-eda/vrtlmod
@@ -2700,6 +2708,8 @@
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: The repository publishes no licence file, so reuse terms are undefined; the code is public but
+    not formally open source.
 - category: Cryptography, Certification & Post-Quantum Readiness
   name: SPHINCS+
   url: https://sphincs.org/
@@ -2976,6 +2986,8 @@
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for
+    exact terms.
 - category: Threat Intelligence
   name: Karton
   url: https://github.com/CERT-Polska/karton
@@ -3007,6 +3019,8 @@
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for
+    exact terms.
 - category: Threat Intelligence
   name: malduck
   url: https://github.com/CERT-Polska/malduck
@@ -3038,6 +3052,8 @@
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for
+    exact terms.
 - category: Threat Intelligence
   name: Pandora
   url: https://github.com/pandora-analysis/pandora
@@ -3143,6 +3159,8 @@
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for
+    exact terms.
 - category: Threat Intelligence
   name: n6
   url: https://github.com/CERT-Polska/n6

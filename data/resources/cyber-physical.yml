@@ -42,6 +42,8 @@ entries:
   confidence: high
   last_verified: '2026-09-16'
   hosting_note: '[Open Source]'
+  notes: The repository publishes no licence file, so reuse terms are undefined; the code is public but
+    not formally open source.
 - name: ESA Cyber Resilience Framework
   url: https://www.esa.int/About_Us/Cyber_resilience_at_ESA
   description: ESA documents the cybersecurity governance and resilience approach used for European space
@@ -231,6 +233,8 @@ entries:
   confidence: high
   last_verified: '2026-09-16'
   hosting_note: '[Open Source]'
+  notes: Ships a licence file that GitHub does not map to an SPDX identifier; check the repository for
+    exact terms.
 - name: FAIL*
   url: https://github.com/danceos/fail
   description: FAIL* is an open-source fault-injection framework originating at TU Dortmund for assessing
@@ -348,6 +352,8 @@ entries:
   hosting_note: '[Open Source]'
   confidence: high
   last_verified: '2026-09-16'
+  notes: The repository publishes no licence file, so reuse terms are undefined; the code is public but
+    not formally open source.
 - name: vRTLmod
   url: https://github.com/tum-ei-eda/vrtlmod
   description: TU Munich's open-source vRTLmod tool enables fault injection in Verilator RTL simulations.

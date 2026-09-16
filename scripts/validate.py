@@ -179,7 +179,22 @@ def check_rules(report: Report) -> None:
                     report.warn(where, f"last verified {(today - verified).days} days ago")
 
             # --- FOSS-first (Rule 2) ----------------------------------------
-            if entry.get("hosting_note", "").startswith("[Commercial]") and not entry.get("notes"):
+            hosting = entry.get("hosting_note", "")
+            # A GitHub organisation holds many repositories under many licences,
+            # so a single SPDX field on the entry would be a fiction.
+            is_org_page = bool(re.fullmatch(r"https://github\.com/[^/]+/?", url))
+            if (
+                "[Open Source]" in hosting
+                and not entry.get("license")
+                and not entry.get("notes")
+                and not is_org_page
+            ):
+                report.warn(
+                    where,
+                    "marked [Open Source] with no SPDX licence and no note - confirm the "
+                    "repository actually publishes licence terms",
+                )
+            if hosting.startswith("[Commercial]") and not entry.get("notes"):
                 report.warn(
                     where,
                     "commercial entry should carry a `notes:` line justifying it as "
