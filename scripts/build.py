@@ -116,6 +116,25 @@ pull request editing the relevant file under [`data/resources/`](data/resources)
 will tell you off. [CONTRIBUTING.md](CONTRIBUTING.md) has the scope rules and the
 one bar that really matters: **do not add a resource you have not opened yourself.**
 
+Adding one entry is a one-file change and takes about five minutes:
+
+```bash
+git clone https://github.com/{repo} && cd awesome-eu-cybersec
+make install
+$EDITOR data/resources/<category-slug>.yml
+make build     # regenerates this file and the exports
+make check     # the same thing CI runs
+```
+
+**Looking for something specific to do?** The
+[`good first issue`](../../labels/good%20first%20issue) label holds pre-scoped
+gaps, each naming the file to edit and what is missing. The
+[`country gap`](../../labels/country%20gap) ones are the most useful: several EU
+and EEA member states have no national-authority entry at all, and the person
+best placed to fix that is usually someone who works in that country.
+
+Contributors are credited in [CONTRIBUTORS.md](CONTRIBUTORS.md).
+
 If you work at a national agency or CSIRT and we have listed your work wrongly, or
 missed something you think belongs, please say so. That feedback is worth more than
 any amount of searching from the outside.
@@ -198,7 +217,7 @@ def render_readme(categories, entries_by_slug, repo: str) -> str:
         if orphans:  # validate.py rejects these, but never silently drop data
             parts += [f"### {o}" for o in orphans]
 
-    parts += [render_coverage(categories, entries_by_slug), FOOTER]
+    parts += [render_coverage(categories, entries_by_slug), FOOTER.format(repo=repo)]
     return "\n".join(parts).rstrip() + "\n"
 
 
@@ -330,7 +349,7 @@ def main() -> int:
         stale = [p.name for p, content in targets if not p.exists() or p.read_text(encoding="utf-8") != content]
         if stale:
             print("stale generated files: " + ", ".join(stale))
-            print("run: python scripts/build.py")
+            print("run: make build   (or: python3 scripts/build.py) and commit the result")
             return 1
         print("generated files are up to date")
         return 0

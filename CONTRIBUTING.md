@@ -4,6 +4,26 @@ Thanks for helping build this list. The bar here is deliberately high: every
 entry is a claim that a resource exists, is what we say it is, and is relevant to
 the EU cybersecurity ecosystem. A contribution is accepted when all three hold.
 
+## Five-minute version
+
+Adding one resource is a one-file change:
+
+```bash
+git clone https://github.com/mdiamantino/awesome-eu-cybersec && cd awesome-eu-cybersec
+make install
+$EDITOR data/resources/<category-slug>.yml   # copy the entry block below, fill it in
+make build                                   # regenerates README.md and the exports
+make check                                   # what CI runs, so run it before you push
+```
+
+Commit your YAML change together with the regenerated files and open the PR.
+Looking for something specific to do? The
+[`good first issue`](https://github.com/mdiamantino/awesome-eu-cybersec/labels/good%20first%20issue)
+label holds pre-scoped gaps, each one naming the file to edit and what is missing.
+Not ready to clone anything? A
+[resource proposal](https://github.com/mdiamantino/awesome-eu-cybersec/issues/new?template=add_resource.yml)
+issue is a perfectly good contribution and someone else will turn it into a PR.
+
 ## The one rule that matters
 
 **Do not add a resource you have not opened.** If you cannot fetch the URL and
@@ -19,11 +39,15 @@ The source of truth is `data/resources/<category-slug>.yml`, one file per
 category. Add your entry to the right file and run the tooling:
 
 ```bash
-pip install -r requirements.txt
-python scripts/validate.py                  # schema + scope rules
-python scripts/check_links.py --only <slug> # fetch the URLs you touched
-python scripts/build.py                     # regenerate README.md and the exports
+make install                        # pip install -r requirements.txt
+make validate                       # schema + scope rules
+make links SLUG=<category-slug>     # fetch the URLs you touched
+make build                          # regenerate README.md and the exports
+make check                          # validate + confirm the generated files are in sync
 ```
+
+The Makefile is only a shortcut. Every target is a single `python3 scripts/...`
+call, and `make help` prints them if you would rather run them directly.
 
 Commit the regenerated `README.md`, `data/ecosystem.yml` and
 `data/ecosystem.json` along with your data change, CI checks they are in sync.

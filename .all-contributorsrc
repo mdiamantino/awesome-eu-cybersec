@@ -1,0 +1,15 @@
+{
+  "projectName": "awesome-eu-cybersec",
+  "projectOwner": "mdiamantino",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": ["CONTRIBUTORS.md"],
+  "imageSize": 80,
+  "commit": true,
+  "commitConvention": "none",
+  "contributorsPerLine": 7,
+  "contributorsSortAlphabetically": true,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-0B5FFF.svg)](CONTRIBUTORS.md)",
+  "contributors": [],
+  "skipCi": false
+}

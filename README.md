@@ -768,6 +768,25 @@ pull request editing the relevant file under [`data/resources/`](data/resources)
 will tell you off. [CONTRIBUTING.md](CONTRIBUTING.md) has the scope rules and the
 one bar that really matters: **do not add a resource you have not opened yourself.**
 
+Adding one entry is a one-file change and takes about five minutes:
+
+```bash
+git clone https://github.com/mdiamantino/awesome-eu-cybersec && cd awesome-eu-cybersec
+make install
+$EDITOR data/resources/<category-slug>.yml
+make build     # regenerates this file and the exports
+make check     # the same thing CI runs
+```
+
+**Looking for something specific to do?** The
+[`good first issue`](../../labels/good%20first%20issue) label holds pre-scoped
+gaps, each naming the file to edit and what is missing. The
+[`country gap`](../../labels/country%20gap) ones are the most useful: several EU
+and EEA member states have no national-authority entry at all, and the person
+best placed to fix that is usually someone who works in that country.
+
+Contributors are credited in [CONTRIBUTORS.md](CONTRIBUTORS.md).
+
 If you work at a national agency or CSIRT and we have listed your work wrongly, or
 missed something you think belongs, please say so. That feedback is worth more than
 any amount of searching from the outside.

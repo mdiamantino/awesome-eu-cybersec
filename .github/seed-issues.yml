@@ -1,0 +1,201 @@
+# Pre-scoped contribution gaps, rendered into GitHub issues by
+# scripts/seed_issues.py. Nothing here is a verified claim: the agency names are
+# starting points for whoever picks the issue up, and part of the task is
+# confirming the body still exists under that name and finding its current URL.
+#
+#   python3 scripts/seed_issues.py            # print what would be created
+#   python3 scripts/seed_issues.py --create   # create labels and issues with gh
+
+labels:
+  - name: good first issue
+    color: "7057ff"
+    description: Scoped, self-contained, needs no prior context
+  - name: country gap
+    color: "0b5fff"
+    description: A jurisdiction the list covers thinly or not at all
+  - name: coverage gap
+    color: "1d76db"
+    description: A subcategory that is thinner than the ecosystem it describes
+  - name: help wanted
+    color: "008672"
+    description: Open for anyone to pick up
+  - name: resource proposal
+    color: "c2e0c6"
+    description: Suggestion for a new entry
+  - name: correction
+    color: "d93f0b"
+    description: Something in the list is wrong or has rotted
+
+# Jurisdictions with no national-authority entries at all, or with a single one
+# where the agency clearly publishes more. `agency` is a hint, not a fact.
+countries:
+  - country: Belgium
+    agency: Centre for Cybersecurity Belgium (CCB), publisher of the CyberFundamentals Framework
+    have: 0
+  - country: Bulgaria
+    agency: the national CSIRT and the e-Government agency responsible for NIS2 transposition
+    have: 0
+  - country: Croatia
+    agency: ZSIS and the national CERT
+    have: 0
+  - country: Cyprus
+    agency: the Digital Security Authority
+    have: 0
+  - country: Czechia
+    agency: NUKIB, publisher of the national cybersecurity requirements
+    have: 0
+  - country: Lithuania
+    agency: NKSC, the National Cyber Security Centre
+    have: 0
+  - country: Malta
+    agency: the Critical Infrastructure Protection directorate and the national CSIRT
+    have: 0
+  - country: Portugal
+    agency: CNCS, the Centro Nacional de Cibersegurança
+    have: 0
+  - country: Romania
+    agency: DNSC, the Directoratul Național de Securitate Cibernetică
+    have: 0
+  - country: Slovakia
+    agency: NBU and SK-CERT
+    have: 0
+  - country: Slovenia
+    agency: SI-CERT and the national information security authority
+    have: 0
+  - country: Iceland
+    agency: the national CERT
+    have: 0
+  - country: Austria
+    agency: A-SIT and the national CERT
+    have: 1
+  - country: Denmark
+    agency: CFCS, the Centre for Cyber Security
+    have: 1
+  - country: Estonia
+    agency: RIA, the Information System Authority
+    have: 1
+  - country: Greece
+    agency: the National Cybersecurity Authority
+    have: 1
+  - country: Hungary
+    agency: NKI, the National Cyber Security Center
+    have: 1
+  - country: Italy
+    agency: ACN, the Agenzia per la Cybersicurezza Nazionale
+    have: 1
+  - country: Latvia
+    agency: CERT.LV
+    have: 1
+  - country: Spain
+    agency: CCN, the Centro Criptológico Nacional, publisher of the ENS and the CCN-STIC series
+    have: 1
+  - country: Sweden
+    agency: MSB and the national cybersecurity centre
+    have: 1
+
+# Gaps that are about a subject rather than a jurisdiction.
+topics:
+  - title: "Common Criteria and EUCC: only two entries for a scheme this large"
+    file: cryptography-pqc
+    subcategory: Common Criteria and EUCC Certification
+    labels: [coverage gap, good first issue, help wanted]
+    detail: >-
+      EUCC became the first scheme adopted under the Cybersecurity Act and has a
+      body of ENISA guidance, national scheme documentation from the SOG-IS
+      participants, and certified-product registries behind it. Two entries does
+      not reflect that. Anything that helps a reader go from "we need a certificate"
+      to "here is the scheme document and here is the registry" belongs.
+  - title: "Trusted lists and conformity assessment under eIDAS need more than two entries"
+    file: eidas-identity
+    subcategory: Trusted Lists and Conformity
+    labels: [coverage gap, good first issue, help wanted]
+    detail: >-
+      The EU Trusted List browser, national supervisory body lists, conformity
+      assessment body registries and the ETSI standards that govern them are all
+      in scope. So are the open-source validators that consume the lists.
+  - title: "DORA: register of information tooling beyond the ESA templates"
+    file: dora
+    labels: [coverage gap, help wanted]
+    detail: >-
+      Financial entities have had to produce a register of information since 2025.
+      Open-source tooling, validators, taxonomy mappings and supervisory guidance
+      that help build one are in scope. Consultancy offerings are not.
+  - title: "CRA: conformity assessment and technical documentation templates"
+    file: cra-supply-chain
+    labels: [coverage gap, help wanted]
+    detail: >-
+      The Cyber Resilience Act obligations start biting in 2026 and 2027.
+      Harmonised standards work, conformity assessment guidance, vulnerability
+      handling process templates and CSAF or VEX tooling from European maintainers
+      all qualify.
+  - title: "Post-quantum migration: national roadmaps beyond BSI and ANSSI"
+    file: cryptography-pqc
+    labels: [coverage gap, help wanted]
+    detail: >-
+      Several member states have published PQC migration guidance of their own,
+      and the EU coordinated implementation roadmap under Recommendation (EU)
+      2024/1101 has national annexes. Each national roadmap that can be fetched
+      and read is an entry.
+  - title: "NIS2 transposition: national implementing guidance per member state"
+    file: governance-risk-policy
+    labels: [coverage gap, country gap, help wanted]
+    detail: >-
+      NIS2 is transposed nationally, and the useful material is the national
+      guidance telling operators what they actually have to do. One good entry per
+      member state would make this the most practically useful section in the list.
+  - title: "Cyber ranges and CTF infrastructure from universities outside DE, FR and NL"
+    file: training-cyber-ranges
+    labels: [coverage gap, country gap, help wanted]
+    detail: >-
+      European universities and EU-funded projects have built a lot of open range
+      and CTF infrastructure that never gets linked from anywhere obvious. Nordic,
+      Baltic, Iberian and central European projects are underrepresented here.
+  - title: "National CSIRT advisory feeds that are machine readable"
+    file: threat-intelligence
+    labels: [coverage gap, help wanted]
+    detail: >-
+      Several national CSIRTs publish advisories as RSS, JSON or CSAF rather than
+      only as web pages. Those feeds are directly usable and are worth listing as
+      `entry_type: Feed` with the feed URL, not the landing page.
+  - title: "Energy sector: the NIS2 network code for cybersecurity"
+    file: cyber-physical
+    labels: [coverage gap, help wanted]
+    detail: >-
+      The network code on sector-specific rules for cybersecurity aspects of
+      cross-border electricity flows has implementation material from ENTSO-E, the
+      EU DSO entity and national regulators. Very little of it is here.
+  - title: "Health sector: NIS2 obligations and the European Health Data Space"
+    file: cyber-physical
+    labels: [coverage gap, help wanted]
+    detail: >-
+      Hospitals are NIS2 essential entities and the EHDS adds its own security
+      requirements. ENISA has sector guidance, and several member states have
+      published health-specific frameworks.
+  - title: "AI Act: security and robustness guidance for high-risk systems"
+    file: governance-risk-policy
+    labels: [coverage gap, help wanted]
+    detail: >-
+      Article 15 requires accuracy, robustness and cybersecurity for high-risk AI
+      systems. The standardisation work at CEN-CENELEC JTC 21, the AI Office
+      guidance and national regulator material are all in scope. Generic
+      AI-safety content with no EU legal hook is not.
+  - title: "Maritime and port cybersecurity under NIS2"
+    file: cyber-physical
+    labels: [coverage gap, help wanted]
+    detail: >-
+      EMSA, the IMO guidelines as applied in EU ports, and national port authority
+      requirements form a real body of material that this list barely touches.
+  - title: "Open-source eIDAS wallet implementations beyond the reference ones"
+    file: eidas-identity
+    labels: [coverage gap, help wanted]
+    detail: >-
+      Member states running large-scale pilots have published wallet and relying
+      party implementations. Anything with public source and a documented link to
+      the ARF belongs.
+  - title: "Audit the list for dead links and archived projects"
+    file: null
+    labels: [correction, good first issue, help wanted]
+    detail: >-
+      Pick any category, open ten entries, and report what has rotted, moved or
+      been archived with no successor. Removals and corrections are as valuable as
+      additions here, and this one needs no local setup at all.

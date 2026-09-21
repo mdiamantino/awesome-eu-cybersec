@@ -1,0 +1,31 @@
+name: Welcome
+
+on:
+  pull_request_target:
+    types: [opened]
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: >-
+            Thanks for opening your first issue here. If it is a resource proposal,
+            someone will check the URL and the scope rules before it turns into an
+            entry, and you are welcome to open that pull request yourself:
+            `data/resources/` holds the data, `make check` runs what CI runs, and
+            CONTRIBUTING.md has the format.
+          pr-message: >-
+            Thanks for your first pull request here. CI will validate the schema, the
+            scope rules and whether the generated files are in sync; if the last one
+            fails, run `make build` and commit the result. If anything in the review
+            is unclear, say so in a comment rather than guessing, and once this is
+            merged you will be added to CONTRIBUTORS.md.
