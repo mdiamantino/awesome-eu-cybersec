@@ -28,6 +28,24 @@ entries:
   country_or_body: Germany/BSI
   confidence: high
   last_verified: '2026-09-16'
+- name: CRA Article 14 Reporting Kit
+  url: https://github.com/stavenor-hq/cra-article-14-reporting-kit
+  description: Openly licensed reference files for the EU Cyber Resilience Act reporting obligations
+    of Article 14, covering the filing deadlines, the fields of ENISA's Single Reporting Platform and
+    a coordinated vulnerability disclosure policy template.
+  subcategory: SBOM and Vulnerability Handling
+  tags:
+  - cra
+  - vulnerability-reporting
+  - enisa
+  - cvd
+  entry_type: Guideline
+  country_or_body: Italy/Stavenor
+  license: CC-BY-4.0
+  notes: Published by Stavenor, which also sells a paid CRA documentation pack; everything in this repository
+    is free to use on its own.
+  confidence: medium
+  last_verified: '2026-09-29'
 - name: CRA Brief Guide for Open Source Developers
   url: https://best.openssf.org/CRA-Brief-Guide-for-OSS-Developers.html
   description: OpenSSF guide explaining, against the EU Cyber Resilience Act text, when individual open-source

@@ -5,7 +5,7 @@
 
 [![Validate](https://github.com/mdiamantino/awesome-eu-cybersec/actions/workflows/validate.yml/badge.svg)](https://github.com/mdiamantino/awesome-eu-cybersec/actions/workflows/validate.yml)
 [![Link check](https://github.com/mdiamantino/awesome-eu-cybersec/actions/workflows/link-check.yml/badge.svg)](https://github.com/mdiamantino/awesome-eu-cybersec/actions/workflows/link-check.yml)
-[![Entries](https://img.shields.io/badge/entries-281-0B5FFF)](#contents)
+[![Entries](https://img.shields.io/badge/entries-282-0B5FFF)](#contents)
 [![Countries](https://img.shields.io/badge/countries%20%26%20bodies-25-0B5FFF)](#coverage)
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey.svg)](LICENSE)
 
@@ -82,10 +82,10 @@ Worth a second look before you rely on it.
   - [Threat-Led Penetration Testing](#threat-led-penetration-testing) (8)
   - [Incident Classification and Reporting](#incident-classification-and-reporting) (5)
   - [DORA Implementation Guidance](#dora-implementation-guidance) (4)
-- [📦 Software Supply Chain & Product Security (CRA)](#-software-supply-chain--product-security-cra) (19)
+- [📦 Software Supply Chain & Product Security (CRA)](#-software-supply-chain--product-security-cra) (20)
   - [CRA Implementation Guidance](#cra-implementation-guidance) (6)
   - [Conformity Assessment](#conformity-assessment) (3)
-  - [SBOM and Vulnerability Handling](#sbom-and-vulnerability-handling) (4)
+  - [SBOM and Vulnerability Handling](#sbom-and-vulnerability-handling) (5)
   - [Coordinated Vulnerability Disclosure](#coordinated-vulnerability-disclosure) (6)
 - [🪪 Sovereign Identity & Trust (eIDAS)](#-sovereign-identity--trust-eidas) (26)
   - [Signature and Trust-Service Tooling](#signature-and-trust-service-tooling) (8)
@@ -246,6 +246,8 @@ Regulation (EU) 2024/2847 implementation: conformity assessment, SBOM and vulner
 
 ### SBOM and Vulnerability Handling
 
+- [CRA Article 14 Reporting Kit](https://github.com/stavenor-hq/cra-article-14-reporting-kit) - Openly licensed reference files for the EU Cyber Resilience Act reporting obligations of Article 14, covering the filing deadlines, the fields of ENISA's Single Reporting Platform and a coordinated vulnerability disclosure policy template. 🇮🇹 `Italy/Stavenor` `Guideline` `CC-BY-4.0` ⚠️
+  <br><sub>Published by Stavenor, which also sells a paid CRA documentation pack; everything in this repository is free to use on its own.</sub>
 - [European Commission CRA Open Source Guidance](https://digital-strategy.ec.europa.eu/en/policies/cra-open-source) - The Commission guidance explains how the CRA applies to free and open-source software and software stewards. 🇪🇺 `EU/European Commission` `Guideline`
 - [OCCTET](https://occtet.eu/) - Digital Europe Programme project coordinated by the Eclipse Foundation building free SBOM, dependency-analysis and compliance-documentation tooling for CRA conformity. 🇪🇺 `EU/European Commission` `Tool` `[Open Source]`
 - [REUSE](https://reuse.software/) - Tool and specification from the Free Software Foundation Europe for machine-readable SPDX licensing metadata, feeding the bill-of-materials data CRA technical documentation requires. 🇪🇺 `EU/FSFE` `Tool` `[Open Source]` ⚠️
@@ -699,13 +701,13 @@ One section per national authority, listing its flagship standards, frameworks a
 
 ## Coverage
 
-281 verified entries spanning 25 countries and EU bodies, 83 of them open-source tooling. The uneven distribution is real: some sectors have a mature European toolchain, others have a regulation and not much else yet.
+282 verified entries spanning 25 countries and EU bodies, 83 of them open-source tooling. The uneven distribution is real: some sectors have a mature European toolchain, others have a regulation and not much else yet.
 
 | Category | Entries |
 | --- | ---: |
 | Governance, Risk & Policy Mapping | 16 |
 | Financial Sector Resilience (DORA) | 22 |
-| Software Supply Chain & Product Security (CRA) | 19 |
+| Software Supply Chain & Product Security (CRA) | 20 |
 | Sovereign Identity & Trust (eIDAS) | 26 |
 | Sovereign Cloud & DevSecOps | 25 |
 | Cyber-Physical Security | 36 |
@@ -723,7 +725,7 @@ One section per national authority, listing its flagship standards, frameworks a
 | 🇱🇺 Luxembourg | 16 |
 | 🇳🇱 Netherlands | 13 |
 | 🇵🇱 Poland | 9 |
-| 🇮🇹 Italy | 7 |
+| 🇮🇹 Italy | 8 |
 | 🇮🇪 Ireland | 7 |
 | 🇪🇸 Spain | 5 |
 | 🇧🇪 Belgium | 5 |
@@ -746,7 +748,7 @@ One section per national authority, listing its flagship standards, frameworks a
 | Resource type | Entries |
 | --- | ---: |
 | Tool | 93 |
-| Guideline | 59 |
+| Guideline | 60 |
 | Framework | 47 |
 | Standard | 36 |
 | Report | 13 |

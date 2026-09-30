@@ -51,11 +51,12 @@ maintainer rather than through a specific regulation.
 
 ## Cyber Resilience Act
 
-*Regulation (EU) 2024/2847* - 20 entries
+*Regulation (EU) 2024/2847* - 21 entries
 
 - [BSI Cyber Resilience Act Guidance](https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Cyber_Resilience_Act/cyber_resilience_act.html) - BSI guidance explains operational product-security obligations under the EU Cyber Resilience Act. 🇩🇪 `Germany/BSI` <sub>Software Supply Chain & Product Security (CRA)</sub>
 - [BSI TR-03183 Cyber Resilience Requirements](https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/tr-03183.html) - BSI technical guideline specifying the SBOM, vulnerability-reporting and conformity requirements that operationalise the EU Cyber Resilience Act for manufacturers. 🇩🇪 `Germany/BSI` <sub>Software Supply Chain & Product Security (CRA)</sub>
 - [CIRCL Vulnerability-Lookup Instance](https://vulnerability.circl.lu/) - Public instance run by CIRCL Luxembourg for searching and correlating vulnerability advisories from national databases, CSAF feeds and community sightings. 🇱🇺 `Luxembourg/CIRCL` <sub>Threat Intelligence</sub>
+- [CRA Article 14 Reporting Kit](https://github.com/stavenor-hq/cra-article-14-reporting-kit) - Openly licensed reference files for the EU Cyber Resilience Act reporting obligations of Article 14, covering the filing deadlines, the fields of ENISA's Single Reporting Platform and a coordinated vulnerability disclosure policy template. 🇮🇹 `Italy/Stavenor` <sub>Software Supply Chain & Product Security (CRA)</sub>
 - [CRA Brief Guide for Open Source Developers](https://best.openssf.org/CRA-Brief-Guide-for-OSS-Developers.html) - OpenSSF guide explaining, against the EU Cyber Resilience Act text, when individual open-source contributors rather than commercial manufacturers fall under the Regulation. 🇪🇺 `International/OpenSSF` <sub>Software Supply Chain & Product Security (CRA)</sub>
 - [CRA Conformity Assessment Guidance](https://digital-strategy.ec.europa.eu/en/policies/cra-conformity-assessment) - The Commission guidance explains CRA conformity-assessment routes for products with digital elements. 🇪🇺 `EU/European Commission` <sub>Software Supply Chain & Product Security (CRA)</sub>
 - [CSAF Distribution Toolset](https://github.com/gocsaf/csaf) - Go toolset originally built for Germany's BSI implementing a CSAF trusted provider, downloader, validator and aggregator for publishing vulnerability advisories. 🇩🇪 `Germany/BSI` <sub>Software Supply Chain & Product Security (CRA)</sub>
