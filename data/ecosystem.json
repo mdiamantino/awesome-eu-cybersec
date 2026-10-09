@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 281,
+  "count": 282,
   "entries": [
     {
       "category": "Governance, Risk & Policy Mapping",
@@ -658,6 +658,25 @@
       "country_or_body": "Germany/BSI",
       "confidence": "high",
       "last_verified": "2026-09-16"
+    },
+    {
+      "category": "Software Supply Chain & Product Security (CRA)",
+      "name": "CRA Article 14 Reporting Kit",
+      "url": "https://github.com/stavenor-hq/cra-article-14-reporting-kit",
+      "description": "Openly licensed reference files for the EU Cyber Resilience Act reporting obligations of Article 14, covering the filing deadlines, the fields of ENISA's Single Reporting Platform and a coordinated vulnerability disclosure policy template.",
+      "subcategory": "SBOM and Vulnerability Handling",
+      "tags": [
+        "cra",
+        "vulnerability-reporting",
+        "enisa",
+        "cvd"
+      ],
+      "entry_type": "Guideline",
+      "country_or_body": "Italy/Stavenor",
+      "license": "CC-BY-4.0",
+      "notes": "Published by Stavenor, which also sells a paid CRA documentation pack; everything in this repository is free to use on its own.",
+      "confidence": "medium",
+      "last_verified": "2026-09-29"
     },
     {
       "category": "Software Supply Chain & Product Security (CRA)",
